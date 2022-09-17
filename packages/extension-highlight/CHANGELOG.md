@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.196 (2022-09-17)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/ueberdosis/editfish/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* fix a bug in the highlight regex, fix [#2355](https://github.com/ueberdosis/editfish/issues/2355) ([b8a42fc](https://github.com/ueberdosis/editfish/commit/b8a42fcaef7d75c1a30dbecfe403d7f0c3ec4e7d))
+* fix regex modifier for input rules and paste rules, fix [#2003](https://github.com/ueberdosis/editfish/issues/2003) ([65eddf0](https://github.com/ueberdosis/editfish/commit/65eddf0e789c620a53d9bec9509b515211fb9b3f))
+* remove some magic strings ([6c34dec](https://github.com/ueberdosis/editfish/commit/6c34dec33ac39c9f037a0a72e4525f3fc6d422bf))
+* revert adding exports ([bc320d0](https://github.com/ueberdosis/editfish/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/ueberdosis/editfish/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+* Use pasteRegex in addPasteRules ([#1922](https://github.com/ueberdosis/editfish/issues/1922)) ([047ef8c](https://github.com/ueberdosis/editfish/commit/047ef8c8c9d9a88a763a8a09424844b1c0912562))
+
+
+### Features
+
+* fork form tiptap and update project name ([4e83f47](https://github.com/ueberdosis/editfish/commit/4e83f471f558450547d3d0269ca1648cbcad94c1))
+* Integrate input rules and paste rules into the core ([#1997](https://github.com/ueberdosis/editfish/issues/1997)) ([723b955](https://github.com/ueberdosis/editfish/commit/723b955cecc5c92c8aad897ce16c60fb62976571))
+* parseHTML for attributes should return the value instead of an object now, fix [#1863](https://github.com/ueberdosis/editfish/issues/1863) ([8a3b47a](https://github.com/ueberdosis/editfish/commit/8a3b47a529d28b28b50d634c6ff69b8e5aad3080))
+
+
+### Reverts
+
+* Revert "use global namespace" ([0c9ce26](https://github.com/ueberdosis/editfish/commit/0c9ce26c02c07d88a757c01b0a9d7f9e2b0b7502))
+
+
+
+
+
 # [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
 
 **Note:** Version bump only for package @editfish/extension-highlight

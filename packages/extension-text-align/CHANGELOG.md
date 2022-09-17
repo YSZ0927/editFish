@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.196 (2022-09-17)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/ueberdosis/editfish/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* export text align extension options ([1b43de3](https://github.com/ueberdosis/editfish/commit/1b43de331d40a0ab179eff38a5c94952adb5b056))
+* fix a bug where setting text align isn’t working when heading extension is not added ([ddb9a4b](https://github.com/ueberdosis/editfish/commit/ddb9a4bf186b766477f21102dae6eb1299ea425a))
+* remove default types for textAlign extension, fix [#1430](https://github.com/ueberdosis/editfish/issues/1430) ([b4e41af](https://github.com/ueberdosis/editfish/commit/b4e41afd1798e7eba4ccb0804be1ed2473c1f4d2))
+* remove some magic strings ([6c34dec](https://github.com/ueberdosis/editfish/commit/6c34dec33ac39c9f037a0a72e4525f3fc6d422bf))
+* revert adding exports ([bc320d0](https://github.com/ueberdosis/editfish/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/ueberdosis/editfish/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+### Features
+
+* add resetAttributes() command, deprecate resetNodeAttributes() ([3334d93](https://github.com/ueberdosis/editfish/commit/3334d930f30bd4acb5c314b4ec1934b6a1e0b712))
+* add updateAttributes() command, deprecate updateNodeAttributes(), fix [#254](https://github.com/ueberdosis/editfish/issues/254) ([aac32b4](https://github.com/ueberdosis/editfish/commit/aac32b4df6a1dfd93500e09d3433fcd8acad5fbe))
+* fork form tiptap and update project name ([4e83f47](https://github.com/ueberdosis/editfish/commit/4e83f471f558450547d3d0269ca1648cbcad94c1))
+* parseHTML for attributes should return the value instead of an object now, fix [#1863](https://github.com/ueberdosis/editfish/issues/1863) ([8a3b47a](https://github.com/ueberdosis/editfish/commit/8a3b47a529d28b28b50d634c6ff69b8e5aad3080))
+
+
+### Reverts
+
+* Revert "use global namespace" ([0c9ce26](https://github.com/ueberdosis/editfish/commit/0c9ce26c02c07d88a757c01b0a9d7f9e2b0b7502))
+
+
+
+
+
 # [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
 
 **Note:** Version bump only for package @editfish/extension-text-align

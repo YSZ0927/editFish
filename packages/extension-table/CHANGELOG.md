@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.196 (2022-09-17)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/ueberdosis/editfish/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* add name to context ([a43d4c7](https://github.com/ueberdosis/editfish/commit/a43d4c7bcb5ba5e386f268a2a71a7449bc2f658e))
+* don’t resize tables if editable is set to false, fix [#1549](https://github.com/ueberdosis/editfish/issues/1549) ([239a2e3](https://github.com/ueberdosis/editfish/commit/239a2e36a47e4d0ad3012a54cda2d8b5c4f7a3ca))
+* **maintainment:** fix cjs issues with prosemirror-tables ([eb92597](https://github.com/ueberdosis/editfish/commit/eb925976038fbf59f6ba333ccc57ea84113da00e))
+* revert adding exports ([bc320d0](https://github.com/ueberdosis/editfish/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/ueberdosis/editfish/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+* use toggleHeader from prosemirror-tables ([#2412](https://github.com/ueberdosis/editfish/issues/2412)), fix [#548](https://github.com/ueberdosis/editfish/issues/548) ([c6bea9a](https://github.com/ueberdosis/editfish/commit/c6bea9aa5c4d38523f2f1095a570cdfc6936392e))
+
+
+### Features
+
+* Add extension storage ([#2069](https://github.com/ueberdosis/editfish/issues/2069)) ([7ffabf2](https://github.com/ueberdosis/editfish/commit/7ffabf251c408a652eec1931cc78a8bd43cccb67))
+* add parentConfig to extension context for more extendable extensions, fix [#259](https://github.com/ueberdosis/editfish/issues/259) ([5e1ec5d](https://github.com/ueberdosis/editfish/commit/5e1ec5d2a66be164f505d631f97861ab9344ba96))
+* add setCellSelection command ([eb7e92f](https://github.com/ueberdosis/editfish/commit/eb7e92f10aff60e68cae613750903eb0adce5933))
+* fork form tiptap and update project name ([4e83f47](https://github.com/ueberdosis/editfish/commit/4e83f471f558450547d3d0269ca1648cbcad94c1))
+
+
+### Reverts
+
+* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/editfish/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+
+
+
+
+
 # [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
 
 **Note:** Version bump only for package @editfish/extension-table

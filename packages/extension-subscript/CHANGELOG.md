@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.196 (2022-09-17)
+
+
+### Bug Fixes
+
+* remove some magic strings ([6c34dec](https://github.com/ueberdosis/editfish/commit/6c34dec33ac39c9f037a0a72e4525f3fc6d422bf))
+* revert excluding superscript from subscript, and vice versa to prevent error if not both extensions are used ([123f206](https://github.com/ueberdosis/editfish/commit/123f2067e5ccc15f1fceee164e8bc461193cf8a0))
+
+
+### Features
+
+* fork form tiptap and update project name ([4e83f47](https://github.com/ueberdosis/editfish/commit/4e83f471f558450547d3d0269ca1648cbcad94c1))
+
+
+
+
+
 # [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
 
 **Note:** Version bump only for package @editfish/extension-subscript

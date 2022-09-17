@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.196 (2022-09-17)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/ueberdosis/editfish/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* allow null and undefined for CharacterCount limit, fix [#2276](https://github.com/ueberdosis/editfish/issues/2276) ([dd4bcb8](https://github.com/ueberdosis/editfish/commit/dd4bcb81f05f980b143c46f97f108c28b02c1caf))
+* calculate the number of words across linebreaks correctly ([0879a2f](https://github.com/ueberdosis/editfish/commit/0879a2f71684e28e6de5a392b4ea675e11327d1f))
+* fix types for characterCount storage methods ([d1daf9c](https://github.com/ueberdosis/editfish/commit/d1daf9cca06b4ac5855485533255b1275391b524))
+* improve bundle size of character count extension, fix [#2519](https://github.com/ueberdosis/editfish/issues/2519) ([fbfe1d9](https://github.com/ueberdosis/editfish/commit/fbfe1d9992ee3b49db62bdf50d99321a3fa7ad95))
+* mark characterCount storage method types as optional ([ed7f93a](https://github.com/ueberdosis/editfish/commit/ed7f93a2b84234b365f74ff39424f72ca5cf42ea))
+* remove extension-text-style from character-cout peer dependencies ([2fc6a4b](https://github.com/ueberdosis/editfish/commit/2fc6a4b780bdf7a365e21717ebd99a8e8b2c113d))
+* revert adding exports ([bc320d0](https://github.com/ueberdosis/editfish/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/ueberdosis/editfish/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+### Features
+
+* add some improvements to `CharacterCount` extension ([#2256](https://github.com/ueberdosis/editfish/issues/2256)), fix [#1049](https://github.com/ueberdosis/editfish/issues/1049), fix [#1550](https://github.com/ueberdosis/editfish/issues/1550), fix [#1839](https://github.com/ueberdosis/editfish/issues/1839), fix [#2245](https://github.com/ueberdosis/editfish/issues/2245) ([5daa870](https://github.com/ueberdosis/editfish/commit/5daa870b0906f0387fe07041681bc6f5b3774617))
+* fork form tiptap and update project name ([4e83f47](https://github.com/ueberdosis/editfish/commit/4e83f471f558450547d3d0269ca1648cbcad94c1))
+
+
+### Reverts
+
+* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/editfish/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+
+
+
+
+
 # [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
 
 **Note:** Version bump only for package @editfish/extension-character-count

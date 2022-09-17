@@ -3,6 +3,48 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.196 (2022-09-17)
+
+
+### Bug Fixes
+
+* add CellSelection support for bubble menu ([6472d2c](https://github.com/ueberdosis/editfish/commit/6472d2c2715bd29a061abae6a59963949c298e55))
+* add exports to package.json ([1277fa4](https://github.com/ueberdosis/editfish/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* do not check for node selection within posToDOMRect ([c0e68d5](https://github.com/ueberdosis/editfish/commit/c0e68d5a25608e0b6d9c127bbc507b4ba2a94a61))
+* don’t initialize tippy on requestAnimationFrame to avoid race conditions ([#1820](https://github.com/ueberdosis/editfish/issues/1820)) ([ca3763d](https://github.com/ueberdosis/editfish/commit/ca3763d3c29cc0715727fe12a0e907ad86d99806))
+* **extension/bubble-menu:** :bug: fix bubble menu and floating menu being available when editor not editable ([#3195](https://github.com/ueberdosis/editfish/issues/3195)) ([fa96749](https://github.com/ueberdosis/editfish/commit/fa96749ce22ec67125da491cfeeb38623b9f0d6e))
+* Fix "destory" method in view plugins. ([#1882](https://github.com/ueberdosis/editfish/issues/1882)) ([33420f4](https://github.com/ueberdosis/editfish/commit/33420f4ae06d0d7eec16201a2e650be83cbb9de9))
+* fix a bug for empty node selection where the bubble menu should not be visible, fix [#1023](https://github.com/ueberdosis/editfish/issues/1023) ([8ed220a](https://github.com/ueberdosis/editfish/commit/8ed220a12de48b3c14e903b271d7f50aff6313f4))
+* fix a bug where bubble menu does not appear when selection starts from empty paragraph node, fix [#1474](https://github.com/ueberdosis/editfish/issues/1474) ([f12b127](https://github.com/ueberdosis/editfish/commit/f12b1273f24984806394e3deb431823a9d00ba79))
+* fix some react focus issues ([#1724](https://github.com/ueberdosis/editfish/issues/1724)), fix [#1716](https://github.com/ueberdosis/editfish/issues/1716), fix [#1608](https://github.com/ueberdosis/editfish/issues/1608), fix [#1520](https://github.com/ueberdosis/editfish/issues/1520) ([956566e](https://github.com/ueberdosis/editfish/commit/956566eaad0a522d6bc27d44594aa36d6c33f8b3))
+* fix tippy for react ([398fc7f](https://github.com/ueberdosis/editfish/commit/398fc7f210b9d5449cbb00543ddf4af768552b9c))
+* hide bubble menu on drag, fix [#1443](https://github.com/ueberdosis/editfish/issues/1443) ([6034eb9](https://github.com/ueberdosis/editfish/commit/6034eb9b30c3fe01ece9079c84c91ba9c6184518))
+* make shouldShow and pluginKey option for menus, fix [#1779](https://github.com/ueberdosis/editfish/issues/1779) ([70a328b](https://github.com/ueberdosis/editfish/commit/70a328bd3dea174170ad8e92db4c4f7f9368fd1b))
+* Mark the bubble/floating menu extensions as side effect free ([172513c](https://github.com/ueberdosis/editfish/commit/172513cb445fa295dd9f7d7ec553ed22baa9d435))
+* maybe hide tippy on blur, fix [#1433](https://github.com/ueberdosis/editfish/issues/1433) ([063ced2](https://github.com/ueberdosis/editfish/commit/063ced27ca55f331960b01ee6aea5623eee0ba49))
+* rename key to pluginKey for menus ([89d26f7](https://github.com/ueberdosis/editfish/commit/89d26f7cba2a115aa342f0ee621f0b65c840dfb8))
+* revert adding exports ([bc320d0](https://github.com/ueberdosis/editfish/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/ueberdosis/editfish/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+* show bubble menu for atom nodes even if there is no text content, fix [#1446](https://github.com/ueberdosis/editfish/issues/1446) ([a3a7650](https://github.com/ueberdosis/editfish/commit/a3a76507844cefc28111b9636c511ad9ef52ad28))
+
+
+### Features
+
+* add coordsAtPos and posToClientRect helper methods ([8dab614](https://github.com/ueberdosis/editfish/commit/8dab6144a661e4c90f33d9d2f300882009eadd46))
+* add key option and shouldShow option to menus (fix [#1480](https://github.com/ueberdosis/editfish/issues/1480), fix [#1043](https://github.com/ueberdosis/editfish/issues/1043), fix [#1268](https://github.com/ueberdosis/editfish/issues/1268), fix [#1503](https://github.com/ueberdosis/editfish/issues/1503)) ([9ba61c1](https://github.com/ueberdosis/editfish/commit/9ba61c1582cee838f2214d00285773ace2fb229e))
+* add tippyOptions prop ([9a56f66](https://github.com/ueberdosis/editfish/commit/9a56f666a118ca7c59a6f1f67f40e6490e20d3b8))
+* fork form tiptap and update project name ([4e83f47](https://github.com/ueberdosis/editfish/commit/4e83f471f558450547d3d0269ca1648cbcad94c1))
+* remove keepInBounds ([d7282f1](https://github.com/ueberdosis/editfish/commit/d7282f168bc6cfae4e1630d14bb8462bc135b254))
+
+
+### Reverts
+
+* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/editfish/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+
+
+
+
+
 # [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
 
 

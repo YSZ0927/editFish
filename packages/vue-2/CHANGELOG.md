@@ -3,6 +3,42 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.196 (2022-09-17)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/ueberdosis/editfish/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* editor don't has contentComponent attribute when suggestion onUpdate ([#2916](https://github.com/ueberdosis/editfish/issues/2916)) ([6674e69](https://github.com/ueberdosis/editfish/commit/6674e69b12cb4a6c7d5e9f9b59073fc16b8a8eb9))
+* fix updating node views, fix [#1656](https://github.com/ueberdosis/editfish/issues/1656) ([d7f6e0c](https://github.com/ueberdosis/editfish/commit/d7f6e0ce3f99381d3822cde5ab1c484ed13a4c20))
+* improve Vue nodeViewProps typing ([190a699](https://github.com/ueberdosis/editfish/commit/190a6993d4d93b4d37b978b33ef22690ed8269b6))
+* Mark `@tiptap/vue-2` and `@tiptap/vue-3` as side effect free ([be8ca68](https://github.com/ueberdosis/editfish/commit/be8ca68d97c8f169d548e72253d5e6406fcb4c5b))
+* move all child nodes within EditorContent ([0f299d2](https://github.com/ueberdosis/editfish/commit/0f299d228eb4075d24e1c0fb5b39febc6bc77de6))
+* prevent bug when editor is destroyed very fast ([939fc3d](https://github.com/ueberdosis/editfish/commit/939fc3d93ab67d54b7fe67b64c423290b3a40df8))
+* rename key to pluginKey for menus ([89d26f7](https://github.com/ueberdosis/editfish/commit/89d26f7cba2a115aa342f0ee621f0b65c840dfb8))
+* revert adding exports ([bc320d0](https://github.com/ueberdosis/editfish/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/ueberdosis/editfish/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+### Features
+
+* add deleteNode method to node views ([fcee5f8](https://github.com/ueberdosis/editfish/commit/fcee5f82c6a282191afe5c2cb83b9f5820af28dd))
+* add ignoreMutation option to NodeViewRenderer, fix [#1538](https://github.com/ueberdosis/editfish/issues/1538) ([651e691](https://github.com/ueberdosis/editfish/commit/651e6911e3ea5407df6a48783ee16733e0a4f474))
+* add key option and shouldShow option to menus (fix [#1480](https://github.com/ueberdosis/editfish/issues/1480), fix [#1043](https://github.com/ueberdosis/editfish/issues/1043), fix [#1268](https://github.com/ueberdosis/editfish/issues/1268), fix [#1503](https://github.com/ueberdosis/editfish/issues/1503)) ([9ba61c1](https://github.com/ueberdosis/editfish/commit/9ba61c1582cee838f2214d00285773ace2fb229e))
+* add tippyOptions prop ([9a56f66](https://github.com/ueberdosis/editfish/commit/9a56f666a118ca7c59a6f1f67f40e6490e20d3b8))
+* better types for Vue 2 ([23a152a](https://github.com/ueberdosis/editfish/commit/23a152a8dfe35964d8ee39d1c6877550cdc4ce6a))
+* fork form tiptap and update project name ([4e83f47](https://github.com/ueberdosis/editfish/commit/4e83f471f558450547d3d0269ca1648cbcad94c1))
+* remove keepInBounds ([d7282f1](https://github.com/ueberdosis/editfish/commit/d7282f168bc6cfae4e1630d14bb8462bc135b254))
+
+
+### Reverts
+
+* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/editfish/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+
+
+
+
+
 # [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
 
 **Note:** Version bump only for package @editfish/vue-2

@@ -3,6 +3,48 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.196 (2022-09-17)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/ueberdosis/editfish/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* add pluginKey option to suggestion plugin, fix [#1282](https://github.com/ueberdosis/editfish/issues/1282) ([7cf3350](https://github.com/ueberdosis/editfish/commit/7cf3350a832181f8cc1fa7ea1afec8f8d083e507))
+* add support for using suggestions at top level, fix [#1340](https://github.com/ueberdosis/editfish/issues/1340) ([0d9e488](https://github.com/ueberdosis/editfish/commit/0d9e48883641d1c4aeeb9c9aa941e2e6419b2e7a))
+* Add type for async items on suggestions (fix TS strict types complaining) ([#1912](https://github.com/ueberdosis/editfish/issues/1912)) ([4a6c3cb](https://github.com/ueberdosis/editfish/commit/4a6c3cbaac9690f1261b8d435195878b6f60ad64))
+* call onExit hook when editor is destroyed, fix [#1645](https://github.com/ueberdosis/editfish/issues/1645) ([5d2ef71](https://github.com/ueberdosis/editfish/commit/5d2ef71d33bea9ba6bf1aeb3cceee08af27f1e75))
+* Fix multi character suggest ([#1620](https://github.com/ueberdosis/editfish/issues/1620)) ([83a53c1](https://github.com/ueberdosis/editfish/commit/83a53c16db4e8bbe06a37a0fe15e0a9e79bdb2ed))
+* fix suggestion package.json ([dd3e27b](https://github.com/ueberdosis/editfish/commit/dd3e27b0e49cb7b7a63c0068437060472345c51b))
+* fix type for clientRect ([07c6d51](https://github.com/ueberdosis/editfish/commit/07c6d513388c4538140e0ff37dc9035c9dc6fea3))
+* fixes an error when using the mention extension and pasting text ending with "@", fix [#2413](https://github.com/ueberdosis/editfish/issues/2413) ([55fa220](https://github.com/ueberdosis/editfish/commit/55fa2208996f648a2ca06b0a363a249ff5e39169))
+* get correct clientRect when using async suggesteion items, fix [#1782](https://github.com/ueberdosis/editfish/issues/1782) ([839acc1](https://github.com/ueberdosis/editfish/commit/839acc1d9f713b89f366cd7da63330fd0243c31b))
+* improve suggestion handling for chinese input, fix [#1449](https://github.com/ueberdosis/editfish/issues/1449) ([9789372](https://github.com/ueberdosis/editfish/commit/9789372cea901b21059d53c30ff301efb35fb720))
+* move @tiptap/core to peerDependency ([a03a01a](https://github.com/ueberdosis/editfish/commit/a03a01ab042f7c655139a08ed547a58d8b1d386f))
+* prevent suggestions from being active when editor is readonly ([45990cd](https://github.com/ueberdosis/editfish/commit/45990cdc0f8c9b7d31fe31cabe4b29088851d9f6))
+* revert adding exports ([bc320d0](https://github.com/ueberdosis/editfish/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/ueberdosis/editfish/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+* **suggestion:** :bug: make clientrect prop optional as it can potentially be undefined ([#2813](https://github.com/ueberdosis/editfish/issues/2813)) ([f019f70](https://github.com/ueberdosis/editfish/commit/f019f70a19c34715e2d5c3921d348e11c7ac51a3)), closes [#2795](https://github.com/ueberdosis/editfish/issues/2795)
+* support all characters for suggestion char, fix [#2385](https://github.com/ueberdosis/editfish/issues/2385) ([42d3ee8](https://github.com/ueberdosis/editfish/commit/42d3ee8fc9882a9fb9f87e696cebd0e6146d2e62))
+* use correct state when doc changed externally ([#1646](https://github.com/ueberdosis/editfish/issues/1646)) ([60606f9](https://github.com/ueberdosis/editfish/commit/60606f99a1df3c694cc2faa0522c772ef419e9fe))
+
+
+### Features
+
+* Add `onBeforeStart` and `onBeforeUpdate` handlers to the render function ([70cb809](https://github.com/ueberdosis/editfish/commit/70cb809702cbbb59abc6d12d85fd4d1291f88f5a))
+* Add a generic type for suggestion items ([7cae967](https://github.com/ueberdosis/editfish/commit/7cae9673f0086973b4d31e1343375ed5ad04ee0a))
+* Allow multiple prefix characters to trigger a suggestion ([#2896](https://github.com/ueberdosis/editfish/issues/2896)) ([482cb96](https://github.com/ueberdosis/editfish/commit/482cb960d6a17acc575bb9c535e1e87f07f06686))
+* allow triggering suggestions without prefix space ([#1826](https://github.com/ueberdosis/editfish/issues/1826), fix [#1384](https://github.com/ueberdosis/editfish/issues/1384)) ([4dd0d6d](https://github.com/ueberdosis/editfish/commit/4dd0d6d4dce20c78974bf53619a827f8ba1718e3))
+* fork form tiptap and update project name ([4e83f47](https://github.com/ueberdosis/editfish/commit/4e83f471f558450547d3d0269ca1648cbcad94c1))
+
+
+### Reverts
+
+* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/editfish/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+
+
+
+
+
 # [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
 
 **Note:** Version bump only for package @editfish/suggestion

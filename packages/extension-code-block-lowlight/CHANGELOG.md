@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.196 (2022-09-17)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/ueberdosis/editfish/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* Allow extending code-block-lowlight ([#1917](https://github.com/ueberdosis/editfish/issues/1917)) ([54be0e5](https://github.com/ueberdosis/editfish/commit/54be0e570e24c4a7bbb772c8222cfeac2ba1ff38))
+* compatibility with lowlight v2 ([#1939](https://github.com/ueberdosis/editfish/issues/1939)) ([f79347e](https://github.com/ueberdosis/editfish/commit/f79347e128be11860ee54109d8d333b436426b45))
+* fix lowlight decorations for vue 3 ([daa5dc0](https://github.com/ueberdosis/editfish/commit/daa5dc0fb1ec2db6889565fc9c091f3dbdbbda6d))
+* Remove console.log statement ([#2168](https://github.com/ueberdosis/editfish/issues/2168)) ([6e25e99](https://github.com/ueberdosis/editfish/commit/6e25e99c7a8699166a63fee1f4b5584ab617c9cd))
+* revert adding exports ([bc320d0](https://github.com/ueberdosis/editfish/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/ueberdosis/editfish/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+### Features
+
+* Add alias condition to code-block-lowlight ([#3155](https://github.com/ueberdosis/editfish/issues/3155)) ([b01ccff](https://github.com/ueberdosis/editfish/commit/b01ccff7b2ed9b8de633ad2122eb7081baaaff18))
+* add defaultLanguage option to CodeBlockLowlight extension, fix [#2121](https://github.com/ueberdosis/editfish/issues/2121) ([0f94bcd](https://github.com/ueberdosis/editfish/commit/0f94bcd591e98c0a767d0914b87a1efee8b002e0))
+* add parentConfig to extension context for more extendable extensions, fix [#259](https://github.com/ueberdosis/editfish/issues/259) ([5e1ec5d](https://github.com/ueberdosis/editfish/commit/5e1ec5d2a66be164f505d631f97861ab9344ba96))
+* fork form tiptap and update project name ([4e83f47](https://github.com/ueberdosis/editfish/commit/4e83f471f558450547d3d0269ca1648cbcad94c1))
+
+
+### Reverts
+
+* Revert "bring back 1.20.0" ([59244c5](https://github.com/ueberdosis/editfish/commit/59244c586d584483ddfafbda7bd4ef62efd2897e))
+* Revert "update package-lock.json" ([e63b987](https://github.com/ueberdosis/editfish/commit/e63b987bb8bb88f694bc8d48c5a7a31e92d9723e))
+* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/editfish/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+
+
+
+
+
 # [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
 
 

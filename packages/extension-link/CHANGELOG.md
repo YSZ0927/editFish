@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.196 (2022-09-17)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/ueberdosis/editfish/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* allow to remove autolinks with unsetLink ([ea10ffb](https://github.com/ueberdosis/editfish/commit/ea10ffbc6a0f447c33680dcc6f6dc2fa6337c4c2))
+* calculate correct autolink position when using leaf nodes in the same text block, fix [#2231](https://github.com/ueberdosis/editfish/issues/2231) ([924b650](https://github.com/ueberdosis/editfish/commit/924b6508f9211ba281b159676d4800748870b565))
+* **extension-link:** :bug: fix auto link validation not working on paste ([3a3eb53](https://github.com/ueberdosis/editfish/commit/3a3eb5311c6fbf1c1000a099d21bb47c71370375))
+* **extension-link:** restricts parsing `javascript:` pseudo-protocol ([947f311](https://github.com/ueberdosis/editfish/commit/947f311c0ec9affdcaeb220d13d87c04c773f084))
+* fix a bug in link click handler, where we can’t click on text selections. fix [#263](https://github.com/ueberdosis/editfish/issues/263) ([33c30c0](https://github.com/ueberdosis/editfish/commit/33c30c0d6df66190fd1d5073ccc43b1020b517f9))
+* fix a bug that messed up pasted link attributes, fix [#1284](https://github.com/ueberdosis/editfish/issues/1284) ([7da647d](https://github.com/ueberdosis/editfish/commit/7da647d99f1dcefabc653347a8e2abfae3bb972e))
+* remove some magic strings ([6c34dec](https://github.com/ueberdosis/editfish/commit/6c34dec33ac39c9f037a0a72e4525f3fc6d422bf))
+* revert adding exports ([bc320d0](https://github.com/ueberdosis/editfish/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/ueberdosis/editfish/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+### Features
+
+* add editor.getAttributes, deprecate editor.getNodeAttributes and editor.getMarkAttributes ([072905c](https://github.com/ueberdosis/editfish/commit/072905cb95e022a37f5bc937889999bfbb33ad88))
+* add extendEmptyMarkRange option to mark commands ([#1859](https://github.com/ueberdosis/editfish/issues/1859)) ([14e458e](https://github.com/ueberdosis/editfish/commit/14e458ea7d7475a51ac00d6f67509dc769919d0b))
+* add linkOnPaste option for adding a link to the current selection if the pasted content only contains an url, fix [#1210](https://github.com/ueberdosis/editfish/issues/1210) ([9e9401e](https://github.com/ueberdosis/editfish/commit/9e9401e68b79d34070fb79c4f356841fa19fe436))
+* add priority option to extensions ([bb1ae65](https://github.com/ueberdosis/editfish/commit/bb1ae659a463e97a7ada15af711347b5c004897a))
+* Add support for autolink ([#2226](https://github.com/ueberdosis/editfish/issues/2226)) ([3d68981](https://github.com/ueberdosis/editfish/commit/3d68981b47d087fff40549d2143eb952fc9e0a50))
+* **extension-link:** :sparkles: add validate option to link extension ([23e67ad](https://github.com/ueberdosis/editfish/commit/23e67adfa730df7364bc31220d0ed0e8ea522593)), closes [#2779](https://github.com/ueberdosis/editfish/issues/2779)
+* fork form tiptap and update project name ([4e83f47](https://github.com/ueberdosis/editfish/commit/4e83f471f558450547d3d0269ca1648cbcad94c1))
+* Integrate input rules and paste rules into the core ([#1997](https://github.com/ueberdosis/editfish/issues/1997)) ([723b955](https://github.com/ueberdosis/editfish/commit/723b955cecc5c92c8aad897ce16c60fb62976571))
+
+
+### Reverts
+
+* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/editfish/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+* Revert "use global namespace" ([0c9ce26](https://github.com/ueberdosis/editfish/commit/0c9ce26c02c07d88a757c01b0a9d7f9e2b0b7502))
+
+
+
+
+
 # [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
 
 **Note:** Version bump only for package @editfish/extension-link

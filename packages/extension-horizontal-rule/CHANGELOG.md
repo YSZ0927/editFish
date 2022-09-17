@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.196 (2022-09-17)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/ueberdosis/editfish/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* fix lint error ([d5dd568](https://github.com/ueberdosis/editfish/commit/d5dd568d862fee60c975ec7314615032f0558872))
+* Improve behavior when using insertContent ([#2147](https://github.com/ueberdosis/editfish/issues/2147)) ([8fc915c](https://github.com/ueberdosis/editfish/commit/8fc915cade394bff2015be1e1e2d7c008e8c908e))
+* improve handling of horizontal rule at document end, fix [#248](https://github.com/ueberdosis/editfish/issues/248) ([af17f2c](https://github.com/ueberdosis/editfish/commit/af17f2c65794767e4b7ddfd1c1277a567acd898d))
+* remove node before hr if it’s an empty text block (fix [#1665](https://github.com/ueberdosis/editfish/issues/1665)) ([6e76bb8](https://github.com/ueberdosis/editfish/commit/6e76bb84fc65eb95157f900c35adfdd28e88a8e3))
+* remove node before hr if it’s an empty text block, fix [#1665](https://github.com/ueberdosis/editfish/issues/1665) ([4151e2f](https://github.com/ueberdosis/editfish/commit/4151e2fd81ae6c007d32b72ac41feac3c81e438b))
+* revert adding exports ([bc320d0](https://github.com/ueberdosis/editfish/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/ueberdosis/editfish/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+* set cursor position in setHorizontalRule correctly, fix [#2429](https://github.com/ueberdosis/editfish/issues/2429) ([34d8011](https://github.com/ueberdosis/editfish/commit/34d80114704679118e9bb6058e0d6c7aa03fd4b5))
+
+
+### Features
+
+* fork form tiptap and update project name ([4e83f47](https://github.com/ueberdosis/editfish/commit/4e83f471f558450547d3d0269ca1648cbcad94c1))
+* Integrate input rules and paste rules into the core ([#1997](https://github.com/ueberdosis/editfish/issues/1997)) ([723b955](https://github.com/ueberdosis/editfish/commit/723b955cecc5c92c8aad897ce16c60fb62976571))
+
+
+### Reverts
+
+* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/editfish/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+* Revert "use global namespace" ([0c9ce26](https://github.com/ueberdosis/editfish/commit/0c9ce26c02c07d88a757c01b0a9d7f9e2b0b7502))
+
+
+
+
+
 # [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
 
 **Note:** Version bump only for package @editfish/extension-horizontal-rule

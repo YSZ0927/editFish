@@ -3,6 +3,65 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.196 (2022-09-17)
+
+
+### Bug Fixes
+
+* Add `editor` dependency when registering `BubbleMenuPlugin` and `FloatingMenuPlugin` ([#2018](https://github.com/ueberdosis/editfish/issues/2018)) ([e9465ec](https://github.com/ueberdosis/editfish/commit/e9465ec0f6921abd428ed27b50596d20edc05b77))
+* add exports to package.json ([1277fa4](https://github.com/ueberdosis/editfish/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* add prop support for EditorContent, fix [#1332](https://github.com/ueberdosis/editfish/issues/1332) ([8979143](https://github.com/ueberdosis/editfish/commit/8979143c37679af21e71b37b72ac91bea989746c))
+* allow passing props to NodeViewWrapper and NodeViewContent ([cfb3b80](https://github.com/ueberdosis/editfish/commit/cfb3b80f63a5d38ea7aa4b69a895afd8b09cb5ab))
+* change reactrenderer component type definition ([#2327](https://github.com/ueberdosis/editfish/issues/2327)) ([64dfae8](https://github.com/ueberdosis/editfish/commit/64dfae85118d2b9dc525a8bfa31f00688a56f049))
+* check for destroyed editor before creating node views in react ([44e4722](https://github.com/ueberdosis/editfish/commit/44e47222a03be60835d5058d01bc510e4cf31d60))
+* Check node type above custom update function for node views ([#2081](https://github.com/ueberdosis/editfish/issues/2081)) ([ddc9ca8](https://github.com/ueberdosis/editfish/commit/ddc9ca8d4f347566f83513a386922afe52f26da1))
+* fix a bug when using nested node views in react, fix [#1747](https://github.com/ueberdosis/editfish/issues/1747) ([b15a8a8](https://github.com/ueberdosis/editfish/commit/b15a8a8683bafbc9fd57dc64d60329f9ab08ecfd))
+* fix editor type for ReactRenderer ([2af1870](https://github.com/ueberdosis/editfish/commit/2af187023ddbc85edee086cdb898c5139f7668de))
+* fix React Node View render problem in React 18 ([#2985](https://github.com/ueberdosis/editfish/issues/2985)) ([f32293b](https://github.com/ueberdosis/editfish/commit/f32293b0d5d36ffb546a3d1e3dfab1580ee5080a))
+* fix some react focus issues ([#1724](https://github.com/ueberdosis/editfish/issues/1724)), fix [#1716](https://github.com/ueberdosis/editfish/issues/1716), fix [#1608](https://github.com/ueberdosis/editfish/issues/1608), fix [#1520](https://github.com/ueberdosis/editfish/issues/1520) ([956566e](https://github.com/ueberdosis/editfish/commit/956566eaad0a522d6bc27d44594aa36d6c33f8b3))
+* fix updating node views, fix [#1656](https://github.com/ueberdosis/editfish/issues/1656) ([d7f6e0c](https://github.com/ueberdosis/editfish/commit/d7f6e0ce3f99381d3822cde5ab1c484ed13a4c20))
+* fix using react node views with insertContent ([ea0992f](https://github.com/ueberdosis/editfish/commit/ea0992f66e9942c590e75c0ab2f5705640764f4d))
+* improve node view error message ([536663f](https://github.com/ueberdosis/editfish/commit/536663f816039df6e3d8de23989f343d78e5d08e))
+* Improve ReactRenderer types ([#2011](https://github.com/ueberdosis/editfish/issues/2011)) ([31d8ab3](https://github.com/ueberdosis/editfish/commit/31d8ab3593f18f8fec49b7e5ab22a7d979165ae6))
+* make `as` prop optional ([f8dec5f](https://github.com/ueberdosis/editfish/commit/f8dec5f905baf5692dd257b3dddec3de2bcad1a1))
+* make shouldShow and pluginKey option for menus, fix [#1779](https://github.com/ueberdosis/editfish/issues/1779) ([70a328b](https://github.com/ueberdosis/editfish/commit/70a328bd3dea174170ad8e92db4c4f7f9368fd1b))
+* Mark `@tiptap/react` and `@tiptap/core` as side effect free ([#2361](https://github.com/ueberdosis/editfish/issues/2361)) ([e609b2d](https://github.com/ueberdosis/editfish/commit/e609b2d11615dd85fd219731d1b73deaeccccd69))
+* maybe move content dom on update, fix [#1370](https://github.com/ueberdosis/editfish/issues/1370) ([78f75c3](https://github.com/ueberdosis/editfish/commit/78f75c3e0e287abac18bf87f32a1bd586300da14))
+* maybe move content dom on update, see [#1370](https://github.com/ueberdosis/editfish/issues/1370) ([60708a7](https://github.com/ueberdosis/editfish/commit/60708a781770d745f0d9135c225f56d3d2f1b31d))
+* move all child nodes within EditorContent ([0f299d2](https://github.com/ueberdosis/editfish/commit/0f299d228eb4075d24e1c0fb5b39febc6bc77de6))
+* move React `flushSync` to microtask ([#3188](https://github.com/ueberdosis/editfish/issues/3188)) ([9093cdf](https://github.com/ueberdosis/editfish/commit/9093cdfcf52cbc5297b9b678073636103dfecb3f)), closes [#2985](https://github.com/ueberdosis/editfish/issues/2985)
+* prevents a bug where a line break was incorrectly added at enter in react node views, fix [#1197](https://github.com/ueberdosis/editfish/issues/1197) ([e885ffa](https://github.com/ueberdosis/editfish/commit/e885ffa15b590b0c1f895f5c32f4852cc483c222))
+* Remove `element.current` from `useEffect` in `BubbleMenu` and `FloatingMenu` ([#2297](https://github.com/ueberdosis/editfish/issues/2297)) ([561941d](https://github.com/ueberdosis/editfish/commit/561941d5e0d8c0bed852156e06820780e65f0656))
+* rename key to pluginKey for menus ([89d26f7](https://github.com/ueberdosis/editfish/commit/89d26f7cba2a115aa342f0ee621f0b65c840dfb8))
+* revert adding exports ([bc320d0](https://github.com/ueberdosis/editfish/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/ueberdosis/editfish/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+* set correct component type for ReactRenderer, fix [#1904](https://github.com/ueberdosis/editfish/issues/1904) ([fe47c38](https://github.com/ueberdosis/editfish/commit/fe47c388ce5ef49c286302a7b771a680c2f0c239))
+* use ref to move contentDOM ([#1960](https://github.com/ueberdosis/editfish/issues/1960)), fix [#1942](https://github.com/ueberdosis/editfish/issues/1942) ([dead826](https://github.com/ueberdosis/editfish/commit/dead82625095031bc4d32b47b205044bf75769bd))
+
+
+### Features
+
+* Add `as` option and pass through to ReactRenderer ([#2213](https://github.com/ueberdosis/editfish/issues/2213)) ([dedcf17](https://github.com/ueberdosis/editfish/commit/dedcf17d533aab0c5641b842877e42440883d5d8))
+* add className option to ReactRenderer, see [#2166](https://github.com/ueberdosis/editfish/issues/2166) ([c9dc1e1](https://github.com/ueberdosis/editfish/commit/c9dc1e1ec3295fe3dce7ed7d314c5a7e4140af83))
+* add deleteNode method to node views ([fcee5f8](https://github.com/ueberdosis/editfish/commit/fcee5f82c6a282191afe5c2cb83b9f5820af28dd))
+* Add extension storage ([#2069](https://github.com/ueberdosis/editfish/issues/2069)) ([7ffabf2](https://github.com/ueberdosis/editfish/commit/7ffabf251c408a652eec1931cc78a8bd43cccb67))
+* add ignoreMutation option to NodeViewRenderer, fix [#1538](https://github.com/ueberdosis/editfish/issues/1538) ([651e691](https://github.com/ueberdosis/editfish/commit/651e6911e3ea5407df6a48783ee16733e0a4f474))
+* add key option and shouldShow option to menus (fix [#1480](https://github.com/ueberdosis/editfish/issues/1480), fix [#1043](https://github.com/ueberdosis/editfish/issues/1043), fix [#1268](https://github.com/ueberdosis/editfish/issues/1268), fix [#1503](https://github.com/ueberdosis/editfish/issues/1503)) ([9ba61c1](https://github.com/ueberdosis/editfish/commit/9ba61c1582cee838f2214d00285773ace2fb229e))
+* add support for forwardRef component in reactRenderer ([#1690](https://github.com/ueberdosis/editfish/issues/1690), fix [#1040](https://github.com/ueberdosis/editfish/issues/1040)) ([d1f2ad2](https://github.com/ueberdosis/editfish/commit/d1f2ad293f9df4004ee3fea5550a3921a03162f5))
+* add tippyOptions prop ([9a56f66](https://github.com/ueberdosis/editfish/commit/9a56f666a118ca7c59a6f1f67f40e6490e20d3b8))
+* fork form tiptap and update project name ([4e83f47](https://github.com/ueberdosis/editfish/commit/4e83f471f558450547d3d0269ca1648cbcad94c1))
+* remove keepInBounds ([d7282f1](https://github.com/ueberdosis/editfish/commit/d7282f168bc6cfae4e1630d14bb8462bc135b254))
+* render wrapper element for inline node views as span, fix [#242](https://github.com/ueberdosis/editfish/issues/242) ([bdb5d72](https://github.com/ueberdosis/editfish/commit/bdb5d724956c0c757e29be38fb2c9dd85d8fd36b))
+
+
+### Reverts
+
+* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/editfish/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+
+
+
+
+
 # [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
 
 

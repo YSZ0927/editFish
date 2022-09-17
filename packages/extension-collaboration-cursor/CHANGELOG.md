@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.196 (2022-09-17)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/ueberdosis/editfish/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* **extension/collaboration:** :ambulance: pin y-prosemirror version to 1.0.20 to fix broken functionality with vue ([5989f3b](https://github.com/ueberdosis/editfish/commit/5989f3b780bb64b2884d81dcd41a95d98a0714b2))
+* fix plugin order for collab, fix [#1973](https://github.com/ueberdosis/editfish/issues/1973) ([2b16c2e](https://github.com/ueberdosis/editfish/commit/2b16c2ea9633529657debff3cdbc74ff3a26b985))
+* retrieve awareness states after reconnect ([12d9942](https://github.com/ueberdosis/editfish/commit/12d994275c0a4afa2344805e16998690a1c45a4d))
+* revert adding exports ([bc320d0](https://github.com/ueberdosis/editfish/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/ueberdosis/editfish/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+### Features
+
+* add priority option to extensions ([bb1ae65](https://github.com/ueberdosis/editfish/commit/bb1ae659a463e97a7ada15af711347b5c004897a))
+* fork form tiptap and update project name ([4e83f47](https://github.com/ueberdosis/editfish/commit/4e83f471f558450547d3d0269ca1648cbcad94c1))
+
+
+### Reverts
+
+* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/editfish/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+* Revert "use global namespace" ([0c9ce26](https://github.com/ueberdosis/editfish/commit/0c9ce26c02c07d88a757c01b0a9d7f9e2b0b7502))
+
+
+
+
+
 # [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
 
 **Note:** Version bump only for package @editfish/extension-collaboration-cursor

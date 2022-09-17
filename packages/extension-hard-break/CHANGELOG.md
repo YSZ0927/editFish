@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.196 (2022-09-17)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/ueberdosis/editfish/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* prevent adding hard breaks in isolated nodes ([9247fcb](https://github.com/ueberdosis/editfish/commit/9247fcb6cf20493d021664ddce95ad1c23c5a152))
+* render line break in text/plain format for hard breaks, fix [#1842](https://github.com/ueberdosis/editfish/issues/1842) ([787d784](https://github.com/ueberdosis/editfish/commit/787d7848cdca3f198e727a4a35d83793e8ff9e11))
+* revert adding exports ([bc320d0](https://github.com/ueberdosis/editfish/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/ueberdosis/editfish/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+### Features
+
+* fork form tiptap and update project name ([4e83f47](https://github.com/ueberdosis/editfish/commit/4e83f471f558450547d3d0269ca1648cbcad94c1))
+* setHardBreak now keeps splittable marks by default, fix [#1934](https://github.com/ueberdosis/editfish/issues/1934) ([377bbb1](https://github.com/ueberdosis/editfish/commit/377bbb177d30923a0aa2a80654cc5cf87384dcf3))
+
+
+### Reverts
+
+* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/editfish/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+* Revert "use global namespace" ([0c9ce26](https://github.com/ueberdosis/editfish/commit/0c9ce26c02c07d88a757c01b0a9d7f9e2b0b7502))
+
+
+
+
+
 # [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
 
 **Note:** Version bump only for package @editfish/extension-hard-break

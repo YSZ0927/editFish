@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.196 (2022-09-17)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/ueberdosis/editfish/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* don’t allow base64 images at all, fix [#2455](https://github.com/ueberdosis/editfish/issues/2455) ([999dbbe](https://github.com/ueberdosis/editfish/commit/999dbbec1261d9b67fd3ab9ddba790d7d372d3ae))
+* don’t trigger image input rule on paste, fix [#2518](https://github.com/ueberdosis/editfish/issues/2518) ([ecf270c](https://github.com/ueberdosis/editfish/commit/ecf270c9e7b5848767e5380a37db622f9d8ab85e))
+* Fix [#2016](https://github.com/ueberdosis/editfish/issues/2016) Image input rule ([#2020](https://github.com/ueberdosis/editfish/issues/2020)) ([503a3f2](https://github.com/ueberdosis/editfish/commit/503a3f2cf508271cc303fb918568dc8c9b900055)), closes [#1574](https://github.com/ueberdosis/editfish/issues/1574)
+* Only trigger image input rule at the start or with a preceding space ([5fef431](https://github.com/ueberdosis/editfish/commit/5fef431d09d9ad4615dd43ee0573a4d4e6d86a46))
+* revert adding exports ([bc320d0](https://github.com/ueberdosis/editfish/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/ueberdosis/editfish/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+### Features
+
+* add allowBase64 option to image extension ([a97a46f](https://github.com/ueberdosis/editfish/commit/a97a46fc51c5a4b2f46be21fa6701b977eb415f7))
+* fork form tiptap and update project name ([4e83f47](https://github.com/ueberdosis/editfish/commit/4e83f471f558450547d3d0269ca1648cbcad94c1))
+* Integrate input rules and paste rules into the core ([#1997](https://github.com/ueberdosis/editfish/issues/1997)) ([723b955](https://github.com/ueberdosis/editfish/commit/723b955cecc5c92c8aad897ce16c60fb62976571))
+
+
+### Reverts
+
+* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/editfish/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+* Revert "use global namespace" ([0c9ce26](https://github.com/ueberdosis/editfish/commit/0c9ce26c02c07d88a757c01b0a9d7f9e2b0b7502))
+
+
+
+
+
 # [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
 
 **Note:** Version bump only for package @editfish/extension-image
