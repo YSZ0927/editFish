@@ -1,20 +1,20 @@
 {
   "name": "@editfish/vue-2",
-  "description": "Vue components for tiptap",
+  "description": "Vue components for editfish",
   "version": "2.0.0-beta.195",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://editfish.dev",
   "keywords": [
-    "tiptap",
-    "tiptap vue components"
+    "editfish",
+    "editfish vue components"
   ],
   "license": "MIT",
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/ueberdosis"
   },
-  "main": "dist/tiptap-vue-2.cjs.js",
-  "umd": "dist/tiptap-vue-2.umd.js",
-  "module": "dist/tiptap-vue-2.esm.js",
+  "main": "dist/editfish-vue-2.cjs.js",
+  "umd": "dist/editfish-vue-2.umd.js",
+  "module": "dist/editfish-vue-2.esm.js",
   "types": "dist/packages/vue-2/src/index.d.ts",
   "files": [
     "src",
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/ueberdosis/editfish",
     "directory": "packages/vue-2"
   },
   "sideEffects": false

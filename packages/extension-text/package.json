@@ -1,20 +1,20 @@
 {
   "name": "@editfish/extension-text",
-  "description": "text extension for tiptap",
+  "description": "text extension for editfish",
   "version": "2.0.0-beta.195",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://editfish.dev",
   "keywords": [
-    "tiptap",
-    "tiptap extension"
+    "editfish",
+    "editfish extension"
   ],
   "license": "MIT",
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/ueberdosis"
   },
-  "main": "dist/tiptap-extension-text.cjs.js",
-  "umd": "dist/tiptap-extension-text.umd.js",
-  "module": "dist/tiptap-extension-text.esm.js",
+  "main": "dist/editfish-extension-text.cjs.js",
+  "umd": "dist/editfish-extension-text.umd.js",
+  "module": "dist/editfish-extension-text.esm.js",
   "types": "dist/packages/extension-text/src/index.d.ts",
   "files": [
     "src",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/ueberdosis/editfish",
     "directory": "packages/extension-text"
   }
 }

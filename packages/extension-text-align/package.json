@@ -1,20 +1,20 @@
 {
   "name": "@editfish/extension-text-align",
-  "description": "text align extension for tiptap",
+  "description": "text align extension for editfish",
   "version": "2.0.0-beta.195",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://editfish.dev",
   "keywords": [
-    "tiptap",
-    "tiptap extension"
+    "editfish",
+    "editfish extension"
   ],
   "license": "MIT",
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/ueberdosis"
   },
-  "main": "dist/tiptap-extension-text-align.cjs.js",
-  "umd": "dist/tiptap-extension-text-align.umd.js",
-  "module": "dist/tiptap-extension-text-align.esm.js",
+  "main": "dist/editfish-extension-text-align.cjs.js",
+  "umd": "dist/editfish-extension-text-align.umd.js",
+  "module": "dist/editfish-extension-text-align.esm.js",
   "types": "dist/packages/extension-text-align/src/index.d.ts",
   "files": [
     "src",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/ueberdosis/editfish",
     "directory": "packages/extension-text-align"
   }
 }

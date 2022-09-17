@@ -1,20 +1,20 @@
 {
   "name": "@editfish/extension-paragraph",
-  "description": "paragraph extension for tiptap",
+  "description": "paragraph extension for editfish",
   "version": "2.0.0-beta.195",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://editfish.dev",
   "keywords": [
-    "tiptap",
-    "tiptap extension"
+    "editfish",
+    "editfish extension"
   ],
   "license": "MIT",
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/ueberdosis"
   },
-  "main": "dist/tiptap-extension-paragraph.cjs.js",
-  "umd": "dist/tiptap-extension-paragraph.umd.js",
-  "module": "dist/tiptap-extension-paragraph.esm.js",
+  "main": "dist/editfish-extension-paragraph.cjs.js",
+  "umd": "dist/editfish-extension-paragraph.umd.js",
+  "module": "dist/editfish-extension-paragraph.esm.js",
   "types": "dist/packages/extension-paragraph/src/index.d.ts",
   "files": [
     "src",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/ueberdosis/editfish",
     "directory": "packages/extension-paragraph"
   }
 }

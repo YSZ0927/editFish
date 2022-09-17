@@ -1,20 +1,20 @@
 {
   "name": "@editfish/extension-subscript",
-  "description": "subscript extension for tiptap",
+  "description": "subscript extension for editfish",
   "version": "2.0.0-beta.195",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://editfish.dev",
   "keywords": [
-    "tiptap",
-    "tiptap extension"
+    "editfish",
+    "editfish extension"
   ],
   "license": "MIT",
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/ueberdosis"
   },
-  "main": "dist/tiptap-extension-subscript.cjs.js",
-  "umd": "dist/tiptap-extension-subscript.umd.js",
-  "module": "dist/tiptap-extension-subscript.esm.js",
+  "main": "dist/editfish-extension-subscript.cjs.js",
+  "umd": "dist/editfish-extension-subscript.umd.js",
+  "module": "dist/editfish-extension-subscript.esm.js",
   "types": "dist/packages/extension-subscript/src/index.d.ts",
   "files": [
     "src",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/ueberdosis/editfish",
     "directory": "packages/extension-subscript"
   }
 }

@@ -1,20 +1,20 @@
 {
   "name": "@editfish/starter-kit",
-  "description": "starter kit for tiptap",
+  "description": "starter kit for editfish",
   "version": "2.0.0-beta.195",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://editfish.dev",
   "keywords": [
-    "tiptap",
-    "tiptap starter kit"
+    "editfish",
+    "editfish starter kit"
   ],
   "license": "MIT",
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/ueberdosis"
   },
-  "main": "dist/tiptap-starter-kit.cjs.js",
-  "umd": "dist/tiptap-starter-kit.umd.js",
-  "module": "dist/tiptap-starter-kit.esm.js",
+  "main": "dist/editfish-starter-kit.cjs.js",
+  "umd": "dist/editfish-starter-kit.umd.js",
+  "module": "dist/editfish-starter-kit.esm.js",
   "types": "dist/packages/starter-kit/src/index.d.ts",
   "files": [
     "src",
@@ -43,7 +43,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/ueberdosis/editfish",
     "directory": "packages/starter-kit"
   }
 }

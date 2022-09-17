@@ -1,20 +1,20 @@
 {
   "name": "@editfish/react",
-  "description": "React components for tiptap",
+  "description": "React components for editfish",
   "version": "2.0.0-beta.195",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://editfish.dev",
   "keywords": [
-    "tiptap",
-    "tiptap react components"
+    "editfish",
+    "editfish react components"
   ],
   "license": "MIT",
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/ueberdosis"
   },
-  "main": "dist/tiptap-react.cjs.js",
-  "umd": "dist/tiptap-react.umd.js",
-  "module": "dist/tiptap-react.esm.js",
+  "main": "dist/editfish-react.cjs.js",
+  "umd": "dist/editfish-react.umd.js",
+  "module": "dist/editfish-react.esm.js",
   "types": "dist/packages/react/src/index.d.ts",
   "files": [
     "src",
@@ -38,7 +38,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/ueberdosis/editfish",
     "directory": "packages/react"
   },
   "sideEffects": false

@@ -1,20 +1,20 @@
 {
   "name": "@editfish/extension-history",
-  "description": "history extension for tiptap",
+  "description": "history extension for editfish",
   "version": "2.0.0-beta.195",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://editfish.dev",
   "keywords": [
-    "tiptap",
-    "tiptap extension"
+    "editfish",
+    "editfish extension"
   ],
   "license": "MIT",
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/ueberdosis"
   },
-  "main": "dist/tiptap-extension-history.cjs.js",
-  "umd": "dist/tiptap-extension-history.umd.js",
-  "module": "dist/tiptap-extension-history.esm.js",
+  "main": "dist/editfish-extension-history.cjs.js",
+  "umd": "dist/editfish-extension-history.umd.js",
+  "module": "dist/editfish-extension-history.esm.js",
   "types": "dist/packages/extension-history/src/index.d.ts",
   "files": [
     "src",
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/ueberdosis/editfish",
     "directory": "packages/extension-history"
   }
 }

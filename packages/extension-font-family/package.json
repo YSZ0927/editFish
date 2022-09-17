@@ -1,20 +1,20 @@
 {
   "name": "@editfish/extension-font-family",
-  "description": "font family extension for tiptap",
+  "description": "font family extension for editfish",
   "version": "2.0.0-beta.195",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://editfish.dev",
   "keywords": [
-    "tiptap",
-    "tiptap extension"
+    "editfish",
+    "editfish extension"
   ],
   "license": "MIT",
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/ueberdosis"
   },
-  "main": "dist/tiptap-extension-font-family.cjs.js",
-  "umd": "dist/tiptap-extension-font-family.umd.js",
-  "module": "dist/tiptap-extension-font-family.esm.js",
+  "main": "dist/editfish-extension-font-family.cjs.js",
+  "umd": "dist/editfish-extension-font-family.umd.js",
+  "module": "dist/editfish-extension-font-family.esm.js",
   "types": "dist/packages/extension-font-family/src/index.d.ts",
   "files": [
     "src",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/ueberdosis/editfish",
     "directory": "packages/extension-font-family"
   }
 }

@@ -1,20 +1,20 @@
 {
   "name": "@editfish/suggestion",
-  "description": "suggestion plugin for tiptap",
+  "description": "suggestion plugin for editfish",
   "version": "2.0.0-beta.195",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://editfish.dev",
   "keywords": [
-    "tiptap",
-    "tiptap utility"
+    "editfish",
+    "editfish utility"
   ],
   "license": "MIT",
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/ueberdosis"
   },
-  "main": "dist/tiptap-suggestion.cjs.js",
-  "umd": "dist/tiptap-suggestion.umd.js",
-  "module": "dist/tiptap-suggestion.esm.js",
+  "main": "dist/editfish-suggestion.cjs.js",
+  "umd": "dist/editfish-suggestion.umd.js",
+  "module": "dist/editfish-suggestion.esm.js",
   "types": "dist/packages/suggestion/src/index.d.ts",
   "files": [
     "src",
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/ueberdosis/editfish",
     "directory": "packages/suggestion"
   }
 }

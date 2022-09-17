@@ -1,20 +1,20 @@
 {
   "name": "@editfish/extension-code-block",
-  "description": "code block extension for tiptap",
+  "description": "code block extension for editfish",
   "version": "2.0.0-beta.195",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://editfish.dev",
   "keywords": [
-    "tiptap",
-    "tiptap extension"
+    "editfish",
+    "editfish extension"
   ],
   "license": "MIT",
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/ueberdosis"
   },
-  "main": "dist/tiptap-extension-code-block.cjs.js",
-  "umd": "dist/tiptap-extension-code-block.umd.js",
-  "module": "dist/tiptap-extension-code-block.esm.js",
+  "main": "dist/editfish-extension-code-block.cjs.js",
+  "umd": "dist/editfish-extension-code-block.umd.js",
+  "module": "dist/editfish-extension-code-block.esm.js",
   "types": "dist/packages/extension-code-block/src/index.d.ts",
   "files": [
     "src",
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/ueberdosis/editfish",
     "directory": "packages/extension-code-block"
   }
 }

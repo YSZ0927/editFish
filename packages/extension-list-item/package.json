@@ -1,20 +1,20 @@
 {
   "name": "@editfish/extension-list-item",
-  "description": "list item extension for tiptap",
+  "description": "list item extension for editfish",
   "version": "2.0.0-beta.195",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://editfish.dev",
   "keywords": [
-    "tiptap",
-    "tiptap extension"
+    "editfish",
+    "editfish extension"
   ],
   "license": "MIT",
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/ueberdosis"
   },
-  "main": "dist/tiptap-extension-list-item.cjs.js",
-  "umd": "dist/tiptap-extension-list-item.umd.js",
-  "module": "dist/tiptap-extension-list-item.esm.js",
+  "main": "dist/editfish-extension-list-item.cjs.js",
+  "umd": "dist/editfish-extension-list-item.umd.js",
+  "module": "dist/editfish-extension-list-item.esm.js",
   "types": "dist/packages/extension-list-item/src/index.d.ts",
   "files": [
     "src",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/ueberdosis/editfish",
     "directory": "packages/extension-list-item"
   }
 }

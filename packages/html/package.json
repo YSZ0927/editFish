@@ -1,20 +1,20 @@
 {
   "name": "@editfish/html",
-  "description": "utility package to render tiptap JSON as HTML",
+  "description": "utility package to render editfish JSON as HTML",
   "version": "2.0.0-beta.195",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://editfish.dev",
   "keywords": [
-    "tiptap",
-    "tiptap utility"
+    "editfish",
+    "editfish utility"
   ],
   "license": "MIT",
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/ueberdosis"
   },
-  "main": "dist/tiptap-html.cjs.js",
-  "umd": "dist/tiptap-html.umd.js",
-  "module": "dist/tiptap-html.esm.js",
+  "main": "dist/editfish-html.cjs.js",
+  "umd": "dist/editfish-html.umd.js",
+  "module": "dist/editfish-html.esm.js",
   "types": "dist/packages/html/src/index.d.ts",
   "files": [
     "src",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/ueberdosis/editfish",
     "directory": "packages/html"
   }
 }

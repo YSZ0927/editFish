@@ -1,20 +1,20 @@
 {
   "name": "@editfish/extension-underline",
-  "description": "underline extension for tiptap",
+  "description": "underline extension for editfish",
   "version": "2.0.0-beta.195",
-  "homepage": "https://tiptap.dev",
+  "homepage": "https://editfish.dev",
   "keywords": [
-    "tiptap",
-    "tiptap extension"
+    "editfish",
+    "editfish extension"
   ],
   "license": "MIT",
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/ueberdosis"
   },
-  "main": "dist/tiptap-extension-underline.cjs.js",
-  "umd": "dist/tiptap-extension-underline.umd.js",
-  "module": "dist/tiptap-extension-underline.esm.js",
+  "main": "dist/editfish-extension-underline.cjs.js",
+  "umd": "dist/editfish-extension-underline.umd.js",
+  "module": "dist/editfish-extension-underline.esm.js",
   "types": "dist/packages/extension-underline/src/index.d.ts",
   "files": [
     "src",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/ueberdosis/editfish",
     "directory": "packages/extension-underline"
   }
 }
