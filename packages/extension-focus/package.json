@@ -31,5 +31,6 @@
     "type": "git",
     "url": "https://github.com/ueberdosis/editfish",
     "directory": "packages/extension-focus"
-  }
+  },
+  "gitHead": "4a9b2f623e60802e13579c2fc7e2109673f070b5"
 }
