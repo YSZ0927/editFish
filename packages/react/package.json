@@ -1,7 +1,7 @@
 {
   "name": "@editfish/react",
   "description": "React components for editfish",
-  "version": "2.0.0-beta.196",
+  "version": "2.0.0-beta.197",
   "homepage": "https://editfish.dev",
   "keywords": [
     "editfish",
@@ -32,8 +32,8 @@
     "react-dom": "^17.0.0 || ^18.0.0"
   },
   "dependencies": {
-    "@editfish/extension-bubble-menu": "^2.0.0-beta.196",
-    "@editfish/extension-floating-menu": "^2.0.0-beta.196",
+    "@editfish/extension-bubble-menu": "^2.0.0-beta.197",
+    "@editfish/extension-floating-menu": "^2.0.0-beta.197",
     "prosemirror-view": "1.26.2"
   },
   "repository": {

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.197](https://github.com/YSZ0927/editFish/compare/v2.0.0-beta.196...v2.0.0-beta.197) (2022-09-17)
+
+
+### Features
+
+* update package ([460b46f](https://github.com/YSZ0927/editFish/commit/460b46fb97129f1d4daa5fbd430412f036ce5f37))
+
+
+
+
+
 # 2.0.0-beta.196 (2022-09-17)
 
 
