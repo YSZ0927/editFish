@@ -1,5 +1,6 @@
 {
   "name": "@editfish/html",
+  "private": false,
   "description": "utility package to render editfish JSON as HTML",
   "version": "2.0.0-beta.197",
   "homepage": "https://editfish.dev",
@@ -30,5 +31,5 @@
     "url": "https://github.com/ueberdosis/editfish",
     "directory": "packages/html"
   },
-  "gitHead": "4a9b2f623e60802e13579c2fc7e2109673f070b5"
+  "gitHead": "961d8c7170487aec1efbe5bf19b5ca0ac2d08500"
 }
