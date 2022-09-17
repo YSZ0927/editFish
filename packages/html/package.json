@@ -2,7 +2,7 @@
   "name": "@editfish/html",
   "private": false,
   "description": "utility package to render editfish JSON as HTML",
-  "version": "2.0.0-beta.198",
+  "version": "2.0.0-beta.199",
   "homepage": "https://editfish.dev",
   "keywords": [
     "editfish",
@@ -22,7 +22,7 @@
     "dist"
   ],
   "dependencies": {
-    "@editfish/core": "^2.0.0-beta.198",
+    "@editfish/core": "^2.0.0-beta.199",
     "prosemirror-model": "1.18.1",
     "zeed-dom": "^0.9.19"
   },

@@ -1,7 +1,7 @@
 {
   "name": "@editfish/vue-3",
   "description": "Vue components for editfish",
-  "version": "2.0.0-beta.198",
+  "version": "2.0.0-beta.199",
   "homepage": "https://editfish.dev",
   "keywords": [
     "editfish",
@@ -28,8 +28,8 @@
     "vue": "^3.0.0"
   },
   "dependencies": {
-    "@editfish/extension-bubble-menu": "^2.0.0-beta.198",
-    "@editfish/extension-floating-menu": "^2.0.0-beta.198",
+    "@editfish/extension-bubble-menu": "^2.0.0-beta.199",
+    "@editfish/extension-floating-menu": "^2.0.0-beta.199",
     "prosemirror-state": "1.4.1",
     "prosemirror-view": "1.26.2"
   },

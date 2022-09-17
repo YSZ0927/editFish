@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.199](https://github.com/ueberdosis/editfish/compare/v2.0.0-beta.198...v2.0.0-beta.199) (2022-09-17)
+
+
+### Features
+
+* update ([33bcf1d](https://github.com/ueberdosis/editfish/commit/33bcf1d4aa15e5cb854cea2044c7460a4510c139))
+
+
+
+
+
 # [2.0.0-beta.198](https://github.com/ueberdosis/editfish/compare/v2.0.0-beta.197...v2.0.0-beta.198) (2022-09-17)
 
 
