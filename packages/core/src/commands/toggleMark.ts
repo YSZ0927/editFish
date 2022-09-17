@@ -4,7 +4,7 @@ import { getMarkType } from '../helpers/getMarkType'
 import { isMarkActive } from '../helpers/isMarkActive'
 import { RawCommands } from '../types'
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     toggleMark: {
       /**

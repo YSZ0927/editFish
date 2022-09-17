@@ -34,10 +34,10 @@ cd my-tiptap-project
 ```
 
 #### 2. Install the dependencies
-Time to install the `@tiptap/react` package and our [`StarterKit`](/api/extensions/starter-kit), which has the most popular extensions to get started quickly.
+Time to install the `@editfish/react` package and our [`StarterKit`](/api/extensions/starter-kit), which has the most popular extensions to get started quickly.
 
 ```bash
-npm install @tiptap/react @tiptap/starter-kit
+npm install @editfish/react @editfish/starter-kit
 ```
 
 If you followed step 1 and 2, you can now start your project with `npm run start`, and open [http://localhost:3000](http://localhost:3000) in your browser.
@@ -47,8 +47,8 @@ To actually start using Tiptap we need to create a new component. Let’s call i
 
 ```jsx
 // src/Tiptap.jsx
-import { useEditor, EditorContent } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import { useEditor, EditorContent } from '@editfish/react'
+import StarterKit from '@editfish/starter-kit'
 
 const Tiptap = () => {
   const editor = useEditor({

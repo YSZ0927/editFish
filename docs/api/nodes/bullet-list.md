@@ -4,8 +4,8 @@ icon: list-unordered
 ---
 
 # BulletList
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-bullet-list.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-bullet-list)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-bullet-list.svg)](https://npmcharts.com/compare/@tiptap/extension-bullet-list?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-bullet-list.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-bullet-list)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-bullet-list.svg)](https://npmcharts.com/compare/@editfish/extension-bullet-list?minimal=true)
 
 This extension enables you to use bullet lists in the editor. They are rendered as `<ul>` HTML tags.
 
@@ -13,7 +13,7 @@ Type <code>*&nbsp;</code>, <code>-&nbsp;</code> or <code>+&nbsp;</code> at the b
 
 ## Installation
 ```bash
-npm install @tiptap/extension-bullet-list @tiptap/extension-list-item
+npm install @editfish/extension-bullet-list @editfish/extension-list-item
 ```
 
 This extension requires the [`ListItem`](/api/nodes/list-item) node.

@@ -29,7 +29,7 @@ There are also some extensions with more capabilities. We call them [nodes](/api
 | [UniqueID](/api/extensions/unique-id)                       | –                                                | Requires a Tiptap Pro subscription                                                                |
 | [Typography](/api/extensions/typography)                    | –                                                | [GitHub](https://github.com/ueberdosis/tiptap/blob/main/packages/extension-typography/)           |
 
-You don’t have to use it, but we prepared a `@tiptap/starter-kit` which includes the most common extensions. Read more about [`StarterKit`](/guide/configuration#default-extensions).
+You don’t have to use it, but we prepared a `@editfish/starter-kit` which includes the most common extensions. Read more about [`StarterKit`](/guide/configuration#default-extensions).
 
 Also a list of community extensions can be found in the [Awesome Tiptap Repository](https://github.com/ueberdosis/awesome-tiptap#community-extensions). There is also a [Discussion Thread](https://github.com/ueberdosis/tiptap/discussions/2973) about community extensions.
 
@@ -44,7 +44,7 @@ We recommend to start with customizing existing extensions first, and create you
 You’re free to create your own extensions for Tiptap. Here is the boilerplate code that’s needed to create and register your own extension:
 
 ```js
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 
 const CustomExtension = Extension.create({
   // Your code here

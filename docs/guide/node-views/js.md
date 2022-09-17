@@ -18,7 +18,7 @@ Here is what you need to do to render a node view inside your editor:
 This is how your node extension could look like:
 
 ```js
-import { Node } from '@tiptap/core'
+import { Node } from '@editfish/core'
 import Component from './Component.vue'
 
 export default Node.create({

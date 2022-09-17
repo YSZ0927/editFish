@@ -4,8 +4,8 @@ icon: strikethrough
 ---
 
 # Strike
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-strike.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-strike)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-strike.svg)](https://npmcharts.com/compare/@tiptap/extension-strike?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-strike.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-strike)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-strike.svg)](https://npmcharts.com/compare/@editfish/extension-strike?minimal=true)
 
 Use this extension to render ~~striked text~~. If you pass `<s>`, `<del>`, `<strike>` tags, or text with inline `style` attributes setting `text-decoration: line-through` in the editor’s initial content, they all will be rendered accordingly.
 
@@ -17,7 +17,7 @@ The extension will generate the corresponding `<s>` HTML tags when reading conte
 
 ## Installation
 ```bash
-npm install @tiptap/extension-strike
+npm install @editfish/extension-strike
 ```
 
 ## Settings

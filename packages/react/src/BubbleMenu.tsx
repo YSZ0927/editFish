@@ -1,4 +1,4 @@
-import { BubbleMenuPlugin, BubbleMenuPluginProps } from '@tiptap/extension-bubble-menu'
+import { BubbleMenuPlugin, BubbleMenuPluginProps } from '@editfish/extension-bubble-menu'
 import React, {
   useEffect, useState,
 } from 'react'

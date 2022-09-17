@@ -4,13 +4,25 @@
       figure
     </button>
     <button
-      @click="editor.chain().focus().imageToFigure().run()"
+      @click="
+        editor
+          .chain()
+          .focus()
+          .imageToFigure()
+          .run()
+      "
       :disabled="!editor.can().imageToFigure()"
     >
       image to figure
     </button>
     <button
-      @click="editor.chain().focus().figureToImage().run()"
+      @click="
+        editor
+          .chain()
+          .focus()
+          .figureToImage()
+          .run()
+      "
       :disabled="!editor.can().figureToImage()"
     >
       figure to image
@@ -23,9 +35,9 @@
 </template>
 
 <script>
-import Image from '@tiptap/extension-image'
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Image from '@editfish/extension-image'
+import StarterKit from '@editfish/starter-kit'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 import { Figure } from './figure'
 
@@ -57,11 +69,7 @@ export default {
 
   mounted() {
     this.editor = new Editor({
-      extensions: [
-        StarterKit,
-        Figure,
-        Image,
-      ],
+      extensions: [StarterKit, Figure, Image],
       content: `
         <p>Figure + Figcaption</p>
         <figure>
@@ -92,7 +100,7 @@ export default {
 
   figure {
     max-width: 25rem;
-    border: 3px solid #0D0D0D;
+    border: 3px solid #0d0d0d;
     border-radius: 0.5rem;
     margin: 1rem 0;
     padding: 0.5rem;
@@ -102,7 +110,7 @@ export default {
     margin-top: 0.25rem;
     text-align: center;
     padding: 0.5rem;
-    border: 2px dashed #0D0D0D20;
+    border: 2px dashed #0d0d0d20;
     border-radius: 0.5rem;
   }
 

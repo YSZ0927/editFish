@@ -1,7 +1,7 @@
-# @tiptap/extension-gapcursor
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-gapcursor.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-gapcursor)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-gapcursor.svg)](https://npmcharts.com/compare/tiptap?minimal=true)
-[![License](https://img.shields.io/npm/l/@tiptap/extension-gapcursor.svg)](https://www.npmjs.com/package/@tiptap/extension-gapcursor)
+# @editfish/extension-gapcursor
+[![Version](https://img.shields.io/npm/v/@editfish/extension-gapcursor.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-gapcursor)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-gapcursor.svg)](https://npmcharts.com/compare/tiptap?minimal=true)
+[![License](https://img.shields.io/npm/l/@editfish/extension-gapcursor.svg)](https://www.npmjs.com/package/@editfish/extension-gapcursor)
 [![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub)](https://github.com/sponsors/ueberdosis)
 
 ## Introduction

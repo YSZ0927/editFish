@@ -3,10 +3,10 @@ import {
   Extension,
   getExtensionField,
   ParentConfig,
-} from '@tiptap/core'
+} from '@editfish/core'
 import { gapCursor } from 'prosemirror-gapcursor'
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface NodeConfig<Options, Storage> {
     /**
      * Allow gap cursor

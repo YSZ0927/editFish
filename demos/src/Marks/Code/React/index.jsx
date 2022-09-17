@@ -1,10 +1,10 @@
 import './styles.scss'
 
-import Code from '@tiptap/extension-code'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Code from '@editfish/extension-code'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { EditorContent, useEditor } from '@editfish/react'
 import React from 'react'
 
 export default () => {
@@ -23,19 +23,34 @@ export default () => {
   return (
     <>
       <button
-        onClick={() => editor.chain().focus().toggleCode().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .toggleCode()
+          .run()
+        }
         className={editor.isActive('code') ? 'is-active' : ''}
       >
         toggleCode
       </button>
       <button
-        onClick={() => editor.chain().focus().setCode().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .setCode()
+          .run()
+        }
         disabled={editor.isActive('code')}
       >
         setCode
       </button>
       <button
-        onClick={() => editor.chain().focus().unsetCode().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .unsetCode()
+          .run()
+        }
         disabled={!editor.isActive('code')}
       >
         unsetCode

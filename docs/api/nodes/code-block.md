@@ -4,8 +4,8 @@ icon: terminal-box-line
 ---
 
 # CodeBlock
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-code-block.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-code-block)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-code-block.svg)](https://npmcharts.com/compare/@tiptap/extension-code-block?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-code-block.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-code-block)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-code-block.svg)](https://npmcharts.com/compare/@editfish/extension-code-block?minimal=true)
 
 With the CodeBlock extension you can add fenced code blocks to your documents. It’ll wrap the code in `<pre>` and `<code>` HTML tags.
 
@@ -17,7 +17,7 @@ The CodeBlock extension doesn’t come with styling and has no syntax highlighti
 
 ## Installation
 ```bash
-npm install @tiptap/extension-code-block
+npm install @editfish/extension-code-block
 ```
 
 ## Settings

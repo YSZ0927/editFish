@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import StarterKit from '@editfish/starter-kit'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 import DraggableItem from './DraggableItem.js'
 
@@ -23,10 +23,7 @@ export default {
 
   mounted() {
     this.editor = new Editor({
-      extensions: [
-        StarterKit,
-        DraggableItem,
-      ],
+      extensions: [StarterKit, DraggableItem],
       content: `
         <p>This is a boring paragraph.</p>
         <div data-type="draggable-item">

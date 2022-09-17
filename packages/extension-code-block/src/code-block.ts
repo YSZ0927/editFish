@@ -1,4 +1,4 @@
-import { mergeAttributes, Node, textblockTypeInputRule } from '@tiptap/core'
+import { mergeAttributes, Node, textblockTypeInputRule } from '@editfish/core'
 import { Plugin, PluginKey, TextSelection } from 'prosemirror-state'
 
 export interface CodeBlockOptions {
@@ -23,7 +23,7 @@ export interface CodeBlockOptions {
   HTMLAttributes: Record<string, any>,
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     codeBlock: {
       /**

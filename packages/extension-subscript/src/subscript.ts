@@ -1,10 +1,10 @@
-import { Mark, mergeAttributes } from '@tiptap/core'
+import { Mark, mergeAttributes } from '@editfish/core'
 
 export interface SubscriptExtensionOptions {
   HTMLAttributes: Object,
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     subscript: {
       /**

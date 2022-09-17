@@ -1,4 +1,4 @@
-import { ReactRenderer } from '@tiptap/react'
+import { ReactRenderer } from '@editfish/react'
 import tippy from 'tippy.js'
 
 import MentionList from './MentionList.jsx'

@@ -18,7 +18,7 @@ import {
 import { callOrReturn } from './utilities/callOrReturn'
 import { mergeDeep } from './utilities/mergeDeep'
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface ExtensionConfig<Options = any, Storage = any> {
     [key: string]: any;
 
@@ -325,6 +325,8 @@ export class Extension<Options = any, Storage = any> {
     const extension = this.extend()
 
     extension.options = mergeDeep(this.options, options) as Options
+
+    console.log(extension.options)
 
     extension.storage = callOrReturn(getExtensionField<AnyConfig['addStorage']>(
       extension,

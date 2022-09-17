@@ -13,10 +13,10 @@ A few more things can be configured though. Let’s look at a fully configured e
 To add your configuration, pass [an object with settings](/api/editor) to the `Editor` class, like shown here:
 
 ```js
-import { Editor } from '@tiptap/core'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
+import { Editor } from '@editfish/core'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
 
 new Editor({
   element: document.querySelector('.element'),
@@ -47,10 +47,10 @@ Most editing features are bundled as [node](/api/nodes), [mark](/api/marks) or [
 Here is the minimal setup with only three extensions:
 
 ```js
-import { Editor } from '@tiptap/core'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
+import { Editor } from '@editfish/core'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
 
 new Editor({
   element: document.querySelector('.element'),
@@ -68,11 +68,11 @@ Most extensions can be configured. Add a `.configure()` and pass an object to it
 The following example will disable the default heading levels 4, 5 and 6 and just allow 1, 2 and 3:
 
 ```js
-import { Editor } from '@tiptap/core'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import Heading from '@tiptap/extension-heading'
+import { Editor } from '@editfish/core'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import Heading from '@editfish/extension-heading'
 
 new Editor({
   element: document.querySelector('.element'),
@@ -93,7 +93,7 @@ Have a look at the documentation of the extension you are using to learn more ab
 We have bundled a few of the most common extensions into a `StarterKit` extension. Here is how you to use that:
 
 ```js
-import StarterKit from '@tiptap/starter-kit'
+import StarterKit from '@editfish/starter-kit'
 
 new Editor({
   extensions: [
@@ -105,7 +105,7 @@ new Editor({
 You can even pass a configuration for all included extensions as an object. Just prefix the configuration with the extension name:
 
 ```js
-import StarterKit from '@tiptap/starter-kit'
+import StarterKit from '@editfish/starter-kit'
 
 new Editor({
   extensions: StarterKit.configure({
@@ -119,8 +119,8 @@ new Editor({
 The `StarterKit` extension loads the most common extensions, but not all available extensions. If you want to load additional extensions or add a custom extension, add them to the `extensions` array:
 
 ```js
-import StarterKit from '@tiptap/starter-kit'
-import Strike from '@tiptap/extension-strike'
+import StarterKit from '@editfish/starter-kit'
+import Strike from '@editfish/extension-strike'
 
 new Editor({
   extensions: [
@@ -133,7 +133,7 @@ new Editor({
 Don’t want to load a specific extension from the `StarterKit`? Just pass `false` to the config:
 
 ```js
-import StarterKit from '@tiptap/starter-kit'
+import StarterKit from '@editfish/starter-kit'
 
 new Editor({
   extensions: [

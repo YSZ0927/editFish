@@ -2,7 +2,7 @@ import { liftEmptyBlock as originalLiftEmptyBlock } from 'prosemirror-commands'
 
 import { RawCommands } from '../types'
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     liftEmptyBlock: {
       /**

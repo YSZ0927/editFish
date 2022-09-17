@@ -4,14 +4,14 @@ icon: menu-4-line
 ---
 
 # Floating Menu
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-floating-menu.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-floating-menu)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-floating-menu.svg)](https://npmcharts.com/compare/@tiptap/extension-floating-menu?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-floating-menu.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-floating-menu)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-floating-menu.svg)](https://npmcharts.com/compare/@editfish/extension-floating-menu?minimal=true)
 
 This extension will make a contextual menu appear near a selection of text.
 
 ## Installation
 ```bash
-npm install @tiptap/extension-floating-menu
+npm install @editfish/extension-floating-menu
 ```
 
 ## Settings
@@ -47,8 +47,8 @@ Type: `(props) => boolean`
 
 ## Using Vanilla JavaScript
 ```js
-import { Editor } from '@tiptap/core'
-import FloatingMenu from '@tiptap/extension-floating-menu'
+import { Editor } from '@editfish/core'
+import FloatingMenu from '@editfish/extension-floating-menu'
 
 new Editor({
   extensions: [
@@ -78,8 +78,8 @@ FloatingMenu.configure({
 Use multiple menus by setting an unique `pluginKey`.
 
 ```js
-import { Editor } from '@tiptap/core'
-import FloatingMenu from '@tiptap/extension-floating-menu'
+import { Editor } from '@editfish/core'
+import FloatingMenu from '@editfish/extension-floating-menu'
 
 new Editor({
   extensions: [
@@ -98,8 +98,8 @@ new Editor({
 Alternatively you can pass a ProseMirror `PluginKey`.
 
 ```js
-import { Editor } from '@tiptap/core'
-import FloatingMenu from '@tiptap/extension-floating-menu'
+import { Editor } from '@editfish/core'
+import FloatingMenu from '@editfish/extension-floating-menu'
 import { PluginKey } from 'prosemirror-state'
 
 new Editor({

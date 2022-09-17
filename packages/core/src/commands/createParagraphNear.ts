@@ -2,7 +2,7 @@ import { createParagraphNear as originalCreateParagraphNear } from 'prosemirror-
 
 import { RawCommands } from '../types'
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     createParagraphNear: {
       /**

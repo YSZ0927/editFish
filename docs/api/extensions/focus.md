@@ -4,8 +4,8 @@ icon: focus-line
 ---
 
 # Focus
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-focus.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-focus)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-focus.svg)](https://npmcharts.com/compare/@tiptap/extension-focus?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-focus.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-focus)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-focus.svg)](https://npmcharts.com/compare/@editfish/extension-focus?minimal=true)
 
 The Focus extension adds a CSS class to focused nodes. By default it adds `.has-focus`, but you can change that.
 
@@ -13,7 +13,7 @@ Note that it’s only a class, the styling is totally up to you. The usage examp
 
 ## Installation
 ```bash
-npm install @tiptap/extension-focus
+npm install @editfish/extension-focus
 ```
 
 ## Settings

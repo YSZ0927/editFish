@@ -1,7 +1,7 @@
 import './styles.scss'
 
-import { EditorContent, useEditor } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import { EditorContent, useEditor } from '@editfish/react'
+import StarterKit from '@editfish/starter-kit'
 import React, { useCallback, useEffect, useState } from 'react'
 
 export default () => {
@@ -45,7 +45,11 @@ export default () => {
   }, [editor])
 
   const clearContent = useCallback(() => {
-    editor.chain().clearContent(true).focus().run()
+    editor
+      .chain()
+      .clearContent(true)
+      .focus()
+      .run()
   }, [editor])
 
   if (!editor) {
@@ -62,13 +66,23 @@ export default () => {
           Clear Content
         </button>
         <button
-          onClick={() => editor.chain().focus().toggleBold().run()}
+          onClick={() => editor
+            .chain()
+            .focus()
+            .toggleBold()
+            .run()
+          }
           className={editor.isActive('bold') ? 'is-active' : ''}
         >
           Bold
         </button>
         <button
-          onClick={() => editor.chain().focus().toggleItalic().run()}
+          onClick={() => editor
+            .chain()
+            .focus()
+            .toggleItalic()
+            .run()
+          }
           className={editor.isActive('italic') ? 'is-active' : ''}
         >
           Italic

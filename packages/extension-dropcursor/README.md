@@ -1,7 +1,7 @@
-# @tiptap/extension-dropcursor
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-dropcursor.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-dropcursor)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-dropcursor.svg)](https://npmcharts.com/compare/tiptap?minimal=true)
-[![License](https://img.shields.io/npm/l/@tiptap/extension-dropcursor.svg)](https://www.npmjs.com/package/@tiptap/extension-dropcursor)
+# @editfish/extension-dropcursor
+[![Version](https://img.shields.io/npm/v/@editfish/extension-dropcursor.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-dropcursor)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-dropcursor.svg)](https://npmcharts.com/compare/tiptap?minimal=true)
+[![License](https://img.shields.io/npm/l/@editfish/extension-dropcursor.svg)](https://www.npmjs.com/package/@editfish/extension-dropcursor)
 [![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub)](https://github.com/sponsors/ueberdosis)
 
 ## Introduction

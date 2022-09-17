@@ -3,7 +3,7 @@ import { TextSelection } from 'prosemirror-state'
 import { Range, RawCommands } from '../types'
 import { minMax } from '../utilities/minMax'
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     setTextSelection: {
       /**

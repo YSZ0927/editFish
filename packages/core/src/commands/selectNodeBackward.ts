@@ -2,7 +2,7 @@ import { selectNodeBackward as originalSelectNodeBackward } from 'prosemirror-co
 
 import { RawCommands } from '../types'
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     selectNodeBackward: {
       /**

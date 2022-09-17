@@ -1,11 +1,11 @@
 import './styles.scss'
 
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import TaskItem from '@tiptap/extension-task-item'
-import TaskList from '@tiptap/extension-task-list'
-import Text from '@tiptap/extension-text'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import TaskItem from '@editfish/extension-task-item'
+import TaskList from '@editfish/extension-task-list'
+import Text from '@editfish/extension-text'
+import { EditorContent, useEditor } from '@editfish/react'
 import React from 'react'
 
 const CustomDocument = Document.extend({
@@ -18,13 +18,7 @@ const CustomTaskItem = TaskItem.extend({
 
 export default () => {
   const editor = useEditor({
-    extensions: [
-      CustomDocument,
-      Paragraph,
-      Text,
-      TaskList,
-      CustomTaskItem,
-    ],
+    extensions: [CustomDocument, Paragraph, Text, TaskList, CustomTaskItem],
     content: `
       <ul data-type="taskList">
         <li data-type="taskItem" data-checked="true">flour</li>
@@ -38,7 +32,5 @@ export default () => {
     `,
   })
 
-  return (
-    <EditorContent editor={editor} />
-  )
+  return <EditorContent editor={editor} />
 }

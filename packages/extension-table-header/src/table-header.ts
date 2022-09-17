@@ -1,4 +1,4 @@
-import { mergeAttributes, Node } from '@tiptap/core'
+import { mergeAttributes, Node } from '@editfish/core'
 
 export interface TableHeaderOptions {
   HTMLAttributes: Record<string, any>,

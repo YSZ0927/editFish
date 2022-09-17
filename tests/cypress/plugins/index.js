@@ -21,7 +21,7 @@ module.exports = on => {
   globby.sync('../packages/*', { onlyDirectories: true })
     .map(name => name.replace('../packages/', ''))
     .forEach(name => {
-      alias[`@tiptap/${name}$`] = path.resolve(`../packages/${name}/src/index.ts`)
+      alias[`@editfish/${name}$`] = path.resolve(`../packages/${name}/src/index.ts`)
     })
 
   const options = {

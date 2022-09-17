@@ -1,18 +1,14 @@
 import './styles.scss'
 
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { EditorContent, useEditor } from '@editfish/react'
 import React from 'react'
 
 export default () => {
   const editor = useEditor({
-    extensions: [
-      Document,
-      Paragraph,
-      Text,
-    ],
+    extensions: [Document, Paragraph, Text],
     content: `
       <p>
         This is a radically reduced version of tiptap. It has support for a document, with paragraphs and text. That’s it. It’s probably too much for real minimalists though.
@@ -23,7 +19,5 @@ export default () => {
     `,
   })
 
-  return (
-    <EditorContent editor={editor} />
-  )
+  return <EditorContent editor={editor} />
 }

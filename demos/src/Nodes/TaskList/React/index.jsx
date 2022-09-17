@@ -1,11 +1,11 @@
 import './styles.scss'
 
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import TaskItem from '@tiptap/extension-task-item'
-import TaskList from '@tiptap/extension-task-list'
-import Text from '@tiptap/extension-text'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import TaskItem from '@editfish/extension-task-item'
+import TaskList from '@editfish/extension-task-list'
+import Text from '@editfish/extension-text'
+import { EditorContent, useEditor } from '@editfish/react'
 import React from 'react'
 
 export default () => {
@@ -34,25 +34,45 @@ export default () => {
   return (
     <>
       <button
-        onClick={() => editor.chain().focus().toggleTaskList().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .toggleTaskList()
+          .run()
+        }
         className={editor.isActive('taskList') ? 'is-active' : ''}
       >
         toggleTaskList
       </button>
       <button
-        onClick={() => editor.chain().focus().splitListItem('taskItem').run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .splitListItem('taskItem')
+          .run()
+        }
         disabled={!editor.can().splitListItem('taskItem')}
       >
         splitListItem
       </button>
       <button
-        onClick={() => editor.chain().focus().sinkListItem('taskItem').run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .sinkListItem('taskItem')
+          .run()
+        }
         disabled={!editor.can().sinkListItem('taskItem')}
       >
         sinkListItem
       </button>
       <button
-        onClick={() => editor.chain().focus().liftListItem('taskItem').run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .liftListItem('taskItem')
+          .run()
+        }
         disabled={!editor.can().liftListItem('taskItem')}
       >
         liftListItem

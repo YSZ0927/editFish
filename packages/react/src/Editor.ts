@@ -1,4 +1,4 @@
-import { Editor as CoreEditor } from '@tiptap/core'
+import { Editor as CoreEditor } from '@editfish/core'
 import React from 'react'
 
 import { EditorContentProps, EditorContentState } from './EditorContent'

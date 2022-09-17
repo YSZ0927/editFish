@@ -1,8 +1,8 @@
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Subscript from '@tiptap/extension-subscript'
-import Text from '@tiptap/extension-text'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Subscript from '@editfish/extension-subscript'
+import Text from '@editfish/extension-text'
+import { EditorContent, useEditor } from '@editfish/react'
 import React from 'react'
 
 export default () => {
@@ -22,19 +22,34 @@ export default () => {
   return (
     <>
       <button
-        onClick={() => editor.chain().focus().toggleSubscript().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .toggleSubscript()
+          .run()
+        }
         className={editor.isActive('subscript') ? 'is-active' : ''}
       >
         toggleSubscript
       </button>
       <button
-        onClick={() => editor.chain().focus().setSubscript().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .setSubscript()
+          .run()
+        }
         disabled={editor.isActive('subscript')}
       >
         setSubscript
       </button>
       <button
-        onClick={() => editor.chain().focus().unsetSubscript().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .unsetSubscript()
+          .run()
+        }
         disabled={!editor.isActive('subscript')}
       >
         unsetSubscript

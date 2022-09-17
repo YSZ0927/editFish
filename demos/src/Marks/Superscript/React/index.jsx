@@ -1,8 +1,8 @@
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Superscript from '@tiptap/extension-superscript'
-import Text from '@tiptap/extension-text'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Superscript from '@editfish/extension-superscript'
+import Text from '@editfish/extension-text'
+import { EditorContent, useEditor } from '@editfish/react'
 import React from 'react'
 
 export default () => {
@@ -22,19 +22,34 @@ export default () => {
   return (
     <>
       <button
-        onClick={() => editor.chain().focus().toggleSuperscript().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .toggleSuperscript()
+          .run()
+        }
         className={editor.isActive('superscript') ? 'is-active' : ''}
       >
         toggleSuperscript
       </button>
       <button
-        onClick={() => editor.chain().focus().setSuperscript().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .setSuperscript()
+          .run()
+        }
         disabled={editor.isActive('superscript')}
       >
         setSuperscript
       </button>
       <button
-        onClick={() => editor.chain().focus().unsetSuperscript().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .unsetSuperscript()
+          .run()
+        }
         disabled={!editor.isActive('superscript')}
       >
         unsetSuperscript

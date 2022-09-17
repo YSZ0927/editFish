@@ -3,7 +3,16 @@
     <button @click="setLink" :class="{ 'is-active': editor.isActive('link') }">
       setLink
     </button>
-    <button @click="editor.chain().focus().unsetLink().run()" :disabled="!editor.isActive('link')">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .unsetLink()
+          .run()
+      "
+      :disabled="!editor.isActive('link')"
+    >
       unsetLink
     </button>
     <editor-content :editor="editor" />
@@ -11,12 +20,12 @@
 </template>
 
 <script>
-import Code from '@tiptap/extension-code'
-import Document from '@tiptap/extension-document'
-import Link from '@tiptap/extension-link'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Code from '@editfish/extension-code'
+import Document from '@editfish/extension-document'
+import Link from '@editfish/extension-link'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 export default {
   components: {
@@ -97,7 +106,7 @@ export default {
   }
 
   a {
-    color: #68CEF8;
+    color: #68cef8;
   }
 
   code {

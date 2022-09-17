@@ -1,57 +1,218 @@
 <template>
   <div v-if="editor">
-    <button @click="editor.chain().focus().insertTable({ rows: 3, cols: 3, withHeaderRow: true }).run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .insertTable({ rows: 3, cols: 3, withHeaderRow: true })
+          .run()
+      "
+    >
       insertTable
     </button>
-    <button @click="editor.chain().focus().addColumnBefore().run()" :disabled="!editor.can().addColumnBefore()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .addColumnBefore()
+          .run()
+      "
+      :disabled="!editor.can().addColumnBefore()"
+    >
       addColumnBefore
     </button>
-    <button @click="editor.chain().focus().addColumnAfter().run()" :disabled="!editor.can().addColumnAfter()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .addColumnAfter()
+          .run()
+      "
+      :disabled="!editor.can().addColumnAfter()"
+    >
       addColumnAfter
     </button>
-    <button @click="editor.chain().focus().deleteColumn().run()" :disabled="!editor.can().deleteColumn()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .deleteColumn()
+          .run()
+      "
+      :disabled="!editor.can().deleteColumn()"
+    >
       deleteColumn
     </button>
-    <button @click="editor.chain().focus().addRowBefore().run()" :disabled="!editor.can().addRowBefore()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .addRowBefore()
+          .run()
+      "
+      :disabled="!editor.can().addRowBefore()"
+    >
       addRowBefore
     </button>
-    <button @click="editor.chain().focus().addRowAfter().run()" :disabled="!editor.can().addRowAfter()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .addRowAfter()
+          .run()
+      "
+      :disabled="!editor.can().addRowAfter()"
+    >
       addRowAfter
     </button>
-    <button @click="editor.chain().focus().deleteRow().run()" :disabled="!editor.can().deleteRow()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .deleteRow()
+          .run()
+      "
+      :disabled="!editor.can().deleteRow()"
+    >
       deleteRow
     </button>
-    <button @click="editor.chain().focus().deleteTable().run()" :disabled="!editor.can().deleteTable()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .deleteTable()
+          .run()
+      "
+      :disabled="!editor.can().deleteTable()"
+    >
       deleteTable
     </button>
-    <button @click="editor.chain().focus().mergeCells().run()" :disabled="!editor.can().mergeCells()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .mergeCells()
+          .run()
+      "
+      :disabled="!editor.can().mergeCells()"
+    >
       mergeCells
     </button>
-    <button @click="editor.chain().focus().splitCell().run()" :disabled="!editor.can().splitCell()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .splitCell()
+          .run()
+      "
+      :disabled="!editor.can().splitCell()"
+    >
       splitCell
     </button>
-    <button @click="editor.chain().focus().toggleHeaderColumn().run()" :disabled="!editor.can().toggleHeaderColumn()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .toggleHeaderColumn()
+          .run()
+      "
+      :disabled="!editor.can().toggleHeaderColumn()"
+    >
       toggleHeaderColumn
     </button>
-    <button @click="editor.chain().focus().toggleHeaderRow().run()" :disabled="!editor.can().toggleHeaderRow()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .toggleHeaderRow()
+          .run()
+      "
+      :disabled="!editor.can().toggleHeaderRow()"
+    >
       toggleHeaderRow
     </button>
-    <button @click="editor.chain().focus().toggleHeaderCell().run()" :disabled="!editor.can().toggleHeaderCell()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .toggleHeaderCell()
+          .run()
+      "
+      :disabled="!editor.can().toggleHeaderCell()"
+    >
       toggleHeaderCell
     </button>
-    <button @click="editor.chain().focus().mergeOrSplit().run()" :disabled="!editor.can().mergeOrSplit()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .mergeOrSplit()
+          .run()
+      "
+      :disabled="!editor.can().mergeOrSplit()"
+    >
       mergeOrSplit
     </button>
-    <button @click="editor.chain().focus().setCellAttribute('backgroundColor', '#FAF594').run()" :disabled="!editor.can().setCellAttribute('backgroundColor', '#FAF594')">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .setCellAttribute('backgroundColor', '#FAF594')
+          .run()
+      "
+      :disabled="!editor.can().setCellAttribute('backgroundColor', '#FAF594')"
+    >
       setCellAttribute
     </button>
-    <button @click="editor.chain().focus().fixTables().run()" :disabled="!editor.can().fixTables()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .fixTables()
+          .run()
+      "
+      :disabled="!editor.can().fixTables()"
+    >
       fixTables
     </button>
-    <button @click="editor.chain().focus().goToNextCell().run()" :disabled="!editor.can().goToNextCell()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .goToNextCell()
+          .run()
+      "
+      :disabled="!editor.can().goToNextCell()"
+    >
       goToNextCell
     </button>
-    <button @click="editor.chain().focus().goToPreviousCell().run()" :disabled="!editor.can().goToPreviousCell()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .goToPreviousCell()
+          .run()
+      "
+      :disabled="!editor.can().goToPreviousCell()"
+    >
       goToPreviousCell
     </button>
   </div>
@@ -59,12 +220,12 @@
 </template>
 
 <script>
-import Table from '@tiptap/extension-table'
-import TableCell from '@tiptap/extension-table-cell'
-import TableHeader from '@tiptap/extension-table-header'
-import TableRow from '@tiptap/extension-table-row'
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Table from '@editfish/extension-table'
+import TableCell from '@editfish/extension-table-cell'
+import TableHeader from '@editfish/extension-table-header'
+import TableRow from '@editfish/extension-table-row'
+import StarterKit from '@editfish/starter-kit'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 const CustomTableCell = TableCell.extend({
   addAttributes() {
@@ -188,9 +349,9 @@ export default {
   }
 
   pre {
-    background: #0D0D0D;
-    color: #FFF;
-    font-family: 'JetBrainsMono', monospace;
+    background: #0d0d0d;
+    color: #fff;
+    font-family: "JetBrainsMono", monospace;
     padding: 0.75rem 1rem;
     border-radius: 0.5rem;
 
@@ -209,12 +370,12 @@ export default {
 
   blockquote {
     padding-left: 1rem;
-    border-left: 2px solid rgba(#0D0D0D, 0.1);
+    border-left: 2px solid rgba(#0d0d0d, 0.1);
   }
 
   hr {
     border: none;
-    border-top: 2px solid rgba(#0D0D0D, 0.1);
+    border-top: 2px solid rgba(#0d0d0d, 0.1);
     margin: 2rem 0;
   }
 }
@@ -252,7 +413,10 @@ export default {
       z-index: 2;
       position: absolute;
       content: "";
-      left: 0; right: 0; top: 0; bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
       background: rgba(200, 200, 255, 0.4);
       pointer-events: none;
     }

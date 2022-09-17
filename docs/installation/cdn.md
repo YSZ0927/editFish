@@ -14,8 +14,8 @@ For testing purposes or demos, use our [Skypack](https://www.skypack.dev/) CDN b
 <body>
   <div class="element"></div>
   <script type="module">
-    import { Editor } from 'https://cdn.skypack.dev/@tiptap/core?min'
-    import StarterKit from 'https://cdn.skypack.dev/@tiptap/starter-kit?min'
+    import { Editor } from 'https://cdn.skypack.dev/@editfish/core?min'
+    import StarterKit from 'https://cdn.skypack.dev/@editfish/starter-kit?min'
     const editor = new Editor({
       element: document.querySelector('.element'),
       extensions: [

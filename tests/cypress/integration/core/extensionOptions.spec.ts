@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-import { Extension } from '@tiptap/core/src/Extension'
+import { Extension } from '@editfish/core/src/Extension'
 
 describe('extension options', () => {
   it('should set options', () => {

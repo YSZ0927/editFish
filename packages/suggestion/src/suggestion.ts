@@ -1,4 +1,4 @@
-import { Editor, Range } from '@tiptap/core'
+import { Editor, Range } from '@editfish/core'
 import { EditorState, Plugin, PluginKey } from 'prosemirror-state'
 import { Decoration, DecorationSet, EditorView } from 'prosemirror-view'
 

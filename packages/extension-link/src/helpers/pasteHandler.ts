@@ -1,4 +1,4 @@
-import { Editor } from '@tiptap/core'
+import { Editor } from '@editfish/core'
 import { find } from 'linkifyjs'
 import { MarkType } from 'prosemirror-model'
 import { Plugin, PluginKey } from 'prosemirror-state'

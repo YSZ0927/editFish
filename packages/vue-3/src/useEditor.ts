@@ -1,4 +1,4 @@
-import { EditorOptions } from '@tiptap/core'
+import { EditorOptions } from '@editfish/core'
 import { onBeforeUnmount, onMounted, shallowRef } from 'vue'
 
 import { Editor } from './Editor'

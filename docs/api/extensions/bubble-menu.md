@@ -4,8 +4,8 @@ icon: chat-2-line
 ---
 
 # Bubble Menu
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-bubble-menu.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-bubble-menu)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-bubble-menu.svg)](https://npmcharts.com/compare/@tiptap/extension-bubble-menu?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-bubble-menu.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-bubble-menu)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-bubble-menu.svg)](https://npmcharts.com/compare/@editfish/extension-bubble-menu?minimal=true)
 
 This extension will make a contextual menu appear near a selection of text. Use it to let users apply [marks](/api/marks) to their text selection.
 
@@ -13,7 +13,7 @@ As always, the markup and styling is totally up to you.
 
 ## Installation
 ```bash
-npm install @tiptap/extension-bubble-menu
+npm install @editfish/extension-bubble-menu
 ```
 
 ## Settings
@@ -51,8 +51,8 @@ Type: `(props) => boolean`
 
 ### JavaScript
 ```js
-import { Editor } from '@tiptap/core'
-import BubbleMenu from '@tiptap/extension-bubble-menu'
+import { Editor } from '@editfish/core'
+import BubbleMenu from '@editfish/extension-bubble-menu'
 
 new Editor({
   extensions: [
@@ -82,8 +82,8 @@ BubbleMenu.configure({
 Use multiple menus by setting an unique `pluginKey`.
 
 ```js
-import { Editor } from '@tiptap/core'
-import BubbleMenu from '@tiptap/extension-bubble-menu'
+import { Editor } from '@editfish/core'
+import BubbleMenu from '@editfish/extension-bubble-menu'
 
 new Editor({
   extensions: [
@@ -102,8 +102,8 @@ new Editor({
 Alternatively you can pass a ProseMirror `PluginKey`.
 
 ```js
-import { Editor } from '@tiptap/core'
-import BubbleMenu from '@tiptap/extension-bubble-menu'
+import { Editor } from '@editfish/core'
+import BubbleMenu from '@editfish/extension-bubble-menu'
 import { PluginKey } from 'prosemirror-state'
 
 new Editor({

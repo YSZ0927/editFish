@@ -7,8 +7,8 @@ tableOfContents: true
 # Table
 
 ## Introduction
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-table.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-table)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-table.svg)](https://npmcharts.com/compare/@tiptap/extension-table?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-table.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-table)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-table.svg)](https://npmcharts.com/compare/@editfish/extension-table?minimal=true)
 
 Nothing is as much fun as a good old HTML table. The `Table` extension enables you to add this holy grail of WYSIWYG editing to your editor.
 
@@ -16,7 +16,7 @@ Don’t forget to add a `spacer.gif`. (Just joking. If you don’t know what tha
 
 ## Installation
 ```bash
-npm install @tiptap/extension-table @tiptap/extension-table-row @tiptap/extension-table-header @tiptap/extension-table-cell
+npm install @editfish/extension-table @editfish/extension-table-row @editfish/extension-table-header @editfish/extension-table-cell
 ```
 
 This extension requires the [`TableRow`](/api/nodes/table-row), [`TableHeader`](/api/nodes/table-header) and [`TableCell`](/api/nodes/table-cell) nodes.

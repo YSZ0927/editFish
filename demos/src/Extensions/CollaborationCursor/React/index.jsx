@@ -1,12 +1,12 @@
 import './styles.scss'
 
-import Collaboration from '@tiptap/extension-collaboration'
-import CollaborationCursor from '@tiptap/extension-collaboration-cursor'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Placeholder from '@tiptap/extension-placeholder'
-import Text from '@tiptap/extension-text'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Collaboration from '@editfish/extension-collaboration'
+import CollaborationCursor from '@editfish/extension-collaboration-cursor'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Placeholder from '@editfish/extension-placeholder'
+import Text from '@editfish/extension-text'
+import { EditorContent, useEditor } from '@editfish/react'
 import React from 'react'
 import { WebrtcProvider } from 'y-webrtc'
 import * as Y from 'yjs'
@@ -31,8 +31,7 @@ export default () => {
         },
       }),
       Placeholder.configure({
-        placeholder:
-          'Write something … It’ll be shared with everyone else looking at this example.',
+        placeholder: 'Write something … It’ll be shared with everyone else looking at this example.',
       }),
     ],
   })

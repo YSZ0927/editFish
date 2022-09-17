@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import StarterKit from '@editfish/starter-kit'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 import { TrailingNode } from './trailing-node'
 
@@ -23,10 +23,7 @@ export default {
 
   mounted() {
     this.editor = new Editor({
-      extensions: [
-        StarterKit,
-        TrailingNode,
-      ],
+      extensions: [StarterKit, TrailingNode],
       content: `
         <p>Example text</p>
         <pre><code>console.log('foo')</code></pre>
@@ -47,9 +44,9 @@ export default {
   }
 
   pre {
-    background: #0D0D0D;
-    color: #FFF;
-    font-family: 'JetBrainsMono', monospace;
+    background: #0d0d0d;
+    color: #fff;
+    font-family: "JetBrainsMono", monospace;
     padding: 0.75rem 1rem;
     border-radius: 0.5rem;
 

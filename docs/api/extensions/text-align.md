@@ -4,8 +4,8 @@ icon: align-left
 ---
 
 # TextAlign
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-text-align.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-text-align)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-text-align.svg)](https://npmcharts.com/compare/@tiptap/extension-text-align?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-text-align.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-text-align)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-text-align.svg)](https://npmcharts.com/compare/@editfish/extension-text-align?minimal=true)
 
 This extension adds a text align attribute to a specified list of nodes. The attribute is used to align the text.
 
@@ -15,7 +15,7 @@ This extension adds a text align attribute to a specified list of nodes. The att
 
 ## Installation
 ```bash
-npm install @tiptap/extension-text-align
+npm install @editfish/extension-text-align
 ```
 
 ## Settings

@@ -26,10 +26,10 @@ cd my-tiptap-project
 ```
 
 ## 2. Install the dependencies
-Okay, enough of the boring boilerplate work. Let’s finally install Tiptap! For the following example you’ll need the `@tiptap/vue-2` package, with a few components, and `@tiptap/starter-kit` which has the most common extensions to get started quickly.
+Okay, enough of the boring boilerplate work. Let’s finally install Tiptap! For the following example you’ll need the `@editfish/vue-2` package, with a few components, and `@editfish/starter-kit` which has the most common extensions to get started quickly.
 
 ```bash
-npm install @tiptap/vue-2 @tiptap/starter-kit
+npm install @editfish/vue-2 @editfish/starter-kit
 ```
 
 If you followed step 1 and 2, you can now start your project with `npm run serve`, and open [http://localhost:8080/](http://localhost:8080/) in your favorite browser. This might be different, if you’re working with an existing project.
@@ -45,8 +45,8 @@ This is the fastest way to get Tiptap up and running with Vue. It will give you 
 </template>
 
 <script>
-import { Editor, EditorContent } from '@tiptap/vue-2'
-import StarterKit from '@tiptap/starter-kit'
+import { Editor, EditorContent } from '@editfish/vue-2'
+import StarterKit from '@editfish/starter-kit'
 
 export default {
   components: {
@@ -111,8 +111,8 @@ https://embed.tiptap.dev/preview/GuideGettingStarted/VModel
 </template>
 
 <script>
-import { Editor, EditorContent } from '@tiptap/vue-2'
-import StarterKit from '@tiptap/starter-kit'
+import { Editor, EditorContent } from '@editfish/vue-2'
+import StarterKit from '@editfish/starter-kit'
 
 export default {
   components: {

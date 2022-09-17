@@ -1,5 +1,5 @@
-import { Extension } from '@tiptap/core'
-import Suggestion from '@tiptap/suggestion'
+import { Extension } from '@editfish/core'
+import Suggestion from '@editfish/suggestion'
 
 export default Extension.create({
   name: 'commands',

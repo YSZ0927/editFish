@@ -29,10 +29,10 @@ npm run dev
 ```
 
 ## 2. Install the dependencies
-Okay, enough of the boring boilerplate work. Let’s finally install Tiptap! For the following example you’ll need the `@tiptap/core` package, with a few components, and `@tiptap/starter-kit` which has the most common extensions to get started quickly.
+Okay, enough of the boring boilerplate work. Let’s finally install Tiptap! For the following example you’ll need the `@editfish/core` package, with a few components, and `@editfish/starter-kit` which has the most common extensions to get started quickly.
 
 ```bash
-npm install @tiptap/core @tiptap/starter-kit
+npm install @editfish/core @editfish/starter-kit
 ```
 
 If you followed step 1 and 2, you can now start your project with `npm run dev`, and open [http://localhost:3000/](http://localhost:3000/) in your favorite browser. This might be different, if you’re working with an existing project.
@@ -45,8 +45,8 @@ This is the fastest way to get Tiptap up and running with SvelteKit. It will giv
 ```html
 <script>
   import { onMount, onDestroy } from 'svelte'
-  import { Editor } from '@tiptap/core'
-  import StarterKit from '@tiptap/starter-kit'
+  import { Editor } from '@editfish/core'
+  import StarterKit from '@editfish/starter-kit'
 
   let element
   let editor

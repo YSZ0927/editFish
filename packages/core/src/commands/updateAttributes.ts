@@ -5,7 +5,7 @@ import { getNodeType } from '../helpers/getNodeType'
 import { getSchemaTypeNameByName } from '../helpers/getSchemaTypeNameByName'
 import { RawCommands } from '../types'
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     updateAttributes: {
       /**

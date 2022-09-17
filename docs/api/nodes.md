@@ -36,7 +36,7 @@ If you think of the document as a tree, then nodes are just a type of content in
 You’re free to create your own nodes for Tiptap. Here is the boilerplate code that’s need to create and register your own node:
 
 ```js
-import { Node } from '@tiptap/core'
+import { Node } from '@editfish/core'
 
 const CustomNode = Node.create({
   // Your code here

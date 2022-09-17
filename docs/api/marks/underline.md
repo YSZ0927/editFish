@@ -4,8 +4,8 @@ icon: underline
 ---
 
 # Underline
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-underline.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-underline)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-underline.svg)](https://npmcharts.com/compare/@tiptap/extension-underline?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-underline.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-underline)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-underline.svg)](https://npmcharts.com/compare/@editfish/extension-underline?minimal=true)
 
 Use this extension to render text <u>underlined</u>. If you pass `<u>` tags, or text with inline `style` attributes setting `text-decoration: underline` in the editor’s initial content, they all will be rendered accordingly.
 
@@ -17,7 +17,7 @@ The extension will generate the corresponding `<u>` HTML tags when reading conte
 
 ## Installation
 ```bash
-npm install @tiptap/extension-underline
+npm install @editfish/extension-underline
 ```
 
 ## Settings

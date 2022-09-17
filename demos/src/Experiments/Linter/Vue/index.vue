@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import Document from '@tiptap/extension-document'
-import Heading from '@tiptap/extension-heading'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Document from '@editfish/extension-document'
+import Heading from '@editfish/extension-heading'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 import Linter, { BadWords, HeadingLevel, Punctuation } from './extension'
 
@@ -32,11 +32,7 @@ export default {
         Heading,
         Text,
         Linter.configure({
-          plugins: [
-            BadWords,
-            Punctuation,
-            HeadingLevel,
-          ],
+          plugins: [BadWords, Punctuation, HeadingLevel],
         }),
       ],
       content: `
@@ -83,8 +79,8 @@ export default {
   width: 1.1em;
   height: 1.1em;
   text-align: center;
-  padding-left: .5px;
-  line-height: 1.1em
+  padding-left: 0.5px;
+  line-height: 1.1em;
 }
 
 .lint-icon:before {

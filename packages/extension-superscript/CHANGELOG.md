@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
 
-**Note:** Version bump only for package @tiptap/extension-superscript
+**Note:** Version bump only for package @editfish/extension-superscript
 
 
 
@@ -13,29 +13,29 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.194](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.193...v2.0.0-beta.194) (2022-09-11)
 
-**Note:** Version bump only for package @tiptap/extension-superscript
+**Note:** Version bump only for package @editfish/extension-superscript
 
 
 
 
 
-# [2.0.0-beta.13](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-superscript@2.0.0-beta.12...@tiptap/extension-superscript@2.0.0-beta.13) (2022-06-20)
+# [2.0.0-beta.13](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-superscript@2.0.0-beta.12...@editfish/extension-superscript@2.0.0-beta.13) (2022-06-20)
 
-**Note:** Version bump only for package @tiptap/extension-superscript
-
-
-
-
-
-# [2.0.0-beta.12](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-superscript@2.0.0-beta.10...@tiptap/extension-superscript@2.0.0-beta.12) (2022-06-17)
-
-**Note:** Version bump only for package @tiptap/extension-superscript
+**Note:** Version bump only for package @editfish/extension-superscript
 
 
 
 
 
-# [2.0.0-beta.10](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-superscript@2.0.0-beta.9...@tiptap/extension-superscript@2.0.0-beta.10) (2021-12-02)
+# [2.0.0-beta.12](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-superscript@2.0.0-beta.10...@editfish/extension-superscript@2.0.0-beta.12) (2022-06-17)
+
+**Note:** Version bump only for package @editfish/extension-superscript
+
+
+
+
+
+# [2.0.0-beta.10](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-superscript@2.0.0-beta.9...@editfish/extension-superscript@2.0.0-beta.10) (2021-12-02)
 
 
 ### Bug Fixes
@@ -46,55 +46,55 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.9](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-superscript@2.0.0-beta.8...@tiptap/extension-superscript@2.0.0-beta.9) (2021-11-09)
+# [2.0.0-beta.9](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-superscript@2.0.0-beta.8...@editfish/extension-superscript@2.0.0-beta.9) (2021-11-09)
 
-**Note:** Version bump only for package @tiptap/extension-superscript
-
-
-
-
-
-# [2.0.0-beta.8](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-superscript@2.0.0-beta.7...@tiptap/extension-superscript@2.0.0-beta.8) (2021-11-09)
-
-**Note:** Version bump only for package @tiptap/extension-superscript
+**Note:** Version bump only for package @editfish/extension-superscript
 
 
 
 
 
-# [2.0.0-beta.7](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-superscript@2.0.0-beta.6...@tiptap/extension-superscript@2.0.0-beta.7) (2021-11-09)
+# [2.0.0-beta.8](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-superscript@2.0.0-beta.7...@editfish/extension-superscript@2.0.0-beta.8) (2021-11-09)
 
-**Note:** Version bump only for package @tiptap/extension-superscript
-
-
-
-
-
-# [2.0.0-beta.6](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-superscript@2.0.0-beta.5...@tiptap/extension-superscript@2.0.0-beta.6) (2021-10-31)
-
-**Note:** Version bump only for package @tiptap/extension-superscript
+**Note:** Version bump only for package @editfish/extension-superscript
 
 
 
 
 
-# [2.0.0-beta.5](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-superscript@2.0.0-beta.4...@tiptap/extension-superscript@2.0.0-beta.5) (2021-10-26)
+# [2.0.0-beta.7](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-superscript@2.0.0-beta.6...@editfish/extension-superscript@2.0.0-beta.7) (2021-11-09)
 
-**Note:** Version bump only for package @tiptap/extension-superscript
-
-
-
-
-
-# [2.0.0-beta.4](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-superscript@2.0.0-beta.3...@tiptap/extension-superscript@2.0.0-beta.4) (2021-07-26)
-
-**Note:** Version bump only for package @tiptap/extension-superscript
+**Note:** Version bump only for package @editfish/extension-superscript
 
 
 
 
 
-# [2.0.0-beta.3](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-superscript@2.0.0-beta.2...@tiptap/extension-superscript@2.0.0-beta.3) (2021-06-15)
+# [2.0.0-beta.6](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-superscript@2.0.0-beta.5...@editfish/extension-superscript@2.0.0-beta.6) (2021-10-31)
+
+**Note:** Version bump only for package @editfish/extension-superscript
+
+
+
+
+
+# [2.0.0-beta.5](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-superscript@2.0.0-beta.4...@editfish/extension-superscript@2.0.0-beta.5) (2021-10-26)
+
+**Note:** Version bump only for package @editfish/extension-superscript
+
+
+
+
+
+# [2.0.0-beta.4](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-superscript@2.0.0-beta.3...@editfish/extension-superscript@2.0.0-beta.4) (2021-07-26)
+
+**Note:** Version bump only for package @editfish/extension-superscript
+
+
+
+
+
+# [2.0.0-beta.3](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-superscript@2.0.0-beta.2...@editfish/extension-superscript@2.0.0-beta.3) (2021-06-15)
 
 
 ### Bug Fixes
@@ -107,4 +107,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 2.0.0-beta.2 (2021-06-09)
 
-**Note:** Version bump only for package @tiptap/extension-superscript
+**Note:** Version bump only for package @editfish/extension-superscript

@@ -5,7 +5,10 @@
     <div class="editor__footer">
       <div :class="`editor__status editor__status--${status}`">
         <template v-if="status === 'connected'">
-          {{ editor.storage.collaborationCursor.users.length }} user{{ editor.storage.collaborationCursor.users.length === 1 ? '' : 's' }} online in {{ room }}
+          {{ editor.storage.collaborationCursor.users.length }} user{{
+            editor.storage.collaborationCursor.users.length === 1 ? "" : "s"
+          }}
+          online in {{ room }}
         </template>
         <template v-else>
           offline
@@ -21,15 +24,15 @@
 </template>
 
 <script>
+import CharacterCount from '@editfish/extension-character-count'
+import Collaboration from '@editfish/extension-collaboration'
+import CollaborationCursor from '@editfish/extension-collaboration-cursor'
+import Highlight from '@editfish/extension-highlight'
+import TaskItem from '@editfish/extension-task-item'
+import TaskList from '@editfish/extension-task-list'
+import StarterKit from '@editfish/starter-kit'
+import { Editor, EditorContent } from '@editfish/vue-3'
 import { HocuspocusProvider } from '@hocuspocus/provider'
-import CharacterCount from '@tiptap/extension-character-count'
-import Collaboration from '@tiptap/extension-collaboration'
-import CollaborationCursor from '@tiptap/extension-collaboration-cursor'
-import Highlight from '@tiptap/extension-highlight'
-import TaskItem from '@tiptap/extension-task-item'
-import TaskList from '@tiptap/extension-task-list'
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
 import * as Y from 'yjs'
 
 import MenuBar from './MenuBar.vue'
@@ -39,11 +42,7 @@ const getRandomElement = list => {
 }
 
 const getRandomRoom = () => {
-  return getRandomElement([
-    'rooms.10',
-    'rooms.11',
-    'rooms.12',
-  ])
+  return getRandomElement(['rooms.10', 'rooms.11', 'rooms.12'])
 }
 
 export default {
@@ -107,9 +106,7 @@ export default {
 
   methods: {
     setName() {
-      const name = (window.prompt('Name') || '')
-        .trim()
-        .substring(0, 32)
+      const name = (window.prompt('Name') || '').trim().substring(0, 32)
 
       if (name) {
         return this.updateCurrentUser({
@@ -120,7 +117,11 @@ export default {
 
     updateCurrentUser(attributes) {
       this.currentUser = { ...this.currentUser, ...attributes }
-      this.editor.chain().focus().updateUser(this.currentUser).run()
+      this.editor
+        .chain()
+        .focus()
+        .updateUser(this.currentUser)
+        .run()
 
       localStorage.setItem('currentUser', JSON.stringify(this.currentUser))
     },
@@ -139,7 +140,31 @@ export default {
 
     getRandomName() {
       return getRandomElement([
-        'Lea Thompson', 'Cyndi Lauper', 'Tom Cruise', 'Madonna', 'Jerry Hall', 'Joan Collins', 'Winona Ryder', 'Christina Applegate', 'Alyssa Milano', 'Molly Ringwald', 'Ally Sheedy', 'Debbie Harry', 'Olivia Newton-John', 'Elton John', 'Michael J. Fox', 'Axl Rose', 'Emilio Estevez', 'Ralph Macchio', 'Rob Lowe', 'Jennifer Grey', 'Mickey Rourke', 'John Cusack', 'Matthew Broderick', 'Justine Bateman', 'Lisa Bonet',
+        'Lea Thompson',
+        'Cyndi Lauper',
+        'Tom Cruise',
+        'Madonna',
+        'Jerry Hall',
+        'Joan Collins',
+        'Winona Ryder',
+        'Christina Applegate',
+        'Alyssa Milano',
+        'Molly Ringwald',
+        'Ally Sheedy',
+        'Debbie Harry',
+        'Olivia Newton-John',
+        'Elton John',
+        'Michael J. Fox',
+        'Axl Rose',
+        'Emilio Estevez',
+        'Ralph Macchio',
+        'Rob Lowe',
+        'Jennifer Grey',
+        'Mickey Rourke',
+        'John Cusack',
+        'Matthew Broderick',
+        'Justine Bateman',
+        'Lisa Bonet',
       ])
     },
   },
@@ -156,9 +181,9 @@ export default {
   display: flex;
   flex-direction: column;
   max-height: 26rem;
-  color: #0D0D0D;
-  background-color: #FFF;
-  border: 3px solid #0D0D0D;
+  color: #0d0d0d;
+  background-color: #fff;
+  border: 3px solid #0d0d0d;
   border-radius: 0.75rem;
 
   &__header {
@@ -167,7 +192,7 @@ export default {
     flex: 0 0 auto;
     flex-wrap: wrap;
     padding: 0.25rem;
-    border-bottom: 3px solid #0D0D0D;
+    border-bottom: 3px solid #0d0d0d;
   }
 
   &__content {
@@ -185,10 +210,10 @@ export default {
     justify-content: space-between;
     flex-wrap: wrap;
     white-space: nowrap;
-    border-top: 3px solid #0D0D0D;
+    border-top: 3px solid #0d0d0d;
     font-size: 12px;
     font-weight: 600;
-    color: #0D0D0D;
+    color: #0d0d0d;
     white-space: nowrap;
     padding: 0.25rem 0.75rem;
   }
@@ -200,12 +225,12 @@ export default {
     border-radius: 5px;
 
     &::before {
-      content: ' ';
+      content: " ";
       flex: 0 0 auto;
       display: inline-block;
       width: 0.5rem;
       height: 0.5rem;
-      background: rgba(#0D0D0D, 0.5);
+      background: rgba(#0d0d0d, 0.5);
       border-radius: 50%;
       margin-right: 0.5rem;
     }
@@ -215,7 +240,7 @@ export default {
     }
 
     &--connected::before {
-      background: #B9F18D;
+      background: #b9f18d;
     }
   }
 
@@ -226,13 +251,13 @@ export default {
       font: inherit;
       font-size: 12px;
       font-weight: 600;
-      color: #0D0D0D;
+      color: #0d0d0d;
       border-radius: 0.4rem;
       padding: 0.25rem 0.5rem;
 
       &:hover {
-        color: #FFF;
-        background-color: #0D0D0D;
+        color: #fff;
+        background-color: #0d0d0d;
       }
     }
   }
@@ -245,8 +270,8 @@ export default {
   position: relative;
   margin-left: -1px;
   margin-right: -1px;
-  border-left: 1px solid #0D0D0D;
-  border-right: 1px solid #0D0D0D;
+  border-left: 1px solid #0d0d0d;
+  border-right: 1px solid #0d0d0d;
   word-break: normal;
   pointer-events: none;
 }
@@ -261,7 +286,7 @@ export default {
   font-weight: 600;
   line-height: normal;
   user-select: none;
-  color: #0D0D0D;
+  color: #0d0d0d;
   padding: 0.1rem 0.3rem;
   border-radius: 3px 3px 3px 0;
   white-space: nowrap;
@@ -293,9 +318,9 @@ export default {
   }
 
   pre {
-    background: #0D0D0D;
-    color: #FFF;
-    font-family: 'JetBrainsMono', monospace;
+    background: #0d0d0d;
+    color: #fff;
+    font-family: "JetBrainsMono", monospace;
     padding: 0.75rem 1rem;
     border-radius: 0.5rem;
 
@@ -308,7 +333,7 @@ export default {
   }
 
   mark {
-    background-color: #FAF594;
+    background-color: #faf594;
   }
 
   img {
@@ -322,12 +347,12 @@ export default {
 
   blockquote {
     padding-left: 1rem;
-    border-left: 2px solid rgba(#0D0D0D, 0.1);
+    border-left: 2px solid rgba(#0d0d0d, 0.1);
   }
 
   hr {
     border: none;
-    border-top: 2px solid rgba(#0D0D0D, 0.1);
+    border-top: 2px solid rgba(#0d0d0d, 0.1);
     margin: 2rem 0;
   }
 

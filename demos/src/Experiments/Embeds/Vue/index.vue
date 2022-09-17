@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import StarterKit from '@editfish/starter-kit'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 import Iframe from './iframe'
 
@@ -27,10 +27,7 @@ export default {
 
   mounted() {
     this.editor = new Editor({
-      extensions: [
-        StarterKit,
-        Iframe,
-      ],
+      extensions: [StarterKit, Iframe],
       content: `
         <p>Here is an exciting video:</p>
         <iframe src="https://www.youtube.com/embed/XIMLoLxmTDw" frameborder="0" allowfullscreen></iframe>
@@ -43,7 +40,11 @@ export default {
       const url = window.prompt('URL')
 
       if (url) {
-        this.editor.chain().focus().setIframe({ src: url }).run()
+        this.editor
+          .chain()
+          .focus()
+          .setIframe({ src: url })
+          .run()
       }
     },
   },
@@ -64,14 +65,14 @@ export default {
 
 .iframe-wrapper {
   position: relative;
-  padding-bottom: math.div(100,16)*9%;
+  padding-bottom: math.div(100, 16) * 9%;
   height: 0;
   overflow: hidden;
   width: 100%;
   height: auto;
 
   &.ProseMirror-selectednode {
-    outline: 3px solid #68CEF8;
+    outline: 3px solid #68cef8;
   }
 
   iframe {

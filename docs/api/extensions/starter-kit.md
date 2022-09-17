@@ -4,14 +4,14 @@ icon: stack-line
 ---
 
 # StarterKit
-[![Version](https://img.shields.io/npm/v/@tiptap/starter-kit.svg?label=version)](https://www.npmjs.com/package/@tiptap/starter-kit)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/starter-kit.svg)](https://npmcharts.com/compare/@tiptap/starter-kit?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/starter-kit.svg?label=version)](https://www.npmjs.com/package/@editfish/starter-kit)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/starter-kit.svg)](https://npmcharts.com/compare/@editfish/starter-kit?minimal=true)
 
 The `StarterKit` is a collection of the most popular Tiptap extensions. If you’re just getting started, this extension is for you.
 
 ## Installation
 ```bash
-npm install @tiptap/starter-kit
+npm install @editfish/starter-kit
 ```
 
 ## Included extensions
@@ -47,8 +47,8 @@ npm install @tiptap/starter-kit
 Pass `StarterKit` to the editor to load all included extension at once.
 
 ```js
-import { Editor } from '@tiptap/core'
-import StarterKit from '@tiptap/starter-kit'
+import { Editor } from '@editfish/core'
+import StarterKit from '@editfish/starter-kit'
 
 const editor = new Editor({
   content: '<p>Example Text</p>',
@@ -61,8 +61,8 @@ const editor = new Editor({
 You can configure the included extensions, or even disable a few of them, like shown below.
 
 ```js
-import { Editor } from '@tiptap/core'
-import StarterKit from '@tiptap/starter-kit'
+import { Editor } from '@editfish/core'
+import StarterKit from '@editfish/starter-kit'
 
 const editor = new Editor({
   content: '<p>Example Text</p>',

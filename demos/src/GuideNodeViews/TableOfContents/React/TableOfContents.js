@@ -1,5 +1,5 @@
-import { mergeAttributes, Node } from '@tiptap/core'
-import { ReactNodeViewRenderer } from '@tiptap/react'
+import { mergeAttributes, Node } from '@editfish/core'
+import { ReactNodeViewRenderer } from '@editfish/react'
 
 import Component from './Component.jsx'
 

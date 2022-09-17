@@ -1,4 +1,4 @@
-import CodeBlock, { CodeBlockOptions } from '@tiptap/extension-code-block'
+import CodeBlock, { CodeBlockOptions } from '@editfish/extension-code-block'
 
 import { LowlightPlugin } from './lowlight-plugin'
 

@@ -3,8 +3,8 @@
 </template>
 
 <script>
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import StarterKit from '@editfish/starter-kit'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 import NodeView from './Extension.js'
 
@@ -21,10 +21,7 @@ export default {
 
   mounted() {
     this.editor = new Editor({
-      extensions: [
-        StarterKit,
-        NodeView,
-      ],
+      extensions: [StarterKit, NodeView],
       content: `
         <p>
           This is still the text editor you’re used to, but enriched with node views.
@@ -54,8 +51,8 @@ export default {
 }
 
 .node-view {
-  background: #FAF594;
-  border: 3px solid #0D0D0D;
+  background: #faf594;
+  border: 3px solid #0d0d0d;
   border-radius: 0.5rem;
   margin: 1rem 0;
   position: relative;
@@ -63,7 +60,7 @@ export default {
 
 .label {
   margin-left: 1rem;
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
   font-size: 0.6rem;
   letter-spacing: 1px;
   font-weight: bold;
@@ -78,7 +75,7 @@ export default {
 .content {
   margin: 2.5rem 1rem 1rem;
   padding: 0.5rem;
-  border: 2px dashed #0D0D0D20;
+  border: 2px dashed #0d0d0d20;
   border-radius: 0.5rem;
 }
 </style>

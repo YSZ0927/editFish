@@ -1,11 +1,11 @@
-import { mergeAttributes, Node } from '@tiptap/core'
+import { mergeAttributes, Node } from '@editfish/core'
 
 export interface TaskListOptions {
   itemTypeName: string,
   HTMLAttributes: Record<string, any>,
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     taskList: {
       /**

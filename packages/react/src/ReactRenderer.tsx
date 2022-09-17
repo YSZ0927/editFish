@@ -1,4 +1,4 @@
-import { Editor } from '@tiptap/core'
+import { Editor } from '@editfish/core'
 import React from 'react'
 import { flushSync } from 'react-dom'
 

@@ -1,5 +1,5 @@
 {
-  "name": "@tiptap/vue-3",
+  "name": "@editfish/vue-3",
   "description": "Vue components for tiptap",
   "version": "2.0.0-beta.195",
   "homepage": "https://tiptap.dev",
@@ -24,12 +24,12 @@
     "vue": "^3.0.0"
   },
   "peerDependencies": {
-    "@tiptap/core": "^2.0.0-beta.193",
+    "@editfish/core": "^2.0.0-beta.193",
     "vue": "^3.0.0"
   },
   "dependencies": {
-    "@tiptap/extension-bubble-menu": "^2.0.0-beta.195",
-    "@tiptap/extension-floating-menu": "^2.0.0-beta.195",
+    "@editfish/extension-bubble-menu": "^2.0.0-beta.195",
+    "@editfish/extension-floating-menu": "^2.0.0-beta.195",
     "prosemirror-state": "1.4.1",
     "prosemirror-view": "1.26.2"
   },

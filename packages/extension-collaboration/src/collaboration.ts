@@ -1,4 +1,4 @@
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 import {
   redo,
   undo,
@@ -8,7 +8,7 @@ import {
 } from 'y-prosemirror'
 import { UndoManager } from 'yjs'
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     collaboration: {
       /**
@@ -53,7 +53,7 @@ export const Collaboration = Extension.create<CollaborationOptions>({
 
   onCreate() {
     if (this.editor.extensionManager.extensions.find(extension => extension.name === 'history')) {
-      console.warn('[tiptap warn]: "@tiptap/extension-collaboration" comes with its own history support and is not compatible with "@tiptap/extension-history".')
+      console.warn('[tiptap warn]: "@editfish/extension-collaboration" comes with its own history support and is not compatible with "@editfish/extension-history".')
     }
   },
 

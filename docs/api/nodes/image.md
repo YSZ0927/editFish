@@ -4,8 +4,8 @@ icon: image-line
 ---
 
 # Image
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-image.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-image)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-image.svg)](https://npmcharts.com/compare/@tiptap/extension-image?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-image.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-image)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-image.svg)](https://npmcharts.com/compare/@editfish/extension-image?minimal=true)
 
 Use this extension to render `<img>` HTML tags. By default, those images are blocks. If you want to render images in line with text  set the `inline` option to `true`.
 
@@ -15,7 +15,7 @@ This extension does only the rendering of images. It doesn’t upload images to 
 
 ## Installation
 ```bash
-npm install @tiptap/extension-image
+npm install @editfish/extension-image
 ```
 
 ## Settings

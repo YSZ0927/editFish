@@ -16,48 +16,37 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.194](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.193...v2.0.0-beta.194) (2022-09-11)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.62](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.61...@tiptap/extension-bubble-menu@2.0.0-beta.62) (2022-09-03)
+# [2.0.0-beta.62](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.61...@editfish/extension-bubble-menu@2.0.0-beta.62) (2022-09-03)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
-
-
-
-
-
-# [2.0.0-beta.61](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.60...@tiptap/extension-bubble-menu@2.0.0-beta.61) (2022-06-27)
-
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.60](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.59...@tiptap/extension-bubble-menu@2.0.0-beta.60) (2022-06-20)
+# [2.0.0-beta.61](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.60...@editfish/extension-bubble-menu@2.0.0-beta.61) (2022-06-27)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
-
-
-
-
-
-# [2.0.0-beta.59](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.57...@tiptap/extension-bubble-menu@2.0.0-beta.59) (2022-06-17)
-
-
-### Reverts
-
-* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/tiptap/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.57](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.57...@tiptap/extension-bubble-menu@2.0.0-beta.57) (2022-06-17)
+# [2.0.0-beta.60](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.59...@editfish/extension-bubble-menu@2.0.0-beta.60) (2022-06-20)
+
+**Note:** Version bump only for package @editfish/extension-bubble-menu
+
+
+
+
+
+# [2.0.0-beta.59](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.57...@editfish/extension-bubble-menu@2.0.0-beta.59) (2022-06-17)
 
 
 ### Reverts
@@ -68,7 +57,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.56](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.55...@tiptap/extension-bubble-menu@2.0.0-beta.56) (2022-04-27)
+# [2.0.0-beta.57](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.57...@editfish/extension-bubble-menu@2.0.0-beta.57) (2022-06-17)
+
+
+### Reverts
+
+* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/tiptap/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+
+
+
+
+
+# [2.0.0-beta.56](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.55...@editfish/extension-bubble-menu@2.0.0-beta.56) (2022-04-27)
 
 
 ### Bug Fixes
@@ -79,31 +79,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.55](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.54...@tiptap/extension-bubble-menu@2.0.0-beta.55) (2022-01-25)
+# [2.0.0-beta.55](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.54...@editfish/extension-bubble-menu@2.0.0-beta.55) (2022-01-25)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
-
-
-
-
-
-# [2.0.0-beta.54](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.53...@tiptap/extension-bubble-menu@2.0.0-beta.54) (2022-01-04)
-
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.53](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.52...@tiptap/extension-bubble-menu@2.0.0-beta.53) (2021-12-22)
+# [2.0.0-beta.54](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.53...@editfish/extension-bubble-menu@2.0.0-beta.54) (2022-01-04)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
-
-
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
-# [2.0.0-beta.52](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.51...@tiptap/extension-bubble-menu@2.0.0-beta.52) (2021-12-15)
+
+
+# [2.0.0-beta.53](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.52...@editfish/extension-bubble-menu@2.0.0-beta.53) (2021-12-22)
+
+**Note:** Version bump only for package @editfish/extension-bubble-menu
+
+
+
+
+
+# [2.0.0-beta.52](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.51...@editfish/extension-bubble-menu@2.0.0-beta.52) (2021-12-15)
 
 
 ### Bug Fixes
@@ -114,135 +114,135 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.51](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.50...@tiptap/extension-bubble-menu@2.0.0-beta.51) (2021-12-02)
+# [2.0.0-beta.51](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.50...@editfish/extension-bubble-menu@2.0.0-beta.51) (2021-12-02)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.50](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.49...@tiptap/extension-bubble-menu@2.0.0-beta.50) (2021-11-17)
+# [2.0.0-beta.50](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.49...@editfish/extension-bubble-menu@2.0.0-beta.50) (2021-11-17)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.49](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.48...@tiptap/extension-bubble-menu@2.0.0-beta.49) (2021-11-09)
+# [2.0.0-beta.49](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.48...@editfish/extension-bubble-menu@2.0.0-beta.49) (2021-11-09)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.48](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.47...@tiptap/extension-bubble-menu@2.0.0-beta.48) (2021-11-09)
+# [2.0.0-beta.48](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.47...@editfish/extension-bubble-menu@2.0.0-beta.48) (2021-11-09)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.47](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.46...@tiptap/extension-bubble-menu@2.0.0-beta.47) (2021-11-09)
+# [2.0.0-beta.47](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.46...@editfish/extension-bubble-menu@2.0.0-beta.47) (2021-11-09)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.46](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.45...@tiptap/extension-bubble-menu@2.0.0-beta.46) (2021-11-08)
+# [2.0.0-beta.46](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.45...@editfish/extension-bubble-menu@2.0.0-beta.46) (2021-11-08)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.45](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.44...@tiptap/extension-bubble-menu@2.0.0-beta.45) (2021-11-05)
+# [2.0.0-beta.45](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.44...@editfish/extension-bubble-menu@2.0.0-beta.45) (2021-11-05)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.44](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.43...@tiptap/extension-bubble-menu@2.0.0-beta.44) (2021-10-31)
+# [2.0.0-beta.44](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.43...@editfish/extension-bubble-menu@2.0.0-beta.44) (2021-10-31)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.43](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.42...@tiptap/extension-bubble-menu@2.0.0-beta.43) (2021-10-26)
+# [2.0.0-beta.43](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.42...@editfish/extension-bubble-menu@2.0.0-beta.43) (2021-10-26)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.42](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.41...@tiptap/extension-bubble-menu@2.0.0-beta.42) (2021-10-14)
+# [2.0.0-beta.42](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.41...@editfish/extension-bubble-menu@2.0.0-beta.42) (2021-10-14)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.41](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.40...@tiptap/extension-bubble-menu@2.0.0-beta.41) (2021-10-14)
+# [2.0.0-beta.41](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.40...@editfish/extension-bubble-menu@2.0.0-beta.41) (2021-10-14)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.40](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.39...@tiptap/extension-bubble-menu@2.0.0-beta.40) (2021-10-08)
+# [2.0.0-beta.40](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.39...@editfish/extension-bubble-menu@2.0.0-beta.40) (2021-10-08)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.39](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.38...@tiptap/extension-bubble-menu@2.0.0-beta.39) (2021-10-02)
+# [2.0.0-beta.39](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.38...@editfish/extension-bubble-menu@2.0.0-beta.39) (2021-10-02)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.38](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.37...@tiptap/extension-bubble-menu@2.0.0-beta.38) (2021-09-29)
+# [2.0.0-beta.38](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.37...@editfish/extension-bubble-menu@2.0.0-beta.38) (2021-09-29)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.37](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.36...@tiptap/extension-bubble-menu@2.0.0-beta.37) (2021-09-28)
+# [2.0.0-beta.37](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.36...@editfish/extension-bubble-menu@2.0.0-beta.37) (2021-09-28)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.36](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.35...@tiptap/extension-bubble-menu@2.0.0-beta.36) (2021-09-27)
+# [2.0.0-beta.36](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.35...@editfish/extension-bubble-menu@2.0.0-beta.36) (2021-09-27)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.35](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.34...@tiptap/extension-bubble-menu@2.0.0-beta.35) (2021-09-22)
+# [2.0.0-beta.35](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.34...@editfish/extension-bubble-menu@2.0.0-beta.35) (2021-09-22)
 
 
 ### Bug Fixes
@@ -253,15 +253,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.34](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.33...@tiptap/extension-bubble-menu@2.0.0-beta.34) (2021-09-15)
+# [2.0.0-beta.34](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.33...@editfish/extension-bubble-menu@2.0.0-beta.34) (2021-09-15)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
-
-
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
-# [2.0.0-beta.33](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.32...@tiptap/extension-bubble-menu@2.0.0-beta.33) (2021-09-07)
+
+
+# [2.0.0-beta.33](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.32...@editfish/extension-bubble-menu@2.0.0-beta.33) (2021-09-07)
 
 
 ### Bug Fixes
@@ -272,15 +272,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.32](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.31...@tiptap/extension-bubble-menu@2.0.0-beta.32) (2021-09-06)
+# [2.0.0-beta.32](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.31...@editfish/extension-bubble-menu@2.0.0-beta.32) (2021-09-06)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
-
-
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
-# [2.0.0-beta.31](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.30...@tiptap/extension-bubble-menu@2.0.0-beta.31) (2021-08-23)
+
+
+# [2.0.0-beta.31](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.30...@editfish/extension-bubble-menu@2.0.0-beta.31) (2021-08-23)
 
 
 ### Bug Fixes
@@ -291,23 +291,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.30](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.29...@tiptap/extension-bubble-menu@2.0.0-beta.30) (2021-08-20)
+# [2.0.0-beta.30](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.29...@editfish/extension-bubble-menu@2.0.0-beta.30) (2021-08-20)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
-
-
-
-
-
-# [2.0.0-beta.29](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.28...@tiptap/extension-bubble-menu@2.0.0-beta.29) (2021-08-13)
-
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.28](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.27...@tiptap/extension-bubble-menu@2.0.0-beta.28) (2021-08-13)
+# [2.0.0-beta.29](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.28...@editfish/extension-bubble-menu@2.0.0-beta.29) (2021-08-13)
+
+**Note:** Version bump only for package @editfish/extension-bubble-menu
+
+
+
+
+
+# [2.0.0-beta.28](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.27...@editfish/extension-bubble-menu@2.0.0-beta.28) (2021-08-13)
 
 
 ### Bug Fixes
@@ -318,7 +318,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.27](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.26...@tiptap/extension-bubble-menu@2.0.0-beta.27) (2021-08-12)
+# [2.0.0-beta.27](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.26...@editfish/extension-bubble-menu@2.0.0-beta.27) (2021-08-12)
 
 
 ### Bug Fixes
@@ -329,7 +329,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.26](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.25...@tiptap/extension-bubble-menu@2.0.0-beta.26) (2021-08-11)
+# [2.0.0-beta.26](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.25...@editfish/extension-bubble-menu@2.0.0-beta.26) (2021-08-11)
 
 
 ### Features
@@ -340,23 +340,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.25](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.24...@tiptap/extension-bubble-menu@2.0.0-beta.25) (2021-07-26)
+# [2.0.0-beta.25](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.24...@editfish/extension-bubble-menu@2.0.0-beta.25) (2021-07-26)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
-
-
-
-
-
-# [2.0.0-beta.24](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.23...@tiptap/extension-bubble-menu@2.0.0-beta.24) (2021-06-23)
-
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.23](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.22...@tiptap/extension-bubble-menu@2.0.0-beta.23) (2021-06-15)
+# [2.0.0-beta.24](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.23...@editfish/extension-bubble-menu@2.0.0-beta.24) (2021-06-23)
+
+**Note:** Version bump only for package @editfish/extension-bubble-menu
+
+
+
+
+
+# [2.0.0-beta.23](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.22...@editfish/extension-bubble-menu@2.0.0-beta.23) (2021-06-15)
 
 
 ### Bug Fixes
@@ -367,15 +367,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.22](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.21...@tiptap/extension-bubble-menu@2.0.0-beta.22) (2021-06-15)
+# [2.0.0-beta.22](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.21...@editfish/extension-bubble-menu@2.0.0-beta.22) (2021-06-15)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
-
-
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
-# [2.0.0-beta.21](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.20...@tiptap/extension-bubble-menu@2.0.0-beta.21) (2021-06-14)
+
+
+# [2.0.0-beta.21](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.20...@editfish/extension-bubble-menu@2.0.0-beta.21) (2021-06-14)
 
 
 ### Bug Fixes
@@ -387,15 +387,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.20](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.19...@tiptap/extension-bubble-menu@2.0.0-beta.20) (2021-05-27)
+# [2.0.0-beta.20](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.19...@editfish/extension-bubble-menu@2.0.0-beta.20) (2021-05-27)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
-
-
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
-# [2.0.0-beta.19](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.18...@tiptap/extension-bubble-menu@2.0.0-beta.19) (2021-05-24)
+
+
+# [2.0.0-beta.19](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.18...@editfish/extension-bubble-menu@2.0.0-beta.19) (2021-05-24)
 
 
 ### Bug Fixes
@@ -406,31 +406,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.18](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.17...@tiptap/extension-bubble-menu@2.0.0-beta.18) (2021-05-18)
+# [2.0.0-beta.18](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.17...@editfish/extension-bubble-menu@2.0.0-beta.18) (2021-05-18)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
-
-
-
-
-
-# [2.0.0-beta.17](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.16...@tiptap/extension-bubble-menu@2.0.0-beta.17) (2021-05-17)
-
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.16](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.15...@tiptap/extension-bubble-menu@2.0.0-beta.16) (2021-05-13)
+# [2.0.0-beta.17](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.16...@editfish/extension-bubble-menu@2.0.0-beta.17) (2021-05-17)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
-
-
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
-# [2.0.0-beta.15](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.14...@tiptap/extension-bubble-menu@2.0.0-beta.15) (2021-05-07)
+
+
+# [2.0.0-beta.16](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.15...@editfish/extension-bubble-menu@2.0.0-beta.16) (2021-05-13)
+
+**Note:** Version bump only for package @editfish/extension-bubble-menu
+
+
+
+
+
+# [2.0.0-beta.15](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.14...@editfish/extension-bubble-menu@2.0.0-beta.15) (2021-05-07)
 
 
 ### Bug Fixes
@@ -441,7 +441,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.14](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.13...@tiptap/extension-bubble-menu@2.0.0-beta.14) (2021-05-06)
+# [2.0.0-beta.14](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.13...@editfish/extension-bubble-menu@2.0.0-beta.14) (2021-05-06)
 
 
 ### Bug Fixes
@@ -452,7 +452,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.13](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.12...@tiptap/extension-bubble-menu@2.0.0-beta.13) (2021-05-06)
+# [2.0.0-beta.13](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.12...@editfish/extension-bubble-menu@2.0.0-beta.13) (2021-05-06)
 
 
 ### Bug Fixes
@@ -463,7 +463,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.12](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.11...@tiptap/extension-bubble-menu@2.0.0-beta.12) (2021-05-06)
+# [2.0.0-beta.12](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.11...@editfish/extension-bubble-menu@2.0.0-beta.12) (2021-05-06)
 
 
 ### Bug Fixes
@@ -474,31 +474,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.11](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.10...@tiptap/extension-bubble-menu@2.0.0-beta.11) (2021-05-05)
+# [2.0.0-beta.11](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.10...@editfish/extension-bubble-menu@2.0.0-beta.11) (2021-05-05)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
-
-
-
-
-
-# [2.0.0-beta.10](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.9...@tiptap/extension-bubble-menu@2.0.0-beta.10) (2021-05-04)
-
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.9](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.8...@tiptap/extension-bubble-menu@2.0.0-beta.9) (2021-04-23)
+# [2.0.0-beta.10](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.9...@editfish/extension-bubble-menu@2.0.0-beta.10) (2021-05-04)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
-
-
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
-# [2.0.0-beta.8](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.7...@tiptap/extension-bubble-menu@2.0.0-beta.8) (2021-04-22)
+
+
+# [2.0.0-beta.9](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.8...@editfish/extension-bubble-menu@2.0.0-beta.9) (2021-04-23)
+
+**Note:** Version bump only for package @editfish/extension-bubble-menu
+
+
+
+
+
+# [2.0.0-beta.8](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.7...@editfish/extension-bubble-menu@2.0.0-beta.8) (2021-04-22)
 
 
 ### Bug Fixes
@@ -509,7 +509,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.7](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.6...@tiptap/extension-bubble-menu@2.0.0-beta.7) (2021-04-16)
+# [2.0.0-beta.7](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.6...@editfish/extension-bubble-menu@2.0.0-beta.7) (2021-04-16)
 
 
 ### Bug Fixes
@@ -527,41 +527,41 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.6](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.5...@tiptap/extension-bubble-menu@2.0.0-beta.6) (2021-04-15)
+# [2.0.0-beta.6](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.5...@editfish/extension-bubble-menu@2.0.0-beta.6) (2021-04-15)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
-
-
-
-
-
-# [2.0.0-beta.5](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.4...@tiptap/extension-bubble-menu@2.0.0-beta.5) (2021-04-01)
-
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.4](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.3...@tiptap/extension-bubble-menu@2.0.0-beta.4) (2021-04-01)
+# [2.0.0-beta.5](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.4...@editfish/extension-bubble-menu@2.0.0-beta.5) (2021-04-01)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
-
-
-
-
-
-# [2.0.0-beta.3](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.2...@tiptap/extension-bubble-menu@2.0.0-beta.3) (2021-03-31)
-
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
 
 
-# [2.0.0-beta.2](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-bubble-menu@2.0.0-beta.1...@tiptap/extension-bubble-menu@2.0.0-beta.2) (2021-03-31)
+# [2.0.0-beta.4](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.3...@editfish/extension-bubble-menu@2.0.0-beta.4) (2021-04-01)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu
+
+
+
+
+
+# [2.0.0-beta.3](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.2...@editfish/extension-bubble-menu@2.0.0-beta.3) (2021-03-31)
+
+**Note:** Version bump only for package @editfish/extension-bubble-menu
+
+
+
+
+
+# [2.0.0-beta.2](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-bubble-menu@2.0.0-beta.1...@editfish/extension-bubble-menu@2.0.0-beta.2) (2021-03-31)
+
+**Note:** Version bump only for package @editfish/extension-bubble-menu
 
 
 
@@ -569,4 +569,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 2.0.0-beta.1 (2021-03-31)
 
-**Note:** Version bump only for package @tiptap/extension-bubble-menu
+**Note:** Version bump only for package @editfish/extension-bubble-menu

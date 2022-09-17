@@ -1,4 +1,4 @@
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 import { Plugin } from 'prosemirror-state'
 
 import findColors from './findColors'

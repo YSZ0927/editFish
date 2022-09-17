@@ -81,7 +81,7 @@ Here is an example how you can overwrite the keyboard shortcuts for an existing 
 
 ```js
 // 1. Import the extension
-import BulletList from '@tiptap/extension-bullet-list'
+import BulletList from '@editfish/extension-bullet-list'
 
 // 2. Overwrite the keyboard shortcuts
 const CustomBulletList = BulletList.extend({

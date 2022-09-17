@@ -5,7 +5,7 @@ import {
   starPasteRegex,
   underscoreInputRegex,
   underscorePasteRegex,
-} from '@tiptap/extension-bold'
+} from '@editfish/extension-bold'
 
 describe('bold regex test', () => {
   it('star input regex matches', () => {

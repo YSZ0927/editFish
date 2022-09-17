@@ -4,8 +4,8 @@ icon: drag-drop-line
 ---
 
 # Dropcursor
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-dropcursor.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-dropcursor)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-dropcursor.svg)](https://npmcharts.com/compare/@tiptap/extension-dropcursor?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-dropcursor.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-dropcursor)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-dropcursor.svg)](https://npmcharts.com/compare/@editfish/extension-dropcursor?minimal=true)
 
 This extension loads the [ProseMirror Dropcursor plugin](https://github.com/ProseMirror/prosemirror-dropcursor) by Marijn Haverbeke, which shows a cursor at the drop position when something is dragged into the editor.
 
@@ -13,7 +13,7 @@ Note that Tiptap is headless, but the dropcursor needs CSS for its appearance. T
 
 ## Installation
 ```bash
-npm install @tiptap/extension-dropcursor
+npm install @editfish/extension-dropcursor
 ```
 
 ## Settings

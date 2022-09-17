@@ -83,7 +83,7 @@ https://embed.tiptap.dev/preview/Experiments/Tailwind
 Or you can customize the markup for extensions. The following example will make a custom bold extension that doesn’t render a `<strong>` tag, but a `<b>` tag:
 
 ```js
-import Bold from '@tiptap/extension-bold'
+import Bold from '@editfish/extension-bold'
 
 const CustomBold = Bold.extend({
   renderHTML({ HTMLAttributes }) {

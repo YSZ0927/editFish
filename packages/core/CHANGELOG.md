@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
@@ -13,7 +13,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.194](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.193...v2.0.0-beta.194) (2022-09-11)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
@@ -115,7 +115,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * initialize autofocus selection in `createView` ([#2212](https://github.com/ueberdosis/tiptap/issues/2212)) ([de39853](https://github.com/ueberdosis/tiptap/commit/de39853026ee63bb558ed59b1dab3899c07ae073))
 * insertContent keeps marks when using plain text, fix [#2406](https://github.com/ueberdosis/tiptap/issues/2406) ([d242706](https://github.com/ueberdosis/tiptap/commit/d2427064ff1765004173f3c718cd1e4eba4dc355))
 * lint error ([e17c414](https://github.com/ueberdosis/tiptap/commit/e17c41498aa0df71a827bf41f5c52745f3853c43))
-* Mark `@tiptap/react` and `@tiptap/core` as side effect free ([#2361](https://github.com/ueberdosis/tiptap/issues/2361)) ([e609b2d](https://github.com/ueberdosis/tiptap/commit/e609b2d11615dd85fd219731d1b73deaeccccd69))
+* Mark `@editfish/react` and `@editfish/core` as side effect free ([#2361](https://github.com/ueberdosis/tiptap/issues/2361)) ([e609b2d](https://github.com/ueberdosis/tiptap/commit/e609b2d11615dd85fd219731d1b73deaeccccd69))
 * nodeInputRule() support for group match ([#1574](https://github.com/ueberdosis/tiptap/issues/1574)) ([8ee0d67](https://github.com/ueberdosis/tiptap/commit/8ee0d67b83fea6a38d3abf02528d62ab482fe509))
 * preserve whitespace when using insertContent command ([8f10181](https://github.com/ueberdosis/tiptap/commit/8f101810feace676fedce449e71d3af1d152436b))
 * prevent a bug for node views when pressing enter on iOS, fix [#1214](https://github.com/ueberdosis/tiptap/issues/1214) ([234d238](https://github.com/ueberdosis/tiptap/commit/234d23887bfcb19c3591deb391688ec9d4e49a8a))
@@ -204,7 +204,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.183](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.182...@tiptap/core@2.0.0-beta.183) (2022-09-03)
+# [2.0.0-beta.183](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.182...@editfish/core@2.0.0-beta.183) (2022-09-03)
 
 
 ### Bug Fixes
@@ -219,7 +219,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.182](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.181...@tiptap/core@2.0.0-beta.182) (2022-07-06)
+# [2.0.0-beta.182](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.181...@editfish/core@2.0.0-beta.182) (2022-07-06)
 
 
 ### Bug Fixes
@@ -231,7 +231,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.181](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.180...@tiptap/core@2.0.0-beta.181) (2022-06-27)
+# [2.0.0-beta.181](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.180...@editfish/core@2.0.0-beta.181) (2022-06-27)
 
 
 ### Bug Fixes
@@ -247,26 +247,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.180](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.179...@tiptap/core@2.0.0-beta.180) (2022-06-20)
+# [2.0.0-beta.180](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.179...@editfish/core@2.0.0-beta.180) (2022-06-20)
 
-**Note:** Version bump only for package @tiptap/core
-
-
-
-
-
-# [2.0.0-beta.179](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.177...@tiptap/core@2.0.0-beta.179) (2022-06-17)
-
-
-### Reverts
-
-* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/tiptap/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.177](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.177...@tiptap/core@2.0.0-beta.177) (2022-06-17)
+# [2.0.0-beta.179](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.177...@editfish/core@2.0.0-beta.179) (2022-06-17)
 
 
 ### Reverts
@@ -277,7 +266,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.176](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.175...@tiptap/core@2.0.0-beta.176) (2022-05-18)
+# [2.0.0-beta.177](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.177...@editfish/core@2.0.0-beta.177) (2022-06-17)
+
+
+### Reverts
+
+* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/tiptap/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+
+
+
+
+
+# [2.0.0-beta.176](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.175...@editfish/core@2.0.0-beta.176) (2022-05-18)
 
 
 ### Bug Fixes
@@ -289,7 +289,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.175](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.174...@tiptap/core@2.0.0-beta.175) (2022-04-27)
+# [2.0.0-beta.175](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.174...@editfish/core@2.0.0-beta.175) (2022-04-27)
 
 
 ### Bug Fixes
@@ -300,7 +300,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.174](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.173...@tiptap/core@2.0.0-beta.174) (2022-02-07)
+# [2.0.0-beta.174](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.173...@editfish/core@2.0.0-beta.174) (2022-02-07)
 
 
 ### Bug Fixes
@@ -311,7 +311,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.173](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.172...@tiptap/core@2.0.0-beta.173) (2022-02-07)
+# [2.0.0-beta.173](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.172...@editfish/core@2.0.0-beta.173) (2022-02-07)
 
 
 ### Bug Fixes
@@ -322,7 +322,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.172](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.171...@tiptap/core@2.0.0-beta.172) (2022-02-03)
+# [2.0.0-beta.172](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.171...@editfish/core@2.0.0-beta.172) (2022-02-03)
 
 
 ### Bug Fixes
@@ -333,15 +333,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.171](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.170...@tiptap/core@2.0.0-beta.171) (2022-01-28)
+# [2.0.0-beta.171](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.170...@editfish/core@2.0.0-beta.171) (2022-01-28)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.170](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.169...@tiptap/core@2.0.0-beta.170) (2022-01-27)
+
+
+# [2.0.0-beta.170](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.169...@editfish/core@2.0.0-beta.170) (2022-01-27)
 
 
 ### Bug Fixes
@@ -352,7 +352,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.169](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.168...@tiptap/core@2.0.0-beta.169) (2022-01-27)
+# [2.0.0-beta.169](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.168...@editfish/core@2.0.0-beta.169) (2022-01-27)
 
 
 ### Bug Fixes
@@ -363,7 +363,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.168](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.167...@tiptap/core@2.0.0-beta.168) (2022-01-26)
+# [2.0.0-beta.168](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.167...@editfish/core@2.0.0-beta.168) (2022-01-26)
 
 
 ### Bug Fixes
@@ -374,7 +374,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.167](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.166...@tiptap/core@2.0.0-beta.167) (2022-01-25)
+# [2.0.0-beta.167](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.166...@editfish/core@2.0.0-beta.167) (2022-01-25)
 
 
 ### Bug Fixes
@@ -390,7 +390,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.166](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.165...@tiptap/core@2.0.0-beta.166) (2022-01-20)
+# [2.0.0-beta.166](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.165...@editfish/core@2.0.0-beta.166) (2022-01-20)
 
 
 ### Bug Fixes
@@ -401,7 +401,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.165](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.164...@tiptap/core@2.0.0-beta.165) (2022-01-20)
+# [2.0.0-beta.165](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.164...@editfish/core@2.0.0-beta.165) (2022-01-20)
 
 
 ### Bug Fixes
@@ -412,7 +412,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.164](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.163...@tiptap/core@2.0.0-beta.164) (2022-01-20)
+# [2.0.0-beta.164](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.163...@editfish/core@2.0.0-beta.164) (2022-01-20)
 
 
 ### Bug Fixes
@@ -423,7 +423,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.163](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.162...@tiptap/core@2.0.0-beta.163) (2022-01-13)
+# [2.0.0-beta.163](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.162...@editfish/core@2.0.0-beta.163) (2022-01-13)
 
 
 ### Bug Fixes
@@ -434,18 +434,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.162](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.161...@tiptap/core@2.0.0-beta.162) (2022-01-11)
+# [2.0.0-beta.162](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.161...@editfish/core@2.0.0-beta.162) (2022-01-11)
 
 
 ### Bug Fixes
 
-* Mark `@tiptap/react` and `@tiptap/core` as side effect free ([#2361](https://github.com/ueberdosis/tiptap/issues/2361)) ([e609b2d](https://github.com/ueberdosis/tiptap/commit/e609b2d11615dd85fd219731d1b73deaeccccd69))
+* Mark `@editfish/react` and `@editfish/core` as side effect free ([#2361](https://github.com/ueberdosis/tiptap/issues/2361)) ([e609b2d](https://github.com/ueberdosis/tiptap/commit/e609b2d11615dd85fd219731d1b73deaeccccd69))
 
 
 
 
 
-# [2.0.0-beta.161](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.160...@tiptap/core@2.0.0-beta.161) (2022-01-10)
+# [2.0.0-beta.161](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.160...@editfish/core@2.0.0-beta.161) (2022-01-10)
 
 
 ### Bug Fixes
@@ -456,15 +456,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.160](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.159...@tiptap/core@2.0.0-beta.160) (2022-01-04)
+# [2.0.0-beta.160](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.159...@editfish/core@2.0.0-beta.160) (2022-01-04)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.159](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.158...@tiptap/core@2.0.0-beta.159) (2021-12-22)
+
+
+# [2.0.0-beta.159](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.158...@editfish/core@2.0.0-beta.159) (2021-12-22)
 
 
 ### Bug Fixes
@@ -475,7 +475,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.158](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.157...@tiptap/core@2.0.0-beta.158) (2021-12-17)
+# [2.0.0-beta.158](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.157...@editfish/core@2.0.0-beta.158) (2021-12-17)
 
 
 ### Bug Fixes
@@ -486,7 +486,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.157](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.156...@tiptap/core@2.0.0-beta.157) (2021-12-16)
+# [2.0.0-beta.157](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.156...@editfish/core@2.0.0-beta.157) (2021-12-16)
 
 
 ### Bug Fixes
@@ -497,7 +497,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.156](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.155...@tiptap/core@2.0.0-beta.156) (2021-12-15)
+# [2.0.0-beta.156](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.155...@editfish/core@2.0.0-beta.156) (2021-12-15)
 
 
 ### Bug Fixes
@@ -508,23 +508,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.155](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.154...@tiptap/core@2.0.0-beta.155) (2021-12-15)
+# [2.0.0-beta.155](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.154...@editfish/core@2.0.0-beta.155) (2021-12-15)
 
-**Note:** Version bump only for package @tiptap/core
-
-
-
-
-
-# [2.0.0-beta.154](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.153...@tiptap/core@2.0.0-beta.154) (2021-12-14)
-
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.153](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.152...@tiptap/core@2.0.0-beta.153) (2021-12-13)
+# [2.0.0-beta.154](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.153...@editfish/core@2.0.0-beta.154) (2021-12-14)
+
+**Note:** Version bump only for package @editfish/core
+
+
+
+
+
+# [2.0.0-beta.153](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.152...@editfish/core@2.0.0-beta.153) (2021-12-13)
 
 
 ### Bug Fixes
@@ -537,7 +537,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.152](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.151...@tiptap/core@2.0.0-beta.152) (2021-12-10)
+# [2.0.0-beta.152](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.151...@editfish/core@2.0.0-beta.152) (2021-12-10)
 
 
 ### Features
@@ -548,7 +548,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.151](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.150...@tiptap/core@2.0.0-beta.151) (2021-12-08)
+# [2.0.0-beta.151](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.150...@editfish/core@2.0.0-beta.151) (2021-12-08)
 
 
 ### Features
@@ -559,15 +559,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.150](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.149...@tiptap/core@2.0.0-beta.150) (2021-12-06)
+# [2.0.0-beta.150](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.149...@editfish/core@2.0.0-beta.150) (2021-12-06)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.149](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.148...@tiptap/core@2.0.0-beta.149) (2021-12-05)
+
+
+# [2.0.0-beta.149](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.148...@editfish/core@2.0.0-beta.149) (2021-12-05)
 
 
 ### Bug Fixes
@@ -578,7 +578,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.148](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.147...@tiptap/core@2.0.0-beta.148) (2021-12-03)
+# [2.0.0-beta.148](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.147...@editfish/core@2.0.0-beta.148) (2021-12-03)
 
 
 ### Bug Fixes
@@ -589,7 +589,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.147](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.146...@tiptap/core@2.0.0-beta.147) (2021-12-03)
+# [2.0.0-beta.147](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.146...@editfish/core@2.0.0-beta.147) (2021-12-03)
 
 
 ### Features
@@ -600,15 +600,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.146](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.145...@tiptap/core@2.0.0-beta.146) (2021-12-02)
+# [2.0.0-beta.146](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.145...@editfish/core@2.0.0-beta.146) (2021-12-02)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.145](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.144...@tiptap/core@2.0.0-beta.145) (2021-12-02)
+
+
+# [2.0.0-beta.145](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.144...@editfish/core@2.0.0-beta.145) (2021-12-02)
 
 
 ### Bug Fixes
@@ -619,15 +619,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.144](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.143...@tiptap/core@2.0.0-beta.144) (2021-12-02)
+# [2.0.0-beta.144](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.143...@editfish/core@2.0.0-beta.144) (2021-12-02)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.143](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.142...@tiptap/core@2.0.0-beta.143) (2021-11-25)
+
+
+# [2.0.0-beta.143](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.142...@editfish/core@2.0.0-beta.143) (2021-11-25)
 
 
 ### Features
@@ -638,7 +638,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.142](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.141...@tiptap/core@2.0.0-beta.142) (2021-11-23)
+# [2.0.0-beta.142](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.141...@editfish/core@2.0.0-beta.142) (2021-11-23)
 
 
 ### Features
@@ -649,7 +649,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.141](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.140...@tiptap/core@2.0.0-beta.141) (2021-11-22)
+# [2.0.0-beta.141](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.140...@editfish/core@2.0.0-beta.141) (2021-11-22)
 
 
 ### Bug Fixes
@@ -665,7 +665,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.140](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.139...@tiptap/core@2.0.0-beta.140) (2021-11-18)
+# [2.0.0-beta.140](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.139...@editfish/core@2.0.0-beta.140) (2021-11-18)
 
 
 ### Bug Fixes
@@ -681,15 +681,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.139](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.138...@tiptap/core@2.0.0-beta.139) (2021-11-17)
+# [2.0.0-beta.139](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.138...@editfish/core@2.0.0-beta.139) (2021-11-17)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.138](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.137...@tiptap/core@2.0.0-beta.138) (2021-11-10)
+
+
+# [2.0.0-beta.138](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.137...@editfish/core@2.0.0-beta.138) (2021-11-10)
 
 
 ### Bug Fixes
@@ -701,7 +701,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.137](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.136...@tiptap/core@2.0.0-beta.137) (2021-11-09)
+# [2.0.0-beta.137](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.136...@editfish/core@2.0.0-beta.137) (2021-11-09)
 
 
 ### Bug Fixes
@@ -712,31 +712,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.136](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.135...@tiptap/core@2.0.0-beta.136) (2021-11-09)
+# [2.0.0-beta.136](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.135...@editfish/core@2.0.0-beta.136) (2021-11-09)
 
-**Note:** Version bump only for package @tiptap/core
-
-
-
-
-
-# [2.0.0-beta.135](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.134...@tiptap/core@2.0.0-beta.135) (2021-11-09)
-
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.134](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.133...@tiptap/core@2.0.0-beta.134) (2021-11-09)
+# [2.0.0-beta.135](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.134...@editfish/core@2.0.0-beta.135) (2021-11-09)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.133](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.132...@tiptap/core@2.0.0-beta.133) (2021-11-08)
+
+
+# [2.0.0-beta.134](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.133...@editfish/core@2.0.0-beta.134) (2021-11-09)
+
+**Note:** Version bump only for package @editfish/core
+
+
+
+
+
+# [2.0.0-beta.133](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.132...@editfish/core@2.0.0-beta.133) (2021-11-08)
 
 
 ### Bug Fixes
@@ -748,15 +748,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.132](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.131...@tiptap/core@2.0.0-beta.132) (2021-11-08)
+# [2.0.0-beta.132](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.131...@editfish/core@2.0.0-beta.132) (2021-11-08)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.131](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.130...@tiptap/core@2.0.0-beta.131) (2021-11-05)
+
+
+# [2.0.0-beta.131](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.130...@editfish/core@2.0.0-beta.131) (2021-11-05)
 
 
 ### Bug Fixes
@@ -767,7 +767,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.130](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.129...@tiptap/core@2.0.0-beta.130) (2021-10-31)
+# [2.0.0-beta.130](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.129...@editfish/core@2.0.0-beta.130) (2021-10-31)
 
 
 ### Bug Fixes
@@ -778,15 +778,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.129](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.128...@tiptap/core@2.0.0-beta.129) (2021-10-26)
+# [2.0.0-beta.129](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.128...@editfish/core@2.0.0-beta.129) (2021-10-26)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.128](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.127...@tiptap/core@2.0.0-beta.128) (2021-10-25)
+
+
+# [2.0.0-beta.128](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.127...@editfish/core@2.0.0-beta.128) (2021-10-25)
 
 
 ### Bug Fixes
@@ -797,7 +797,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.127](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.126...@tiptap/core@2.0.0-beta.127) (2021-10-22)
+# [2.0.0-beta.127](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.126...@editfish/core@2.0.0-beta.127) (2021-10-22)
 
 
 ### Bug Fixes
@@ -809,7 +809,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.126](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.125...@tiptap/core@2.0.0-beta.126) (2021-10-22)
+# [2.0.0-beta.126](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.125...@editfish/core@2.0.0-beta.126) (2021-10-22)
 
 
 ### Bug Fixes
@@ -825,7 +825,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.125](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.124...@tiptap/core@2.0.0-beta.125) (2021-10-14)
+# [2.0.0-beta.125](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.124...@editfish/core@2.0.0-beta.125) (2021-10-14)
 
 
 ### Bug Fixes
@@ -836,7 +836,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.124](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.123...@tiptap/core@2.0.0-beta.124) (2021-10-14)
+# [2.0.0-beta.124](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.123...@editfish/core@2.0.0-beta.124) (2021-10-14)
 
 
 ### Bug Fixes
@@ -847,7 +847,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.123](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.122...@tiptap/core@2.0.0-beta.123) (2021-10-14)
+# [2.0.0-beta.123](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.122...@editfish/core@2.0.0-beta.123) (2021-10-14)
 
 
 ### Features
@@ -859,7 +859,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.122](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.121...@tiptap/core@2.0.0-beta.122) (2021-10-10)
+# [2.0.0-beta.122](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.121...@editfish/core@2.0.0-beta.122) (2021-10-10)
 
 
 ### Bug Fixes
@@ -870,7 +870,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.121](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.120...@tiptap/core@2.0.0-beta.121) (2021-10-10)
+# [2.0.0-beta.121](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.120...@editfish/core@2.0.0-beta.121) (2021-10-10)
 
 
 ### Bug Fixes
@@ -881,7 +881,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.120](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.119...@tiptap/core@2.0.0-beta.120) (2021-10-08)
+# [2.0.0-beta.120](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.119...@editfish/core@2.0.0-beta.120) (2021-10-08)
 
 
 ### Bug Fixes
@@ -892,7 +892,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.119](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.118...@tiptap/core@2.0.0-beta.119) (2021-10-08)
+# [2.0.0-beta.119](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.118...@editfish/core@2.0.0-beta.119) (2021-10-08)
 
 
 ### Features
@@ -903,7 +903,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.118](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.117...@tiptap/core@2.0.0-beta.118) (2021-10-03)
+# [2.0.0-beta.118](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.117...@editfish/core@2.0.0-beta.118) (2021-10-03)
 
 
 ### Bug Fixes
@@ -914,15 +914,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.117](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.116...@tiptap/core@2.0.0-beta.117) (2021-10-02)
+# [2.0.0-beta.117](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.116...@editfish/core@2.0.0-beta.117) (2021-10-02)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.116](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.115...@tiptap/core@2.0.0-beta.116) (2021-09-30)
+
+
+# [2.0.0-beta.116](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.115...@editfish/core@2.0.0-beta.116) (2021-09-30)
 
 
 ### Features
@@ -933,15 +933,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.115](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.114...@tiptap/core@2.0.0-beta.115) (2021-09-29)
+# [2.0.0-beta.115](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.114...@editfish/core@2.0.0-beta.115) (2021-09-29)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.114](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.113...@tiptap/core@2.0.0-beta.114) (2021-09-28)
+
+
+# [2.0.0-beta.114](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.113...@editfish/core@2.0.0-beta.114) (2021-09-28)
 
 
 ### Bug Fixes
@@ -952,7 +952,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.113](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.112...@tiptap/core@2.0.0-beta.113) (2021-09-27)
+# [2.0.0-beta.113](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.112...@editfish/core@2.0.0-beta.113) (2021-09-27)
 
 
 ### Bug Fixes
@@ -964,15 +964,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.112](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.111...@tiptap/core@2.0.0-beta.112) (2021-09-23)
+# [2.0.0-beta.112](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.111...@editfish/core@2.0.0-beta.112) (2021-09-23)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.111](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.110...@tiptap/core@2.0.0-beta.111) (2021-09-22)
+
+
+# [2.0.0-beta.111](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.110...@editfish/core@2.0.0-beta.111) (2021-09-22)
 
 
 ### Bug Fixes
@@ -984,7 +984,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.110](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.109...@tiptap/core@2.0.0-beta.110) (2021-09-21)
+# [2.0.0-beta.110](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.109...@editfish/core@2.0.0-beta.110) (2021-09-21)
 
 
 ### Bug Fixes
@@ -995,7 +995,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.109](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.108...@tiptap/core@2.0.0-beta.109) (2021-09-21)
+# [2.0.0-beta.109](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.108...@editfish/core@2.0.0-beta.109) (2021-09-21)
 
 
 ### Features
@@ -1006,15 +1006,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.108](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.107...@tiptap/core@2.0.0-beta.108) (2021-09-20)
+# [2.0.0-beta.108](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.107...@editfish/core@2.0.0-beta.108) (2021-09-20)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.107](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.106...@tiptap/core@2.0.0-beta.107) (2021-09-18)
+
+
+# [2.0.0-beta.107](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.106...@editfish/core@2.0.0-beta.107) (2021-09-18)
 
 
 ### Bug Fixes
@@ -1025,7 +1025,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.106](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.105...@tiptap/core@2.0.0-beta.106) (2021-09-15)
+# [2.0.0-beta.106](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.105...@editfish/core@2.0.0-beta.106) (2021-09-15)
 
 
 ### Bug Fixes
@@ -1036,7 +1036,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.105](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.104...@tiptap/core@2.0.0-beta.105) (2021-09-09)
+# [2.0.0-beta.105](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.104...@editfish/core@2.0.0-beta.105) (2021-09-09)
 
 
 ### Features
@@ -1047,7 +1047,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.104](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.103...@tiptap/core@2.0.0-beta.104) (2021-09-08)
+# [2.0.0-beta.104](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.103...@editfish/core@2.0.0-beta.104) (2021-09-08)
 
 
 ### Features
@@ -1059,15 +1059,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.103](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.102...@tiptap/core@2.0.0-beta.103) (2021-09-06)
+# [2.0.0-beta.103](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.102...@editfish/core@2.0.0-beta.103) (2021-09-06)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.102](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.101...@tiptap/core@2.0.0-beta.102) (2021-08-26)
+
+
+# [2.0.0-beta.102](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.101...@editfish/core@2.0.0-beta.102) (2021-08-26)
 
 
 ### Bug Fixes
@@ -1078,7 +1078,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.101](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.100...@tiptap/core@2.0.0-beta.101) (2021-08-24)
+# [2.0.0-beta.101](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.100...@editfish/core@2.0.0-beta.101) (2021-08-24)
 
 
 ### Bug Fixes
@@ -1089,7 +1089,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.100](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.99...@tiptap/core@2.0.0-beta.100) (2021-08-20)
+# [2.0.0-beta.100](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.99...@editfish/core@2.0.0-beta.100) (2021-08-20)
 
 
 ### Bug Fixes
@@ -1105,23 +1105,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.99](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.98...@tiptap/core@2.0.0-beta.99) (2021-08-13)
+# [2.0.0-beta.99](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.98...@editfish/core@2.0.0-beta.99) (2021-08-13)
 
-**Note:** Version bump only for package @tiptap/core
-
-
-
-
-
-# [2.0.0-beta.98](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.97...@tiptap/core@2.0.0-beta.98) (2021-08-13)
-
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.97](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.96...@tiptap/core@2.0.0-beta.97) (2021-08-13)
+# [2.0.0-beta.98](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.97...@editfish/core@2.0.0-beta.98) (2021-08-13)
+
+**Note:** Version bump only for package @editfish/core
+
+
+
+
+
+# [2.0.0-beta.97](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.96...@editfish/core@2.0.0-beta.97) (2021-08-13)
 
 
 ### Features
@@ -1132,7 +1132,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.96](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.95...@tiptap/core@2.0.0-beta.96) (2021-08-12)
+# [2.0.0-beta.96](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.95...@editfish/core@2.0.0-beta.96) (2021-08-12)
 
 
 ### Bug Fixes
@@ -1143,7 +1143,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.95](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.94...@tiptap/core@2.0.0-beta.95) (2021-08-11)
+# [2.0.0-beta.95](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.94...@editfish/core@2.0.0-beta.95) (2021-08-11)
 
 
 ### Bug Fixes
@@ -1154,7 +1154,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.94](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.93...@tiptap/core@2.0.0-beta.94) (2021-08-09)
+# [2.0.0-beta.94](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.93...@editfish/core@2.0.0-beta.94) (2021-08-09)
 
 
 ### Bug Fixes
@@ -1167,7 +1167,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.93](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.92...@tiptap/core@2.0.0-beta.93) (2021-07-30)
+# [2.0.0-beta.93](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.92...@editfish/core@2.0.0-beta.93) (2021-07-30)
 
 
 ### Bug Fixes
@@ -1178,15 +1178,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.92](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.91...@tiptap/core@2.0.0-beta.92) (2021-07-28)
+# [2.0.0-beta.92](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.91...@editfish/core@2.0.0-beta.92) (2021-07-28)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.91](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.90...@tiptap/core@2.0.0-beta.91) (2021-07-28)
+
+
+# [2.0.0-beta.91](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.90...@editfish/core@2.0.0-beta.91) (2021-07-28)
 
 
 ### Bug Fixes
@@ -1197,7 +1197,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.90](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.89...@tiptap/core@2.0.0-beta.90) (2021-07-28)
+# [2.0.0-beta.90](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.89...@editfish/core@2.0.0-beta.90) (2021-07-28)
 
 
 ### Features
@@ -1208,7 +1208,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.89](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.88...@tiptap/core@2.0.0-beta.89) (2021-07-27)
+# [2.0.0-beta.89](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.88...@editfish/core@2.0.0-beta.89) (2021-07-27)
 
 
 ### Features
@@ -1219,7 +1219,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.88](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.87...@tiptap/core@2.0.0-beta.88) (2021-07-26)
+# [2.0.0-beta.88](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.87...@editfish/core@2.0.0-beta.88) (2021-07-26)
 
 
 ### Features
@@ -1230,31 +1230,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.87](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.86...@tiptap/core@2.0.0-beta.87) (2021-07-26)
+# [2.0.0-beta.87](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.86...@editfish/core@2.0.0-beta.87) (2021-07-26)
 
-**Note:** Version bump only for package @tiptap/core
-
-
-
-
-
-# [2.0.0-beta.86](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.85...@tiptap/core@2.0.0-beta.86) (2021-07-09)
-
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.85](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.84...@tiptap/core@2.0.0-beta.85) (2021-06-23)
+# [2.0.0-beta.86](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.85...@editfish/core@2.0.0-beta.86) (2021-07-09)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.84](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.83...@tiptap/core@2.0.0-beta.84) (2021-06-17)
+
+
+# [2.0.0-beta.85](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.84...@editfish/core@2.0.0-beta.85) (2021-06-23)
+
+**Note:** Version bump only for package @editfish/core
+
+
+
+
+
+# [2.0.0-beta.84](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.83...@editfish/core@2.0.0-beta.84) (2021-06-17)
 
 
 ### Bug Fixes
@@ -1265,15 +1265,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.83](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.82...@tiptap/core@2.0.0-beta.83) (2021-06-15)
+# [2.0.0-beta.83](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.82...@editfish/core@2.0.0-beta.83) (2021-06-15)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.82](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.81...@tiptap/core@2.0.0-beta.82) (2021-06-14)
+
+
+# [2.0.0-beta.82](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.81...@editfish/core@2.0.0-beta.82) (2021-06-14)
 
 
 ### Bug Fixes
@@ -1285,7 +1285,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.81](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.80...@tiptap/core@2.0.0-beta.81) (2021-06-07)
+# [2.0.0-beta.81](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.80...@editfish/core@2.0.0-beta.81) (2021-06-07)
 
 
 ### Bug Fixes
@@ -1302,7 +1302,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.80](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.79...@tiptap/core@2.0.0-beta.80) (2021-06-03)
+# [2.0.0-beta.80](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.79...@editfish/core@2.0.0-beta.80) (2021-06-03)
 
 
 ### Bug Fixes
@@ -1313,15 +1313,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.79](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.77...@tiptap/core@2.0.0-beta.79) (2021-06-02)
+# [2.0.0-beta.79](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.77...@editfish/core@2.0.0-beta.79) (2021-06-02)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.77](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.76...@tiptap/core@2.0.0-beta.77) (2021-06-02)
+
+
+# [2.0.0-beta.77](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.76...@editfish/core@2.0.0-beta.77) (2021-06-02)
 
 
 ### Features
@@ -1332,7 +1332,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.76](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.75...@tiptap/core@2.0.0-beta.76) (2021-06-01)
+# [2.0.0-beta.76](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.75...@editfish/core@2.0.0-beta.76) (2021-06-01)
 
 
 ### Bug Fixes
@@ -1343,7 +1343,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.75](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.74...@tiptap/core@2.0.0-beta.75) (2021-06-01)
+# [2.0.0-beta.75](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.74...@editfish/core@2.0.0-beta.75) (2021-06-01)
 
 
 ### Bug Fixes
@@ -1354,15 +1354,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.74](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.73...@tiptap/core@2.0.0-beta.74) (2021-05-31)
+# [2.0.0-beta.74](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.73...@editfish/core@2.0.0-beta.74) (2021-05-31)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.73](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.72...@tiptap/core@2.0.0-beta.73) (2021-05-29)
+
+
+# [2.0.0-beta.73](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.72...@editfish/core@2.0.0-beta.73) (2021-05-29)
 
 
 ### Bug Fixes
@@ -1373,7 +1373,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.72](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.71...@tiptap/core@2.0.0-beta.72) (2021-05-28)
+# [2.0.0-beta.72](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.71...@editfish/core@2.0.0-beta.72) (2021-05-28)
 
 
 ### Bug Fixes
@@ -1384,7 +1384,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.71](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.70...@tiptap/core@2.0.0-beta.71) (2021-05-28)
+# [2.0.0-beta.71](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.70...@editfish/core@2.0.0-beta.71) (2021-05-28)
 
 
 ### Bug Fixes
@@ -1395,7 +1395,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.70](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.69...@tiptap/core@2.0.0-beta.70) (2021-05-28)
+# [2.0.0-beta.70](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.69...@editfish/core@2.0.0-beta.70) (2021-05-28)
 
 
 ### Bug Fixes
@@ -1406,15 +1406,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.69](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.68...@tiptap/core@2.0.0-beta.69) (2021-05-27)
+# [2.0.0-beta.69](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.68...@editfish/core@2.0.0-beta.69) (2021-05-27)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.68](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.67...@tiptap/core@2.0.0-beta.68) (2021-05-24)
+
+
+# [2.0.0-beta.68](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.67...@editfish/core@2.0.0-beta.68) (2021-05-24)
 
 
 ### Bug Fixes
@@ -1425,7 +1425,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.67](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.66...@tiptap/core@2.0.0-beta.67) (2021-05-24)
+# [2.0.0-beta.67](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.66...@editfish/core@2.0.0-beta.67) (2021-05-24)
 
 
 ### Bug Fixes
@@ -1437,7 +1437,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.66](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.65...@tiptap/core@2.0.0-beta.66) (2021-05-19)
+# [2.0.0-beta.66](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.65...@editfish/core@2.0.0-beta.66) (2021-05-19)
 
 
 ### Bug Fixes
@@ -1448,7 +1448,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.65](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.64...@tiptap/core@2.0.0-beta.65) (2021-05-18)
+# [2.0.0-beta.65](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.64...@editfish/core@2.0.0-beta.65) (2021-05-18)
 
 
 ### Features
@@ -1459,7 +1459,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.64](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.63...@tiptap/core@2.0.0-beta.64) (2021-05-18)
+# [2.0.0-beta.64](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.63...@editfish/core@2.0.0-beta.64) (2021-05-18)
 
 
 ### Bug Fixes
@@ -1475,23 +1475,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.63](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.62...@tiptap/core@2.0.0-beta.63) (2021-05-18)
+# [2.0.0-beta.63](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.62...@editfish/core@2.0.0-beta.63) (2021-05-18)
 
-**Note:** Version bump only for package @tiptap/core
-
-
-
-
-
-# [2.0.0-beta.62](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.61...@tiptap/core@2.0.0-beta.62) (2021-05-17)
-
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.61](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.60...@tiptap/core@2.0.0-beta.61) (2021-05-17)
+# [2.0.0-beta.62](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.61...@editfish/core@2.0.0-beta.62) (2021-05-17)
+
+**Note:** Version bump only for package @editfish/core
+
+
+
+
+
+# [2.0.0-beta.61](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.60...@editfish/core@2.0.0-beta.61) (2021-05-17)
 
 
 ### Bug Fixes
@@ -1509,7 +1509,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.60](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.59...@tiptap/core@2.0.0-beta.60) (2021-05-13)
+# [2.0.0-beta.60](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.59...@editfish/core@2.0.0-beta.60) (2021-05-13)
 
 
 ### Bug Fixes
@@ -1520,26 +1520,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.59](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.57...@tiptap/core@2.0.0-beta.59) (2021-05-13)
+# [2.0.0-beta.59](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.57...@editfish/core@2.0.0-beta.59) (2021-05-13)
 
-**Note:** Version bump only for package @tiptap/core
-
-
-
-
-
-# [2.0.0-beta.57](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.56...@tiptap/core@2.0.0-beta.57) (2021-05-13)
-
-
-### Bug Fixes
-
-* **core:** Increment `i` in `defaultBlockAt` ([655957d](https://github.com/ueberdosis/tiptap/commit/655957d73304f57d87b8e95d89de00da762c0fa9))
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.57](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.56...@tiptap/core@2.0.0-beta.57) (2021-05-13)
+# [2.0.0-beta.57](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.56...@editfish/core@2.0.0-beta.57) (2021-05-13)
 
 
 ### Bug Fixes
@@ -1550,7 +1539,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.56](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.55...@tiptap/core@2.0.0-beta.56) (2021-05-13)
+# [2.0.0-beta.57](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.56...@editfish/core@2.0.0-beta.57) (2021-05-13)
+
+
+### Bug Fixes
+
+* **core:** Increment `i` in `defaultBlockAt` ([655957d](https://github.com/ueberdosis/tiptap/commit/655957d73304f57d87b8e95d89de00da762c0fa9))
+
+
+
+
+
+# [2.0.0-beta.56](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.55...@editfish/core@2.0.0-beta.56) (2021-05-13)
 
 
 ### Bug Fixes
@@ -1561,7 +1561,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.55](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.54...@tiptap/core@2.0.0-beta.55) (2021-05-11)
+# [2.0.0-beta.55](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.54...@editfish/core@2.0.0-beta.55) (2021-05-11)
 
 
 ### Bug Fixes
@@ -1577,7 +1577,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.54](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.53...@tiptap/core@2.0.0-beta.54) (2021-05-09)
+# [2.0.0-beta.54](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.53...@editfish/core@2.0.0-beta.54) (2021-05-09)
 
 
 ### Bug Fixes
@@ -1588,7 +1588,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.53](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.52...@tiptap/core@2.0.0-beta.53) (2021-05-07)
+# [2.0.0-beta.53](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.52...@editfish/core@2.0.0-beta.53) (2021-05-07)
 
 
 ### Features
@@ -1599,7 +1599,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.52](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.51...@tiptap/core@2.0.0-beta.52) (2021-05-07)
+# [2.0.0-beta.52](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.51...@editfish/core@2.0.0-beta.52) (2021-05-07)
 
 
 ### Features
@@ -1610,7 +1610,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.51](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.50...@tiptap/core@2.0.0-beta.51) (2021-05-07)
+# [2.0.0-beta.51](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.50...@editfish/core@2.0.0-beta.51) (2021-05-07)
 
 
 ### Bug Fixes
@@ -1622,15 +1622,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.50](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.49...@tiptap/core@2.0.0-beta.50) (2021-05-07)
+# [2.0.0-beta.50](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.49...@editfish/core@2.0.0-beta.50) (2021-05-07)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.49](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.48...@tiptap/core@2.0.0-beta.49) (2021-05-07)
+
+
+# [2.0.0-beta.49](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.48...@editfish/core@2.0.0-beta.49) (2021-05-07)
 
 
 ### Bug Fixes
@@ -1642,7 +1642,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.48](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.47...@tiptap/core@2.0.0-beta.48) (2021-05-06)
+# [2.0.0-beta.48](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.47...@editfish/core@2.0.0-beta.48) (2021-05-06)
 
 
 ### Bug Fixes
@@ -1653,7 +1653,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.47](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.46...@tiptap/core@2.0.0-beta.47) (2021-05-06)
+# [2.0.0-beta.47](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.46...@editfish/core@2.0.0-beta.47) (2021-05-06)
 
 
 ### Bug Fixes
@@ -1664,7 +1664,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.46](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.45...@tiptap/core@2.0.0-beta.46) (2021-05-06)
+# [2.0.0-beta.46](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.45...@editfish/core@2.0.0-beta.46) (2021-05-06)
 
 
 ### Features
@@ -1675,15 +1675,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.45](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.44...@tiptap/core@2.0.0-beta.45) (2021-05-06)
+# [2.0.0-beta.45](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.44...@editfish/core@2.0.0-beta.45) (2021-05-06)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.44](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.43...@tiptap/core@2.0.0-beta.44) (2021-05-05)
+
+
+# [2.0.0-beta.44](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.43...@editfish/core@2.0.0-beta.44) (2021-05-05)
 
 
 ### Features
@@ -1694,15 +1694,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.43](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.42...@tiptap/core@2.0.0-beta.43) (2021-05-05)
+# [2.0.0-beta.43](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.42...@editfish/core@2.0.0-beta.43) (2021-05-05)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.42](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.41...@tiptap/core@2.0.0-beta.42) (2021-05-04)
+
+
+# [2.0.0-beta.42](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.41...@editfish/core@2.0.0-beta.42) (2021-05-04)
 
 
 ### Bug Fixes
@@ -1713,7 +1713,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.41](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.40...@tiptap/core@2.0.0-beta.41) (2021-04-27)
+# [2.0.0-beta.41](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.40...@editfish/core@2.0.0-beta.41) (2021-04-27)
 
 
 ### Bug Fixes
@@ -1724,7 +1724,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.40](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.39...@tiptap/core@2.0.0-beta.40) (2021-04-27)
+# [2.0.0-beta.40](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.39...@editfish/core@2.0.0-beta.40) (2021-04-27)
 
 
 ### Bug Fixes
@@ -1740,7 +1740,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.39](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.38...@tiptap/core@2.0.0-beta.39) (2021-04-27)
+# [2.0.0-beta.39](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.38...@editfish/core@2.0.0-beta.39) (2021-04-27)
 
 
 ### Bug Fixes
@@ -1753,15 +1753,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.38](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.37...@tiptap/core@2.0.0-beta.38) (2021-04-23)
+# [2.0.0-beta.38](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.37...@editfish/core@2.0.0-beta.38) (2021-04-23)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.37](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.36...@tiptap/core@2.0.0-beta.37) (2021-04-23)
+
+
+# [2.0.0-beta.37](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.36...@editfish/core@2.0.0-beta.37) (2021-04-23)
 
 
 ### Bug Fixes
@@ -1772,15 +1772,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.36](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.35...@tiptap/core@2.0.0-beta.36) (2021-04-22)
+# [2.0.0-beta.36](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.35...@editfish/core@2.0.0-beta.36) (2021-04-22)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.35](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.34...@tiptap/core@2.0.0-beta.35) (2021-04-21)
+
+
+# [2.0.0-beta.35](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.34...@editfish/core@2.0.0-beta.35) (2021-04-21)
 
 
 ### Features
@@ -1792,7 +1792,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.34](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.33...@tiptap/core@2.0.0-beta.34) (2021-04-20)
+# [2.0.0-beta.34](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.33...@editfish/core@2.0.0-beta.34) (2021-04-20)
 
 
 ### Bug Fixes
@@ -1803,7 +1803,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.33](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.32...@tiptap/core@2.0.0-beta.33) (2021-04-20)
+# [2.0.0-beta.33](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.32...@editfish/core@2.0.0-beta.33) (2021-04-20)
 
 
 ### Bug Fixes
@@ -1814,7 +1814,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.32](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.31...@tiptap/core@2.0.0-beta.32) (2021-04-16)
+# [2.0.0-beta.32](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.31...@editfish/core@2.0.0-beta.32) (2021-04-16)
 
 
 ### Features
@@ -1826,7 +1826,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.31](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.30...@tiptap/core@2.0.0-beta.31) (2021-04-15)
+# [2.0.0-beta.31](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.30...@editfish/core@2.0.0-beta.31) (2021-04-15)
 
 
 ### Bug Fixes
@@ -1837,15 +1837,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.30](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.29...@tiptap/core@2.0.0-beta.30) (2021-04-15)
+# [2.0.0-beta.30](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.29...@editfish/core@2.0.0-beta.30) (2021-04-15)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-beta.29](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.28...@tiptap/core@2.0.0-beta.29) (2021-04-12)
+
+
+# [2.0.0-beta.29](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.28...@editfish/core@2.0.0-beta.29) (2021-04-12)
 
 
 ### Bug Fixes
@@ -1856,7 +1856,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.28](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.27...@tiptap/core@2.0.0-beta.28) (2021-04-12)
+# [2.0.0-beta.28](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.27...@editfish/core@2.0.0-beta.28) (2021-04-12)
 
 
 ### Features
@@ -1867,7 +1867,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.27](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.26...@tiptap/core@2.0.0-beta.27) (2021-04-09)
+# [2.0.0-beta.27](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.26...@editfish/core@2.0.0-beta.27) (2021-04-09)
 
 
 ### Bug Fixes
@@ -1878,7 +1878,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.26](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.25...@tiptap/core@2.0.0-beta.26) (2021-04-09)
+# [2.0.0-beta.26](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.25...@editfish/core@2.0.0-beta.26) (2021-04-09)
 
 
 ### Bug Fixes
@@ -1889,7 +1889,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.25](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.24...@tiptap/core@2.0.0-beta.25) (2021-04-09)
+# [2.0.0-beta.25](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.24...@editfish/core@2.0.0-beta.25) (2021-04-09)
 
 
 ### Bug Fixes
@@ -1900,7 +1900,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.24](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.23...@tiptap/core@2.0.0-beta.24) (2021-04-08)
+# [2.0.0-beta.24](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.23...@editfish/core@2.0.0-beta.24) (2021-04-08)
 
 
 ### Bug Fixes
@@ -1911,7 +1911,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.23](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.22...@tiptap/core@2.0.0-beta.23) (2021-04-08)
+# [2.0.0-beta.23](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.22...@editfish/core@2.0.0-beta.23) (2021-04-08)
 
 
 ### Bug Fixes
@@ -1922,23 +1922,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.22](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.21...@tiptap/core@2.0.0-beta.22) (2021-04-08)
+# [2.0.0-beta.22](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.21...@editfish/core@2.0.0-beta.22) (2021-04-08)
 
-**Note:** Version bump only for package @tiptap/core
-
-
-
-
-
-# [2.0.0-beta.21](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.20...@tiptap/core@2.0.0-beta.21) (2021-04-08)
-
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.20](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.19...@tiptap/core@2.0.0-beta.20) (2021-04-07)
+# [2.0.0-beta.21](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.20...@editfish/core@2.0.0-beta.21) (2021-04-08)
+
+**Note:** Version bump only for package @editfish/core
+
+
+
+
+
+# [2.0.0-beta.20](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.19...@editfish/core@2.0.0-beta.20) (2021-04-07)
 
 
 ### Features
@@ -1949,7 +1949,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.19](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.18...@tiptap/core@2.0.0-beta.19) (2021-04-07)
+# [2.0.0-beta.19](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.18...@editfish/core@2.0.0-beta.19) (2021-04-07)
 
 
 ### Features
@@ -1960,7 +1960,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.18](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.17...@tiptap/core@2.0.0-beta.18) (2021-04-07)
+# [2.0.0-beta.18](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.17...@editfish/core@2.0.0-beta.18) (2021-04-07)
 
 
 ### Features
@@ -1971,7 +1971,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.17](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.16...@tiptap/core@2.0.0-beta.17) (2021-04-07)
+# [2.0.0-beta.17](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.16...@editfish/core@2.0.0-beta.17) (2021-04-07)
 
 
 ### Bug Fixes
@@ -1982,7 +1982,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.16](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.15...@tiptap/core@2.0.0-beta.16) (2021-04-07)
+# [2.0.0-beta.16](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.15...@editfish/core@2.0.0-beta.16) (2021-04-07)
 
 
 ### Features
@@ -1993,215 +1993,215 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.15](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.14...@tiptap/core@2.0.0-beta.15) (2021-04-06)
+# [2.0.0-beta.15](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.14...@editfish/core@2.0.0-beta.15) (2021-04-06)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.14](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.13...@tiptap/core@2.0.0-beta.14) (2021-04-04)
+# [2.0.0-beta.14](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.13...@editfish/core@2.0.0-beta.14) (2021-04-04)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.13](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.12...@tiptap/core@2.0.0-beta.13) (2021-04-02)
+# [2.0.0-beta.13](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.12...@editfish/core@2.0.0-beta.13) (2021-04-02)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.12](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.11...@tiptap/core@2.0.0-beta.12) (2021-04-01)
+# [2.0.0-beta.12](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.11...@editfish/core@2.0.0-beta.12) (2021-04-01)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.11](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.10...@tiptap/core@2.0.0-beta.11) (2021-04-01)
+# [2.0.0-beta.11](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.10...@editfish/core@2.0.0-beta.11) (2021-04-01)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.10](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.9...@tiptap/core@2.0.0-beta.10) (2021-03-31)
+# [2.0.0-beta.10](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.9...@editfish/core@2.0.0-beta.10) (2021-03-31)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.9](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.8...@tiptap/core@2.0.0-beta.9) (2021-03-28)
+# [2.0.0-beta.9](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.8...@editfish/core@2.0.0-beta.9) (2021-03-28)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.8](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.7...@tiptap/core@2.0.0-beta.8) (2021-03-28)
+# [2.0.0-beta.8](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.7...@editfish/core@2.0.0-beta.8) (2021-03-28)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.7](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.6...@tiptap/core@2.0.0-beta.7) (2021-03-28)
+# [2.0.0-beta.7](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.6...@editfish/core@2.0.0-beta.7) (2021-03-28)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.6](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.5...@tiptap/core@2.0.0-beta.6) (2021-03-24)
+# [2.0.0-beta.6](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.5...@editfish/core@2.0.0-beta.6) (2021-03-24)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.5](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.4...@tiptap/core@2.0.0-beta.5) (2021-03-18)
+# [2.0.0-beta.5](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.4...@editfish/core@2.0.0-beta.5) (2021-03-18)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.4](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.3...@tiptap/core@2.0.0-beta.4) (2021-03-18)
+# [2.0.0-beta.4](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.3...@editfish/core@2.0.0-beta.4) (2021-03-18)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.3](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.2...@tiptap/core@2.0.0-beta.3) (2021-03-16)
+# [2.0.0-beta.3](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.2...@editfish/core@2.0.0-beta.3) (2021-03-16)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.2](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-beta.1...@tiptap/core@2.0.0-beta.2) (2021-03-09)
+# [2.0.0-beta.2](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-beta.1...@editfish/core@2.0.0-beta.2) (2021-03-09)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-beta.1](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.22...@tiptap/core@2.0.0-beta.1) (2021-03-05)
+# [2.0.0-beta.1](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.22...@editfish/core@2.0.0-beta.1) (2021-03-05)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-alpha.22](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.21...@tiptap/core@2.0.0-alpha.22) (2021-02-28)
+# [2.0.0-alpha.22](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.21...@editfish/core@2.0.0-alpha.22) (2021-02-28)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-alpha.21](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.20...@tiptap/core@2.0.0-alpha.21) (2021-02-26)
+# [2.0.0-alpha.21](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.20...@editfish/core@2.0.0-alpha.21) (2021-02-26)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-alpha.20](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.19...@tiptap/core@2.0.0-alpha.20) (2021-02-26)
+# [2.0.0-alpha.20](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.19...@editfish/core@2.0.0-alpha.20) (2021-02-26)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-alpha.19](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.18...@tiptap/core@2.0.0-alpha.19) (2021-02-18)
+# [2.0.0-alpha.19](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.18...@editfish/core@2.0.0-alpha.19) (2021-02-18)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-alpha.18](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.17...@tiptap/core@2.0.0-alpha.18) (2021-02-16)
+# [2.0.0-alpha.18](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.17...@editfish/core@2.0.0-alpha.18) (2021-02-16)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-alpha.17](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.16...@tiptap/core@2.0.0-alpha.17) (2021-02-16)
+# [2.0.0-alpha.17](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.16...@editfish/core@2.0.0-alpha.17) (2021-02-16)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-alpha.16](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.15...@tiptap/core@2.0.0-alpha.16) (2021-02-07)
+# [2.0.0-alpha.16](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.15...@editfish/core@2.0.0-alpha.16) (2021-02-07)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-alpha.15](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.14...@tiptap/core@2.0.0-alpha.15) (2021-02-05)
+# [2.0.0-alpha.15](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.14...@editfish/core@2.0.0-alpha.15) (2021-02-05)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-alpha.14](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.13...@tiptap/core@2.0.0-alpha.14) (2021-01-29)
+# [2.0.0-alpha.14](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.13...@editfish/core@2.0.0-alpha.14) (2021-01-29)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-alpha.13](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.12...@tiptap/core@2.0.0-alpha.13) (2021-01-29)
+# [2.0.0-alpha.13](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.12...@editfish/core@2.0.0-alpha.13) (2021-01-29)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-alpha.12](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.11...@tiptap/core@2.0.0-alpha.12) (2021-01-28)
+# [2.0.0-alpha.12](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.11...@editfish/core@2.0.0-alpha.12) (2021-01-28)
 
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-alpha.11](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.10...@tiptap/core@2.0.0-alpha.11) (2021-01-28)
+# [2.0.0-alpha.11](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.10...@editfish/core@2.0.0-alpha.11) (2021-01-28)
 
 
 ### Bug Fixes
@@ -2212,63 +2212,63 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-alpha.10](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.9...@tiptap/core@2.0.0-alpha.10) (2021-01-06)
+# [2.0.0-alpha.10](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.9...@editfish/core@2.0.0-alpha.10) (2021-01-06)
 
-**Note:** Version bump only for package @tiptap/core
-
-
-
-
-
-# [2.0.0-alpha.9](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.8...@tiptap/core@2.0.0-alpha.9) (2020-12-18)
-
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-alpha.8](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.7...@tiptap/core@2.0.0-alpha.8) (2020-12-18)
+# [2.0.0-alpha.9](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.8...@editfish/core@2.0.0-alpha.9) (2020-12-18)
 
-**Note:** Version bump only for package @tiptap/core
-
-
-
-
-
-# [2.0.0-alpha.7](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.6...@tiptap/core@2.0.0-alpha.7) (2020-12-02)
-
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-alpha.6](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.5...@tiptap/core@2.0.0-alpha.6) (2020-11-19)
+# [2.0.0-alpha.8](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.7...@editfish/core@2.0.0-alpha.8) (2020-12-18)
 
-**Note:** Version bump only for package @tiptap/core
-
-
-
-
-
-# [2.0.0-alpha.5](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.4...@tiptap/core@2.0.0-alpha.5) (2020-11-18)
-
-**Note:** Version bump only for package @tiptap/core
+**Note:** Version bump only for package @editfish/core
 
 
 
 
 
-# [2.0.0-alpha.4](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.3...@tiptap/core@2.0.0-alpha.4) (2020-11-16)
+# [2.0.0-alpha.7](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.6...@editfish/core@2.0.0-alpha.7) (2020-12-02)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-alpha.3](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.2...@tiptap/core@2.0.0-alpha.3) (2020-11-16)
+
+
+# [2.0.0-alpha.6](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.5...@editfish/core@2.0.0-alpha.6) (2020-11-19)
+
+**Note:** Version bump only for package @editfish/core
+
+
+
+
+
+# [2.0.0-alpha.5](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.4...@editfish/core@2.0.0-alpha.5) (2020-11-18)
+
+**Note:** Version bump only for package @editfish/core
+
+
+
+
+
+# [2.0.0-alpha.4](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.3...@editfish/core@2.0.0-alpha.4) (2020-11-16)
+
+**Note:** Version bump only for package @editfish/core
+
+
+
+
+
+# [2.0.0-alpha.3](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.2...@editfish/core@2.0.0-alpha.3) (2020-11-16)
 
 
 ### Reverts
@@ -2279,14 +2279,14 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-alpha.2](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.1...@tiptap/core@2.0.0-alpha.2) (2020-11-16)
+# [2.0.0-alpha.2](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.1...@editfish/core@2.0.0-alpha.2) (2020-11-16)
 
-**Note:** Version bump only for package @tiptap/core
-
-
+**Note:** Version bump only for package @editfish/core
 
 
 
-# [2.0.0-alpha.1](https://github.com/ueberdosis/tiptap/compare/@tiptap/core@2.0.0-alpha.0...@tiptap/core@2.0.0-alpha.1) (2020-11-16)
 
-**Note:** Version bump only for package @tiptap/core
+
+# [2.0.0-alpha.1](https://github.com/ueberdosis/tiptap/compare/@editfish/core@2.0.0-alpha.0...@editfish/core@2.0.0-alpha.1) (2020-11-16)
+
+**Note:** Version bump only for package @editfish/core

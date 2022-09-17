@@ -6,7 +6,7 @@ import { getSchemaTypeNameByName } from '../helpers/getSchemaTypeNameByName'
 import { RawCommands } from '../types'
 import { deleteProps } from '../utilities/deleteProps'
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     resetAttributes: {
       /**

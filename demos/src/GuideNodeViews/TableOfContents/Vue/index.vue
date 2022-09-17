@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import StarterKit from '@editfish/starter-kit'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 import TableOfContents from './TableOfContents.js'
 
@@ -23,10 +23,7 @@ export default {
 
   mounted() {
     this.editor = new Editor({
-      extensions: [
-        StarterKit,
-        TableOfContents,
-      ],
+      extensions: [StarterKit, TableOfContents],
       content: `
         <toc></toc>
         <h2>1 heading</h2>

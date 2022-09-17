@@ -4,8 +4,8 @@ icon: user-voice-line
 ---
 
 # Collaboration
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-collaboration.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-collaboration)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-collaboration.svg)](https://npmcharts.com/compare/@tiptap/extension-collaboration?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-collaboration.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-collaboration)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-collaboration.svg)](https://npmcharts.com/compare/@editfish/extension-collaboration?minimal=true)
 
 The Collaboration extension enables you to collaborate with others in a single document. The implementation is based on [Y.js by Kevin Jahns](https://github.com/yjs/yjs), which is the coolest thing to [integrate collaborative editing](/guide/collaborative-editing) in your project.
 
@@ -17,7 +17,7 @@ We kindly ask you to [sponsor our work](/sponsor) when using this extension in p
 
 ## Installation
 ```bash
-npm install @tiptap/extension-collaboration yjs y-websocket
+npm install @editfish/extension-collaboration yjs y-websocket
 ```
 
 ## Settings

@@ -1,10 +1,10 @@
-import { mergeAttributes, Node, wrappingInputRule } from '@tiptap/core'
+import { mergeAttributes, Node, wrappingInputRule } from '@editfish/core'
 
 export interface BlockquoteOptions {
   HTMLAttributes: Record<string, any>,
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     blockQuote: {
       /**

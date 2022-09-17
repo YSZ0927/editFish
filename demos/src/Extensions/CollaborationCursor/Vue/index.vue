@@ -3,13 +3,13 @@
 </template>
 
 <script>
-import Collaboration from '@tiptap/extension-collaboration'
-import CollaborationCursor from '@tiptap/extension-collaboration-cursor'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Placeholder from '@tiptap/extension-placeholder'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Collaboration from '@editfish/extension-collaboration'
+import CollaborationCursor from '@editfish/extension-collaboration-cursor'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Placeholder from '@editfish/extension-placeholder'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 import { WebrtcProvider } from 'y-webrtc'
 import * as Y from 'yjs'
 
@@ -46,7 +46,8 @@ export default {
           },
         }),
         Placeholder.configure({
-          placeholder: 'Write something … It’ll be shared with everyone else looking at this example.',
+          placeholder:
+            'Write something … It’ll be shared with everyone else looking at this example.',
         }),
       ],
     })
@@ -81,8 +82,8 @@ export default {
   position: relative;
   margin-left: -1px;
   margin-right: -1px;
-  border-left: 1px solid #0D0D0D;
-  border-right: 1px solid #0D0D0D;
+  border-left: 1px solid #0d0d0d;
+  border-right: 1px solid #0d0d0d;
   word-break: normal;
   pointer-events: none;
 }
@@ -97,7 +98,7 @@ export default {
   font-weight: 600;
   line-height: normal;
   user-select: none;
-  color: #0D0D0D;
+  color: #0d0d0d;
   padding: 0.1rem 0.3rem;
   border-radius: 3px 3px 3px 0;
   white-space: nowrap;

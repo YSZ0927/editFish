@@ -1,8 +1,8 @@
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Strike from '@tiptap/extension-strike'
-import Text from '@tiptap/extension-text'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Strike from '@editfish/extension-strike'
+import Text from '@editfish/extension-text'
+import { EditorContent, useEditor } from '@editfish/react'
 import React from 'react'
 
 export default () => {
@@ -24,19 +24,34 @@ export default () => {
   return (
     <>
       <button
-        onClick={() => editor.chain().focus().toggleStrike().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .toggleStrike()
+          .run()
+        }
         className={editor.isActive('strike') ? 'is-active' : ''}
       >
         toggleStrike
       </button>
       <button
-        onClick={() => editor.chain().focus().setStrike().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .setStrike()
+          .run()
+        }
         disabled={editor.isActive('strike')}
       >
         setStrike
       </button>
       <button
-        onClick={() => editor.chain().focus().unsetStrike().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .unsetStrike()
+          .run()
+        }
         disabled={!editor.isActive('strike')}
       >
         unsetStrike

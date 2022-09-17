@@ -1,4 +1,4 @@
-import { mergeAttributes, Node, nodePasteRule } from '@tiptap/core'
+import { mergeAttributes, Node, nodePasteRule } from '@editfish/core'
 
 import { getEmbedURLFromYoutubeURL, isValidYoutubeUrl, YOUTUBE_REGEX_GLOBAL } from './utils'
 
@@ -13,7 +13,7 @@ export interface YoutubeOptions {
   width: number;
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     youtube: {
       /**

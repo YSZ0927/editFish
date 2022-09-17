@@ -1,4 +1,4 @@
-import { Mark, markPasteRule, mergeAttributes } from '@tiptap/core'
+import { Mark, markPasteRule, mergeAttributes } from '@editfish/core'
 import { find, registerCustomProtocol } from 'linkifyjs'
 
 import { autolink } from './helpers/autolink'
@@ -34,7 +34,7 @@ export interface LinkOptions {
   validate?: (url: string) => boolean,
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     link: {
       /**

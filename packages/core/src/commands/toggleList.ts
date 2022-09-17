@@ -59,7 +59,7 @@ const joinListForwards = (tr: Transaction, listType: NodeType): boolean => {
   return true
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     toggleList: {
       /**

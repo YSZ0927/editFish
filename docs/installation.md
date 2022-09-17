@@ -26,12 +26,12 @@ Tiptap is framework-agnostic and even works with Vanilla JavaScript (if that’s
 You are using plain JavaScript or a framework that is not listed here? No worries, we provide everything you need.
 
 ### 1. Install the dependencies
-For the following example you will need `@tiptap/core` (the actual editor) and `@tiptap/starter-kit`.
+For the following example you will need `@editfish/core` (the actual editor) and `@editfish/starter-kit`.
 
 The StarterKit doesn’t include all, but the most common extensions.
 
 ```bash
-npm install @tiptap/core @tiptap/starter-kit
+npm install @editfish/core @editfish/starter-kit
 ```
 
 ### 2. Add some markup
@@ -45,8 +45,8 @@ Add the following HTML where you want the editor to be mounted:
 Everything is in place now, so let’s set up the actual editor now. Add the following code to your JavaScript:
 
 ```js
-import { Editor } from '@tiptap/core'
-import StarterKit from '@tiptap/starter-kit'
+import { Editor } from '@editfish/core'
+import StarterKit from '@editfish/starter-kit'
 
 new Editor({
   element: document.querySelector('.element'),

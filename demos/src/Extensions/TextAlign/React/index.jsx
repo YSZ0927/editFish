@@ -1,9 +1,9 @@
-import Document from '@tiptap/extension-document'
-import Heading from '@tiptap/extension-heading'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import TextAlign from '@tiptap/extension-text-align'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Document from '@editfish/extension-document'
+import Heading from '@editfish/extension-heading'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import TextAlign from '@editfish/extension-text-align'
+import { EditorContent, useEditor } from '@editfish/react'
 import React from 'react'
 
 export default () => {
@@ -31,30 +31,59 @@ export default () => {
   return (
     <div>
       <button
-        onClick={() => editor.chain().focus().setTextAlign('left').run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .setTextAlign('left')
+          .run()
+        }
         className={editor.isActive({ textAlign: 'left' }) ? 'is-active' : ''}
       >
         left
       </button>
       <button
-        onClick={() => editor.chain().focus().setTextAlign('center').run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .setTextAlign('center')
+          .run()
+        }
         className={editor.isActive({ textAlign: 'center' }) ? 'is-active' : ''}
       >
         center
       </button>
       <button
-        onClick={() => editor.chain().focus().setTextAlign('right').run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .setTextAlign('right')
+          .run()
+        }
         className={editor.isActive({ textAlign: 'right' }) ? 'is-active' : ''}
       >
         right
       </button>
       <button
-        onClick={() => editor.chain().focus().setTextAlign('justify').run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .setTextAlign('justify')
+          .run()
+        }
         className={editor.isActive({ textAlign: 'justify' }) ? 'is-active' : ''}
       >
         justify
       </button>
-      <button onClick={() => editor.chain().focus().unsetTextAlign().run()}>unsetTextAlign</button>
+      <button
+        onClick={() => editor
+          .chain()
+          .focus()
+          .unsetTextAlign()
+          .run()
+        }
+      >
+        unsetTextAlign
+      </button>
       <EditorContent editor={editor} />
     </div>
   )

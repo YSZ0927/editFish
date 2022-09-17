@@ -4,8 +4,8 @@ icon: terminal-box-fill
 ---
 
 # CodeBlockLowlight
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-code-block-lowlight.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-code-block-lowlight)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-code-block-lowlight.svg)](https://npmcharts.com/compare/@tiptap/extension-code-block-lowlight?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-code-block-lowlight.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-code-block-lowlight)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-code-block-lowlight.svg)](https://npmcharts.com/compare/@editfish/extension-code-block-lowlight?minimal=true)
 
 With the CodeBlockLowlight extension you can add fenced code blocks to your documents. It’ll wrap the code in `<pre>` and `<code>` HTML tags.
 
@@ -17,7 +17,7 @@ Type <code>&grave;&grave;&grave;&nbsp;</code> (three backticks and a space) or <
 
 ## Installation
 ```bash
-npm install lowlight @tiptap/extension-code-block-lowlight
+npm install lowlight @editfish/extension-code-block-lowlight
 ```
 
 ## Settings

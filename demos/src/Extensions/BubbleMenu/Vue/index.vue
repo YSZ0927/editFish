@@ -1,17 +1,44 @@
 <template>
   <div>
     <div>
-      <input type="checkbox" :checked="isEditable" @change="() => isEditable = !isEditable">
+      <input type="checkbox" :checked="isEditable" @change="() => (isEditable = !isEditable)" />
       Editable
     </div>
     <bubble-menu :editor="editor" :tippy-options="{ duration: 100 }" v-if="editor">
-      <button @click="editor.chain().focus().toggleBold().run()" :class="{ 'is-active': editor.isActive('bold') }">
+      <button
+        @click="
+          editor
+            .chain()
+            .focus()
+            .toggleBold()
+            .run()
+        "
+        :class="{ 'is-active': editor.isActive('bold') }"
+      >
         bold
       </button>
-      <button @click="editor.chain().focus().toggleItalic().run()" :class="{ 'is-active': editor.isActive('italic') }">
+      <button
+        @click="
+          editor
+            .chain()
+            .focus()
+            .toggleItalic()
+            .run()
+        "
+        :class="{ 'is-active': editor.isActive('italic') }"
+      >
         italic
       </button>
-      <button @click="editor.chain().focus().toggleStrike().run()" :class="{ 'is-active': editor.isActive('strike') }">
+      <button
+        @click="
+          editor
+            .chain()
+            .focus()
+            .toggleStrike()
+            .run()
+        "
+        :class="{ 'is-active': editor.isActive('strike') }"
+      >
         strike
       </button>
     </bubble-menu>
@@ -20,8 +47,8 @@
 </template>
 
 <script>
-import StarterKit from '@tiptap/starter-kit'
-import { BubbleMenu, Editor, EditorContent } from '@tiptap/vue-3'
+import StarterKit from '@editfish/starter-kit'
+import { BubbleMenu, Editor, EditorContent } from '@editfish/vue-3'
 
 export default {
   components: {
@@ -44,9 +71,7 @@ export default {
 
   mounted() {
     this.editor = new Editor({
-      extensions: [
-        StarterKit,
-      ],
+      extensions: [StarterKit],
       content: `
         <p>
           Hey, try to select some text here. You’ll see a formatting menu pop up. And as always, you are in full control about content and styling of this menu.

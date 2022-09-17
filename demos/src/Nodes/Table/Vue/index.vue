@@ -1,57 +1,201 @@
 <template>
   <div v-if="editor">
-    <button @click="editor.chain().focus().insertTable({ rows: 3, cols: 3, withHeaderRow: true }).run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .insertTable({ rows: 3, cols: 3, withHeaderRow: true })
+          .run()
+      "
+    >
       insertTable
     </button>
-    <button @click="editor.chain().focus().addColumnBefore().run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .addColumnBefore()
+          .run()
+      "
+    >
       addColumnBefore
     </button>
-    <button @click="editor.chain().focus().addColumnAfter().run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .addColumnAfter()
+          .run()
+      "
+    >
       addColumnAfter
     </button>
-    <button @click="editor.chain().focus().deleteColumn().run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .deleteColumn()
+          .run()
+      "
+    >
       deleteColumn
     </button>
-    <button @click="editor.chain().focus().addRowBefore().run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .addRowBefore()
+          .run()
+      "
+    >
       addRowBefore
     </button>
-    <button @click="editor.chain().focus().addRowAfter().run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .addRowAfter()
+          .run()
+      "
+    >
       addRowAfter
     </button>
-    <button @click="editor.chain().focus().deleteRow().run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .deleteRow()
+          .run()
+      "
+    >
       deleteRow
     </button>
-    <button @click="editor.chain().focus().deleteTable().run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .deleteTable()
+          .run()
+      "
+    >
       deleteTable
     </button>
-    <button @click="editor.chain().focus().mergeCells().run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .mergeCells()
+          .run()
+      "
+    >
       mergeCells
     </button>
-    <button @click="editor.chain().focus().splitCell().run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .splitCell()
+          .run()
+      "
+    >
       splitCell
     </button>
-    <button @click="editor.chain().focus().toggleHeaderColumn().run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .toggleHeaderColumn()
+          .run()
+      "
+    >
       toggleHeaderColumn
     </button>
-    <button @click="editor.chain().focus().toggleHeaderRow().run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .toggleHeaderRow()
+          .run()
+      "
+    >
       toggleHeaderRow
     </button>
-    <button @click="editor.chain().focus().toggleHeaderCell().run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .toggleHeaderCell()
+          .run()
+      "
+    >
       toggleHeaderCell
     </button>
-    <button @click="editor.chain().focus().mergeOrSplit().run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .mergeOrSplit()
+          .run()
+      "
+    >
       mergeOrSplit
     </button>
-    <button @click="editor.chain().focus().setCellAttribute('colspan', 2).run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .setCellAttribute('colspan', 2)
+          .run()
+      "
+    >
       setCellAttribute
     </button>
-    <button @click="editor.chain().focus().fixTables().run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .fixTables()
+          .run()
+      "
+    >
       fixTables
     </button>
-    <button @click="editor.chain().focus().goToNextCell().run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .goToNextCell()
+          .run()
+      "
+    >
       goToNextCell
     </button>
-    <button @click="editor.chain().focus().goToPreviousCell().run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .goToPreviousCell()
+          .run()
+      "
+    >
       goToPreviousCell
     </button>
     <editor-content :editor="editor" />
@@ -59,15 +203,15 @@
 </template>
 
 <script>
-import Document from '@tiptap/extension-document'
-import Gapcursor from '@tiptap/extension-gapcursor'
-import Paragraph from '@tiptap/extension-paragraph'
-import Table from '@tiptap/extension-table'
-import TableCell from '@tiptap/extension-table-cell'
-import TableHeader from '@tiptap/extension-table-header'
-import TableRow from '@tiptap/extension-table-row'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Document from '@editfish/extension-document'
+import Gapcursor from '@editfish/extension-gapcursor'
+import Paragraph from '@editfish/extension-paragraph'
+import Table from '@editfish/extension-table'
+import TableCell from '@editfish/extension-table-cell'
+import TableHeader from '@editfish/extension-table-header'
+import TableRow from '@editfish/extension-table-row'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 export default {
   components: {
@@ -152,7 +296,10 @@ export default {
       z-index: 2;
       position: absolute;
       content: "";
-      left: 0; right: 0; top: 0; bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
       background: rgba(200, 200, 255, 0.4);
       pointer-events: none;
     }

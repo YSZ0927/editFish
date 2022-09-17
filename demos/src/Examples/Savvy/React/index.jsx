@@ -1,11 +1,11 @@
 import './styles.scss'
 
-import Code from '@tiptap/extension-code'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import Typography from '@tiptap/extension-typography'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Code from '@editfish/extension-code'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import Typography from '@editfish/extension-typography'
+import { EditorContent, useEditor } from '@editfish/react'
 import React from 'react'
 
 import { ColorHighlighter } from './ColorHighlighter'
@@ -13,15 +13,7 @@ import { SmilieReplacer } from './SmilieReplacer'
 
 export default () => {
   const editor = useEditor({
-    extensions: [
-      Document,
-      Paragraph,
-      Text,
-      Code,
-      Typography,
-      ColorHighlighter,
-      SmilieReplacer,
-    ],
+    extensions: [Document, Paragraph, Text, Code, Typography, ColorHighlighter, SmilieReplacer],
     content: `
       <p>
         → With the Typography extension, tiptap understands »what you mean« and adds correct characters to your text — it’s like a “typography nerd” on your side.

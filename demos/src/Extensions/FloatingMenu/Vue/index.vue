@@ -1,17 +1,44 @@
 <template>
   <div>
     <div>
-      <input type="checkbox" :checked="isEditable" @change="() => isEditable = !isEditable">
+      <input type="checkbox" :checked="isEditable" @change="() => (isEditable = !isEditable)" />
       Editable
     </div>
     <floating-menu :editor="editor" :tippy-options="{ duration: 100 }" v-if="editor">
-      <button @click="editor.chain().focus().toggleHeading({ level: 1 }).run()" :class="{ 'is-active': editor.isActive('heading', { level: 1 }) }">
+      <button
+        @click="
+          editor
+            .chain()
+            .focus()
+            .toggleHeading({ level: 1 })
+            .run()
+        "
+        :class="{ 'is-active': editor.isActive('heading', { level: 1 }) }"
+      >
         H1
       </button>
-      <button @click="editor.chain().focus().toggleHeading({ level: 2 }).run()" :class="{ 'is-active': editor.isActive('heading', { level: 2 }) }">
+      <button
+        @click="
+          editor
+            .chain()
+            .focus()
+            .toggleHeading({ level: 2 })
+            .run()
+        "
+        :class="{ 'is-active': editor.isActive('heading', { level: 2 }) }"
+      >
         H2
       </button>
-      <button @click="editor.chain().focus().toggleBulletList().run()" :class="{ 'is-active': editor.isActive('bulletList') }">
+      <button
+        @click="
+          editor
+            .chain()
+            .focus()
+            .toggleBulletList()
+            .run()
+        "
+        :class="{ 'is-active': editor.isActive('bulletList') }"
+      >
         Bullet List
       </button>
     </floating-menu>
@@ -20,8 +47,8 @@
 </template>
 
 <script>
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent, FloatingMenu } from '@tiptap/vue-3'
+import StarterKit from '@editfish/starter-kit'
+import { Editor, EditorContent, FloatingMenu } from '@editfish/vue-3'
 
 export default {
   components: {
@@ -44,9 +71,7 @@ export default {
 
   mounted() {
     this.editor = new Editor({
-      extensions: [
-        StarterKit,
-      ],
+      extensions: [StarterKit],
       content: `
         <p>
           This is an example of a Medium-like editor. Enter a new line and some buttons will appear.

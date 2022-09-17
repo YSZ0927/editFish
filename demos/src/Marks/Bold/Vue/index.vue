@@ -1,12 +1,39 @@
 <template>
   <div v-if="editor">
-    <button @click="editor.chain().focus().toggleBold().run()" :class="{ 'is-active': editor.isActive('bold') }">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .toggleBold()
+          .run()
+      "
+      :class="{ 'is-active': editor.isActive('bold') }"
+    >
       toggleBold
     </button>
-    <button @click="editor.chain().focus().setBold().run()" :disabled="editor.isActive('bold')">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .setBold()
+          .run()
+      "
+      :disabled="editor.isActive('bold')"
+    >
       setBold
     </button>
-    <button @click="editor.chain().focus().unsetBold().run()" :disabled="!editor.isActive('bold')">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .unsetBold()
+          .run()
+      "
+      :disabled="!editor.isActive('bold')"
+    >
       unsetBold
     </button>
 
@@ -15,11 +42,11 @@
 </template>
 
 <script>
-import Bold from '@tiptap/extension-bold'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Bold from '@editfish/extension-bold'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 export default {
   components: {
@@ -34,12 +61,7 @@ export default {
 
   mounted() {
     this.editor = new Editor({
-      extensions: [
-        Document,
-        Paragraph,
-        Text,
-        Bold,
-      ],
+      extensions: [Document, Paragraph, Text, Bold],
       content: `
         <p>This isn’t bold.</p>
         <p><strong>This is bold.</strong></p>

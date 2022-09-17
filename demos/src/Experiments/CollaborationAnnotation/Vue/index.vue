@@ -32,13 +32,13 @@
 </template>
 
 <script>
-import Bold from '@tiptap/extension-bold'
-import Collaboration from '@tiptap/extension-collaboration'
-import Document from '@tiptap/extension-document'
-import Heading from '@tiptap/extension-heading'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Bold from '@editfish/extension-bold'
+import Collaboration from '@editfish/extension-collaboration'
+import Document from '@editfish/extension-document'
+import Heading from '@editfish/extension-heading'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 import * as Y from 'yjs'
 
 import CollaborationAnnotation from './extension'
@@ -68,7 +68,9 @@ export default {
         Heading,
         CollaborationAnnotation.configure({
           document: ydoc,
-          onUpdate: items => { this.comments = items },
+          onUpdate: items => {
+            this.comments = items
+          },
           instance: 'editor1',
         }),
         Collaboration.configure({
@@ -144,6 +146,6 @@ export default {
 }
 
 .annotation {
-  background: #9DEF8F;
+  background: #9def8f;
 }
 </style>

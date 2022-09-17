@@ -1,4 +1,4 @@
-import { Extensions, getSchema } from '@tiptap/core'
+import { Extensions, getSchema } from '@editfish/core'
 import { DOMParser } from 'prosemirror-model'
 import { parseHTML } from 'zeed-dom'
 

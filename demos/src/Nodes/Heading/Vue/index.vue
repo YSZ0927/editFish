@@ -1,12 +1,39 @@
 <template>
   <div v-if="editor">
-    <button @click="editor.chain().focus().toggleHeading({ level: 1 }).run()" :class="{ 'is-active': editor.isActive('heading', { level: 1 }) }">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .toggleHeading({ level: 1 })
+          .run()
+      "
+      :class="{ 'is-active': editor.isActive('heading', { level: 1 }) }"
+    >
       H1
     </button>
-    <button @click="editor.chain().focus().toggleHeading({ level: 2 }).run()" :class="{ 'is-active': editor.isActive('heading', { level: 2 }) }">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .toggleHeading({ level: 2 })
+          .run()
+      "
+      :class="{ 'is-active': editor.isActive('heading', { level: 2 }) }"
+    >
       H2
     </button>
-    <button @click="editor.chain().focus().toggleHeading({ level: 3 }).run()" :class="{ 'is-active': editor.isActive('heading', { level: 3 }) }">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .toggleHeading({ level: 3 })
+          .run()
+      "
+      :class="{ 'is-active': editor.isActive('heading', { level: 3 }) }"
+    >
       H3
     </button>
 
@@ -15,11 +42,11 @@
 </template>
 
 <script>
-import Document from '@tiptap/extension-document'
-import Heading from '@tiptap/extension-heading'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Document from '@editfish/extension-document'
+import Heading from '@editfish/extension-heading'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 export default {
   components: {

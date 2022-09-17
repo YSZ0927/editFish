@@ -1,7 +1,7 @@
-# @tiptap/extension-focus
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-focus.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-focus)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-focus.svg)](https://npmcharts.com/compare/tiptap?minimal=true)
-[![License](https://img.shields.io/npm/l/@tiptap/extension-focus.svg)](https://www.npmjs.com/package/@tiptap/extension-focus)
+# @editfish/extension-focus
+[![Version](https://img.shields.io/npm/v/@editfish/extension-focus.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-focus)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-focus.svg)](https://npmcharts.com/compare/tiptap?minimal=true)
+[![License](https://img.shields.io/npm/l/@editfish/extension-focus.svg)](https://www.npmjs.com/package/@editfish/extension-focus)
 [![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub)](https://github.com/sponsors/ueberdosis)
 
 ## Introduction

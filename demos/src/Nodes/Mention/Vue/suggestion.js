@@ -1,4 +1,4 @@
-import { VueRenderer } from '@tiptap/vue-3'
+import { VueRenderer } from '@editfish/vue-3'
 import tippy from 'tippy.js'
 
 import MentionList from './MentionList.vue'

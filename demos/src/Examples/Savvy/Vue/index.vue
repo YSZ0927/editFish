@@ -3,12 +3,12 @@
 </template>
 
 <script>
-import Code from '@tiptap/extension-code'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import Typography from '@tiptap/extension-typography'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Code from '@editfish/extension-code'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import Typography from '@editfish/extension-typography'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 import { ColorHighlighter } from './ColorHighlighter'
 import { SmilieReplacer } from './SmilieReplacer'
@@ -26,15 +26,7 @@ export default {
 
   mounted() {
     this.editor = new Editor({
-      extensions: [
-        Document,
-        Paragraph,
-        Text,
-        Code,
-        Typography,
-        ColorHighlighter,
-        SmilieReplacer,
-      ],
+      extensions: [Document, Paragraph, Text, Code, Typography, ColorHighlighter, SmilieReplacer],
       content: `
         <p>
           → With the Typography extension, tiptap understands »what you mean« and adds correct characters to your text — it’s like a “typography nerd” on your side.
@@ -88,7 +80,7 @@ export default {
   white-space: nowrap;
 
   &::before {
-    content: ' ';
+    content: " ";
     display: inline-block;
     width: 1em;
     height: 1em;

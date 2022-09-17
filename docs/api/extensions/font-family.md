@@ -3,14 +3,14 @@ description: Doesn’t have support for Comic Sans, but for all other fonts.
 ---
 
 # FontFamily
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-font-family.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-font-family)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-font-family.svg)](https://npmcharts.com/compare/@tiptap/extension-font-family?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-font-family.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-font-family)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-font-family.svg)](https://npmcharts.com/compare/@editfish/extension-font-family?minimal=true)
 
 This extension enables you to set the font family in the editor. It uses the [`TextStyle`](/api/marks/text-style) mark, which renders a `<span>` tag. The font family is applied as inline style, for example `<span style="font-family: Arial">`.
 
 ## Installation
 ```bash
-npm install @tiptap/extension-text-style @tiptap/extension-font-family
+npm install @editfish/extension-text-style @editfish/extension-font-family
 ```
 
 This extension requires the [`TextStyle`](/api/marks/text-style) mark.

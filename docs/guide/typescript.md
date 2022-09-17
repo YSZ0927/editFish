@@ -19,7 +19,7 @@ If you are using TypeScript in your project and want to extend Tiptap, there are
 To extend or create default options for an extension, you’ll need to define a custom type, here is an example:
 
 ```ts
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 
 export interface CustomExtensionOptions {
   awesomeness: number,
@@ -38,7 +38,7 @@ const CustomExtension = Extension.create<CustomExtensionOptions>({
 To add types for your extension storage, you’ll have to pass that as a second type parameter.
 
 ```ts
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 
 export interface CustomExtensionStorage {
   awesomeness: number,
@@ -67,9 +67,9 @@ const customStorage = editor.storage.customExtension as CustomExtensionStorage
 The core package also exports a `Command` type, which needs to be added to all commands that you specify in your code. Here is an example:
 
 ```ts
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     customExtension: {
       /**

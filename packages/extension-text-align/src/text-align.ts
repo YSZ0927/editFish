@@ -1,4 +1,4 @@
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 
 export interface TextAlignOptions {
   types: string[],
@@ -6,7 +6,7 @@ export interface TextAlignOptions {
   defaultAlignment: string,
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     textAlign: {
       /**

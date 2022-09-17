@@ -1,4 +1,4 @@
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 
 import { BubbleMenuPlugin, BubbleMenuPluginProps } from './bubble-menu-plugin'
 

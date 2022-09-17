@@ -4,14 +4,14 @@ icon: subscript
 ---
 
 # Subscript
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-subscript.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-subscript)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-subscript.svg)](https://npmcharts.com/compare/@tiptap/extension-subscript?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-subscript.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-subscript)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-subscript.svg)](https://npmcharts.com/compare/@editfish/extension-subscript?minimal=true)
 
 Use this extension to render text in <sub>subscript</sub>. If you pass `<sub>` or text with `vertical-align: sub` as inline style in the editor’s initial content, both will be normalized to a `<sub>` HTML tag.
 
 ## Installation
 ```bash
-npm install @tiptap/extension-subscript
+npm install @editfish/extension-subscript
 ```
 
 ## Settings

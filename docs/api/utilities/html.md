@@ -1,6 +1,6 @@
 # HTML
-[![Version](https://img.shields.io/npm/v/@tiptap/html.svg?label=version)](https://www.npmjs.com/package/@tiptap/html)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/html.svg)](https://npmcharts.com/compare/@tiptap/html?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/html.svg?label=version)](https://www.npmjs.com/package/@editfish/html)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/html.svg)](https://npmcharts.com/compare/@editfish/html?minimal=true)
 
 The utility helps rendering JSON content as HTML, and generating JSON from HTML, without an editor instance, for example on the server side.
 

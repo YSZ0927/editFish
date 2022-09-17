@@ -24,7 +24,7 @@ import {
 import { callOrReturn } from './utilities/callOrReturn'
 import { mergeDeep } from './utilities/mergeDeep'
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface NodeConfig<Options = any, Storage = any> {
     [key: string]: any;
 

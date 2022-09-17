@@ -1,7 +1,7 @@
-# @tiptap/extension-collaboration-cursor
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-collaboration-cursor.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-collaboration-cursor)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-collaboration-cursor.svg)](https://npmcharts.com/compare/tiptap?minimal=true)
-[![License](https://img.shields.io/npm/l/@tiptap/extension-collaboration-cursor.svg)](https://www.npmjs.com/package/@tiptap/extension-collaboration-cursor)
+# @editfish/extension-collaboration-cursor
+[![Version](https://img.shields.io/npm/v/@editfish/extension-collaboration-cursor.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-collaboration-cursor)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-collaboration-cursor.svg)](https://npmcharts.com/compare/tiptap?minimal=true)
+[![License](https://img.shields.io/npm/l/@editfish/extension-collaboration-cursor.svg)](https://www.npmjs.com/package/@editfish/extension-collaboration-cursor)
 [![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub)](https://github.com/sponsors/ueberdosis)
 
 ## Introduction

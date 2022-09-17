@@ -1,6 +1,14 @@
 <template>
   <div v-if="editor">
-    <button @click="editor.chain().focus().setHardBreak().run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .setHardBreak()
+          .run()
+      "
+    >
       setHardBreak
     </button>
 
@@ -9,11 +17,11 @@
 </template>
 
 <script>
-import Document from '@tiptap/extension-document'
-import HardBreak from '@tiptap/extension-hard-break'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Document from '@editfish/extension-document'
+import HardBreak from '@editfish/extension-hard-break'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 export default {
   components: {
@@ -28,12 +36,7 @@ export default {
 
   mounted() {
     this.editor = new Editor({
-      extensions: [
-        Document,
-        Paragraph,
-        Text,
-        HardBreak,
-      ],
+      extensions: [Document, Paragraph, Text, HardBreak],
       content: `
         <p>
           This<br>

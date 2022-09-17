@@ -1,9 +1,9 @@
 /// <reference types="cypress" />
 
-import { Editor, Extension } from '@tiptap/core'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
+import { Editor, Extension } from '@editfish/core'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
 
 describe('pluginOrder', () => {
   it('should run keyboard shortcuts in correct order', () => {

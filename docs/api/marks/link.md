@@ -4,8 +4,8 @@ icon: link
 ---
 
 # Link
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-link.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-link)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-link.svg)](https://npmcharts.com/compare/@tiptap/extension-link?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-link.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-link)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-link.svg)](https://npmcharts.com/compare/@editfish/extension-link?minimal=true)
 
 The Link extension adds support for `<a>` tags to the editor. The extension is headless too, there is no actual UI to add, modify or delete links. The usage example below uses the native JavaScript prompt to show you how that could work.
 
@@ -15,7 +15,7 @@ Pasted URLs will be transformed to links automatically.
 
 ## Installation
 ```bash
-npm install @tiptap/extension-link
+npm install @editfish/extension-link
 ```
 
 ## Settings

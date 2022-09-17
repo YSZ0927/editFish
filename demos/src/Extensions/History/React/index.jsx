@@ -1,8 +1,8 @@
-import Document from '@tiptap/extension-document'
-import History from '@tiptap/extension-history'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Document from '@editfish/extension-document'
+import History from '@editfish/extension-history'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { EditorContent, useEditor } from '@editfish/react'
 import React from 'react'
 
 export default () => {
@@ -24,10 +24,26 @@ export default () => {
 
   return (
     <div>
-      <button onClick={() => editor.chain().focus().undo().run()} disabled={!editor.can().undo()}>
+      <button
+        onClick={() => editor
+          .chain()
+          .focus()
+          .undo()
+          .run()
+        }
+        disabled={!editor.can().undo()}
+      >
         undo
       </button>
-      <button onClick={() => editor.chain().focus().redo().run()} disabled={!editor.can().redo()}>
+      <button
+        onClick={() => editor
+          .chain()
+          .focus()
+          .redo()
+          .run()
+        }
+        disabled={!editor.can().redo()}
+      >
         redo
       </button>
 

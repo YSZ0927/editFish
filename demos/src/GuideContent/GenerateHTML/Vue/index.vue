@@ -4,13 +4,13 @@
 
 <script>
 // Option 1: Browser + server-side
-import Bold from '@tiptap/extension-bold'
+import Bold from '@editfish/extension-bold'
 // Option 2: Browser-only (lightweight)
-// import { generateHTML } from '@tiptap/core'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { generateHTML } from '@tiptap/html'
+// import { generateHTML } from '@editfish/core'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { generateHTML } from '@editfish/html'
 
 const json = {
   type: 'doc',

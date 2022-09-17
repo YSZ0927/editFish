@@ -1,9 +1,5 @@
 <template>
-  <demo-frame
-    v-if="inline"
-    :src="currentIframeUrl"
-    :key="currentIframeUrl"
-  />
+  <demo-frame v-if="inline" :src="currentIframeUrl" :key="currentIframeUrl" />
   <div class="antialiased" v-else>
     <div v-if="showTabs">
       <button
@@ -11,10 +7,7 @@
         :key="index"
         @click="setTab(language.name)"
         class="px-4 py-2 text-xs font-bold tracking-wide uppercase rounded-t-lg"
-        :class="[currentTab === language.name
-          ? 'bg-black text-white'
-          : 'text-black'
-        ]"
+        :class="[currentTab === language.name ? 'bg-black text-white' : 'text-black']"
       >
         {{ language.name }}
       </button>
@@ -22,16 +15,9 @@
     <div class="overflow-hidden rounded-b-xl">
       <div
         class="bg-white border-black border-3 last:rounded-b-xl"
-        :class="[
-          showTabs && firstTabSelected
-            ? 'rounded-tr-xl'
-            : 'rounded-t-xl',
-        ]"
+        :class="[showTabs && firstTabSelected ? 'rounded-tr-xl' : 'rounded-t-xl']"
       >
-        <demo-frame
-          :src="currentIframeUrl"
-          :key="currentIframeUrl"
-        />
+        <demo-frame :src="currentIframeUrl" :key="currentIframeUrl" />
       </div>
 
       <div class="text-white bg-black" v-if="!hideSource && currentFile">
@@ -39,9 +25,10 @@
           <div class="flex flex-auto px-4 border-b-2 border-gray-800">
             <button
               class="inline-flex relative mr-4 py-2 pb-[calc(0.3rem + 2px)] mb-[-2px] border-b-2 border-transparent font-mono text-sm whitespace-nowrap"
-              :class="[!showDebug && currentFile.content === file.content
-                ? 'text-white border-white font-bold'
-                : 'text-gray-400'
+              :class="[
+                !showDebug && currentFile.content === file.content
+                  ? 'text-white border-white font-bold'
+                  : 'text-gray-400'
               ]"
               v-for="(file, index) in source"
               :key="index"
@@ -53,10 +40,7 @@
             <button
               v-if="debugJSON"
               class="inline-flex relative py-2 pb-[calc(0.3rem + 2px)] mb-[-2px] border-b-2 border-transparent font-mono text-sm ml-auto"
-              :class="[showDebug
-                ? 'text-white border-white font-bold'
-                : 'text-gray-400'
-              ]"
+              :class="[showDebug ? 'text-white border-white font-bold' : 'text-gray-400']"
               @click="showDebug = !showDebug"
             >
               Inspect
@@ -73,7 +57,10 @@
         </div>
 
         <div class="flex justify-between px-4 py-2 text-gray-400 border-t border-gray-800 text-md">
-          <a class="flex-shrink min-w-0 overflow-hidden overflow-ellipsis whitespace-nowrap" :href="currentIframeUrl">
+          <a
+            class="flex-shrink min-w-0 overflow-hidden overflow-ellipsis whitespace-nowrap"
+            :href="currentIframeUrl"
+          >
             {{ name }}/{{ currentTab }}
           </a>
           <a class="pl-4 whitespace-nowrap" :href="githubUrl" target="_blank">
@@ -86,7 +73,7 @@
 </template>
 
 <script>
-import { getDebugJSON } from '@tiptap/core'
+import { getDebugJSON } from '@editfish/core'
 
 import DemoFrame from './DemoFrame.vue'
 import Shiki from './Shiki.vue'
@@ -141,9 +128,9 @@ export default {
     },
 
     query() {
-      return Object.fromEntries(Object
-        .entries(this.$route.query)
-        .map(([key, value]) => [key, this.fromString(value)]))
+      return Object.fromEntries(
+        Object.entries(this.$route.query).map(([key, value]) => [key, this.fromString(value)]),
+      )
     },
 
     inline() {

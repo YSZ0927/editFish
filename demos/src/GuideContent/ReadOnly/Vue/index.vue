@@ -1,7 +1,7 @@
 <template>
   <div class="editor">
     <div class="checkbox">
-      <input type="checkbox" id="editable" v-model="editable">
+      <input type="checkbox" id="editable" v-model="editable" />
       <label for="editable">editable</label>
     </div>
     <editor-content :editor="editor" />
@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import StarterKit from '@editfish/starter-kit'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 export default {
   components: {
@@ -35,9 +35,7 @@ export default {
           If you want to check the state, you can call <code>editor.isEditable()</code>.
         </p>
       `,
-      extensions: [
-        StarterKit,
-      ],
+      extensions: [StarterKit],
     })
   },
 
@@ -69,7 +67,7 @@ export default {
   }
 }
 
-[contenteditable=false] {
+[contenteditable="false"] {
   color: #999;
   cursor: not-allowed;
 }

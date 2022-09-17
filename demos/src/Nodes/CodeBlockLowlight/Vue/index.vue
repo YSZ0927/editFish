@@ -1,9 +1,27 @@
 <template>
   <div v-if="editor">
-    <button @click="editor.chain().focus().toggleCodeBlock().run()" :class="{ 'is-active': editor.isActive('codeBlock') }">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .toggleCodeBlock()
+          .run()
+      "
+      :class="{ 'is-active': editor.isActive('codeBlock') }"
+    >
       toggleCodeBlock
     </button>
-    <button @click="editor.chain().focus().setCodeBlock().run()" :disabled="editor.isActive('codeBlock')">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .setCodeBlock()
+          .run()
+      "
+      :disabled="editor.isActive('codeBlock')"
+    >
       setCodeBlock
     </button>
 
@@ -12,11 +30,11 @@
 </template>
 
 <script>
-import CodeBlockLowlight from '@tiptap/extension-code-block-lowlight'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import CodeBlockLowlight from '@editfish/extension-code-block-lowlight'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 import css from 'highlight.js/lib/languages/css'
 import js from 'highlight.js/lib/languages/javascript'
 import ts from 'highlight.js/lib/languages/typescript'
@@ -86,9 +104,9 @@ export default {
   }
 
   pre {
-    background: #0D0D0D;
-    color: #FFF;
-    font-family: 'JetBrainsMono', monospace;
+    background: #0d0d0d;
+    color: #fff;
+    font-family: "JetBrainsMono", monospace;
     padding: 0.75rem 1rem;
     border-radius: 0.5rem;
 
@@ -114,7 +132,7 @@ export default {
     .hljs-name,
     .hljs-selector-id,
     .hljs-selector-class {
-      color: #F98181;
+      color: #f98181;
     }
 
     .hljs-number,
@@ -124,23 +142,23 @@ export default {
     .hljs-literal,
     .hljs-type,
     .hljs-params {
-      color: #FBBC88;
+      color: #fbbc88;
     }
 
     .hljs-string,
     .hljs-symbol,
     .hljs-bullet {
-      color: #B9F18D;
+      color: #b9f18d;
     }
 
     .hljs-title,
     .hljs-section {
-      color: #FAF594;
+      color: #faf594;
     }
 
     .hljs-keyword,
     .hljs-selector-tag {
-      color: #70CFF8;
+      color: #70cff8;
     }
 
     .hljs-emphasis {

@@ -3,12 +3,12 @@
 </template>
 
 <script>
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import TaskItem from '@tiptap/extension-task-item'
-import TaskList from '@tiptap/extension-task-list'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import TaskItem from '@editfish/extension-task-item'
+import TaskList from '@editfish/extension-task-list'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 const CustomDocument = Document.extend({
   content: 'taskList',
@@ -31,13 +31,7 @@ export default {
 
   mounted() {
     this.editor = new Editor({
-      extensions: [
-        CustomDocument,
-        Paragraph,
-        Text,
-        TaskList,
-        CustomTaskItem,
-      ],
+      extensions: [CustomDocument, Paragraph, Text, TaskList, CustomTaskItem],
       content: `
         <ul data-type="taskList">
           <li data-type="taskItem" data-checked="true">flour</li>

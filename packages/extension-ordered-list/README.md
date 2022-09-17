@@ -1,7 +1,7 @@
-# @tiptap/extension-ordered-list
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-ordered-list.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-ordered-list)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-ordered-list.svg)](https://npmcharts.com/compare/tiptap?minimal=true)
-[![License](https://img.shields.io/npm/l/@tiptap/extension-ordered-list.svg)](https://www.npmjs.com/package/@tiptap/extension-ordered-list)
+# @editfish/extension-ordered-list
+[![Version](https://img.shields.io/npm/v/@editfish/extension-ordered-list.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-ordered-list)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-ordered-list.svg)](https://npmcharts.com/compare/tiptap?minimal=true)
+[![License](https://img.shields.io/npm/l/@editfish/extension-ordered-list.svg)](https://www.npmjs.com/package/@editfish/extension-ordered-list)
 [![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub)](https://github.com/sponsors/ueberdosis)
 
 ## Introduction

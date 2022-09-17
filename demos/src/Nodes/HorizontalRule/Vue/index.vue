@@ -1,6 +1,14 @@
 <template>
   <div v-if="editor">
-    <button @click="editor.chain().focus().setHorizontalRule().run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .setHorizontalRule()
+          .run()
+      "
+    >
       setHorizontalRule
     </button>
 
@@ -9,11 +17,11 @@
 </template>
 
 <script>
-import Document from '@tiptap/extension-document'
-import HorizontalRule from '@tiptap/extension-horizontal-rule'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Document from '@editfish/extension-document'
+import HorizontalRule from '@editfish/extension-horizontal-rule'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 export default {
   components: {
@@ -28,12 +36,7 @@ export default {
 
   mounted() {
     this.editor = new Editor({
-      extensions: [
-        Document,
-        Paragraph,
-        Text,
-        HorizontalRule,
-      ],
+      extensions: [Document, Paragraph, Text, HorizontalRule],
       content: `
         <p>This is a paragraph.</p>
         <hr>
@@ -52,6 +55,6 @@ export default {
 
 <style lang="scss">
 hr.ProseMirror-selectednode {
-  border-top: 1px solid #68CEF8;
+  border-top: 1px solid #68cef8;
 }
 </style>

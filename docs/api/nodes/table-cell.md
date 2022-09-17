@@ -4,14 +4,14 @@ icon: checkbox-blank-line
 ---
 
 # TableCell
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-table-cell.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-table-cell)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-table-cell.svg)](https://npmcharts.com/compare/@tiptap/extension-table-cell?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-table-cell.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-table-cell)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-table-cell.svg)](https://npmcharts.com/compare/@editfish/extension-table-cell?minimal=true)
 
 Don’t try to use tables without table cells. It won’t be fun.
 
 ## Installation
 ```bash
-npm install @tiptap/extension-table @tiptap/extension-table-row @tiptap/extension-table-header @tiptap/extension-table-cell
+npm install @editfish/extension-table @editfish/extension-table-row @editfish/extension-table-header @editfish/extension-table-cell
 ```
 
 This extension requires the [`Table`](/api/nodes/table), [`TableRow`](/api/nodes/table-row) and [`TableHeader`](/api/nodes/table-header) nodes.

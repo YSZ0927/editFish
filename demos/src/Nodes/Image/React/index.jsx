@@ -1,11 +1,11 @@
 import './styles.scss'
 
-import Document from '@tiptap/extension-document'
-import Dropcursor from '@tiptap/extension-dropcursor'
-import Image from '@tiptap/extension-image'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Document from '@editfish/extension-document'
+import Dropcursor from '@editfish/extension-dropcursor'
+import Image from '@editfish/extension-image'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { EditorContent, useEditor } from '@editfish/react'
 import React, { useCallback } from 'react'
 
 export default () => {
@@ -22,7 +22,11 @@ export default () => {
     const url = window.prompt('URL')
 
     if (url) {
-      editor.chain().focus().setImage({ src: url }).run()
+      editor
+        .chain()
+        .focus()
+        .setImage({ src: url })
+        .run()
     }
   }, [editor])
 

@@ -1,6 +1,6 @@
 import './Component.scss'
 
-import { NodeViewWrapper } from '@tiptap/react'
+import { NodeViewWrapper } from '@editfish/react'
 import React, { useCallback, useEffect, useState } from 'react'
 
 export default ({ editor }) => {

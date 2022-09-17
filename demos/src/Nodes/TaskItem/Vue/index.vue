@@ -1,15 +1,51 @@
 <template>
   <div v-if="editor">
-    <button @click="editor.chain().focus().toggleTaskList().run()" :class="{ 'is-active': editor.isActive('taskList') }">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .toggleTaskList()
+          .run()
+      "
+      :class="{ 'is-active': editor.isActive('taskList') }"
+    >
       toggleTaskList
     </button>
-    <button @click="editor.chain().focus().splitListItem('taskItem').run()" :disabled="!editor.can().splitListItem('taskItem')">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .splitListItem('taskItem')
+          .run()
+      "
+      :disabled="!editor.can().splitListItem('taskItem')"
+    >
       splitListItem
     </button>
-    <button @click="editor.chain().focus().sinkListItem('taskItem').run()" :disabled="!editor.can().sinkListItem('taskItem')">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .sinkListItem('taskItem')
+          .run()
+      "
+      :disabled="!editor.can().sinkListItem('taskItem')"
+    >
       sinkListItem
     </button>
-    <button @click="editor.chain().focus().liftListItem('taskItem').run()" :disabled="!editor.can().liftListItem('taskItem')">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .liftListItem('taskItem')
+          .run()
+      "
+      :disabled="!editor.can().liftListItem('taskItem')"
+    >
       liftListItem
     </button>
 
@@ -18,12 +54,12 @@
 </template>
 
 <script>
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import TaskItem from '@tiptap/extension-task-item'
-import TaskList from '@tiptap/extension-task-list'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import TaskItem from '@editfish/extension-task-item'
+import TaskList from '@editfish/extension-task-list'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 export default {
   components: {

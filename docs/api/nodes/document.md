@@ -4,8 +4,8 @@ icon: file-line
 ---
 
 # Document
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-document.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-document)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-document.svg)](https://npmcharts.com/compare/@tiptap/extension-document?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-document.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-document)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-document.svg)](https://npmcharts.com/compare/@editfish/extension-document?minimal=true)
 
 **The `Document` extension is required**, no matter what you build with Tiptap. It’s a so called “topNode”, a node that’s the home to all other nodes. Think of it like the `<body>` tag for your document.
 
@@ -17,7 +17,7 @@ tiptap 1 tried to hide that node from you, but it has always been there. You hav
 
 ## Installation
 ```bash
-npm install @tiptap/extension-document
+npm install @editfish/extension-document
 ```
 
 ## Source code

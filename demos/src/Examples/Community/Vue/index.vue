@@ -1,19 +1,21 @@
 <template>
   <editor-content :editor="editor" />
 
-  <div v-if="editor" :class="{'character-count': true, 'character-count--warning': editor.storage.characterCount.characters() === limit}">
-    <svg
-      height="20"
-      width="20"
-      viewBox="0 0 20 20"
-      class="character-count__graph"
-    >
-      <circle
-        r="10"
-        cx="10"
-        cy="10"
-        fill="#e9ecef"
-      />
+  <div
+    v-if="editor"
+    :class="{
+      'character-count': true,
+      'character-count--warning': editor.storage.characterCount.characters() === limit
+    }"
+  >
+    <svg height="20"
+width="20"
+viewBox="0 0 20 20"
+class="character-count__graph">
+      <circle r="10"
+cx="10"
+cy="10"
+fill="#e9ecef" />
       <circle
         r="5"
         cx="10"
@@ -24,25 +26,25 @@
         :stroke-dasharray="`calc(${percentage} * 31.4 / 100) 31.4`"
         transform="rotate(-90) translate(-20)"
       />
-      <circle
-        r="6"
-        cx="10"
-        cy="10"
-        fill="white"
-      />
+      <circle r="6"
+cx="10"
+cy="10"
+fill="white" />
     </svg>
 
-    <div class="character-count__text">{{ editor.storage.characterCount.characters() }}/{{ limit }} characters</div>
+    <div class="character-count__text">
+      {{ editor.storage.characterCount.characters() }}/{{ limit }} characters
+    </div>
   </div>
 </template>
 
 <script>
-import CharacterCount from '@tiptap/extension-character-count'
-import Document from '@tiptap/extension-document'
-import Mention from '@tiptap/extension-mention'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import CharacterCount from '@editfish/extension-character-count'
+import Document from '@editfish/extension-document'
+import Mention from '@editfish/extension-mention'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 import suggestion from './suggestion'
 
@@ -122,10 +124,10 @@ export default {
   margin-top: 1rem;
   display: flex;
   align-items: center;
-  color: #68CEF8;
+  color: #68cef8;
 
   &--warning {
-    color: #FB5151;
+    color: #fb5151;
   }
 
   &__graph {

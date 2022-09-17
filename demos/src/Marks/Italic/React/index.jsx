@@ -1,8 +1,8 @@
-import Document from '@tiptap/extension-document'
-import Italic from '@tiptap/extension-italic'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Document from '@editfish/extension-document'
+import Italic from '@editfish/extension-italic'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { EditorContent, useEditor } from '@editfish/react'
 import React from 'react'
 
 export default () => {
@@ -23,19 +23,34 @@ export default () => {
   return (
     <>
       <button
-        onClick={() => editor.chain().focus().toggleItalic().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .toggleItalic()
+          .run()
+        }
         className={editor.isActive('italic') ? 'is-active' : ''}
       >
         toggleItalic
       </button>
       <button
-        onClick={() => editor.chain().focus().setItalic().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .setItalic()
+          .run()
+        }
         disabled={editor.isActive('italic')}
       >
         setItalic
       </button>
       <button
-        onClick={() => editor.chain().focus().unsetItalic().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .unsetItalic()
+          .run()
+        }
         disabled={!editor.isActive('italic')}
       >
         unsetItalic

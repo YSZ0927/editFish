@@ -4,8 +4,8 @@ icon: italic
 ---
 
 # Italic
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-italic.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-italic)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-italic.svg)](https://npmcharts.com/compare/@tiptap/extension-italic?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-italic.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-italic)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-italic.svg)](https://npmcharts.com/compare/@editfish/extension-italic?minimal=true)
 
 Use this extension to render text in *italic*. If you pass `<em>`, `<i>` tags, or text with inline `style` attributes setting `font-style: italic` in the editor’s initial content, they all will be rendered accordingly.
 
@@ -17,7 +17,7 @@ The extension will generate the corresponding `<em>` HTML tags when reading cont
 
 ## Installation
 ```bash
-npm install @tiptap/extension-italic
+npm install @editfish/extension-italic
 ```
 
 ## Settings

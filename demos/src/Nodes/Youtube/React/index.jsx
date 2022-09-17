@@ -1,8 +1,8 @@
 import './styles.scss'
 
-import Youtube from '@tiptap/extension-youtube'
-import { EditorContent, useEditor } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import Youtube from '@editfish/extension-youtube'
+import { EditorContent, useEditor } from '@editfish/react'
+import StarterKit from '@editfish/starter-kit'
 import React from 'react'
 
 const MenuBar = ({ editor }) => {
@@ -32,7 +32,9 @@ const MenuBar = ({ editor }) => {
 
   return (
     <>
-      <button id="add" onClick={addYoutubeVideo}>Add youtube video</button>
+      <button id="add" onClick={addYoutubeVideo}>
+        Add youtube video
+      </button>
       <input id="width" type="number" min="320" max="1024" ref={widthRef} placeholder="width" />
       <input id="height" type="number" min="180" max="720" ref={heightRef} placeholder="height" />
     </>

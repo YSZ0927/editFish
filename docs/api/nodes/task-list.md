@@ -4,8 +4,8 @@ icon: list-check
 ---
 
 # TaskList
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-task-list.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-task-list)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-task-list.svg)](https://npmcharts.com/compare/@tiptap/extension-task-list?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-task-list.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-task-list)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-task-list.svg)](https://npmcharts.com/compare/@editfish/extension-task-list?minimal=true)
 
 This extension enables you to use task lists in the editor. They are rendered as `<ul data-type="taskList">`. This implementation doesn’t require any framework, it’s using Vanilla JavaScript only.
 
@@ -13,7 +13,7 @@ Type <code>[ ]&nbsp;</code> or <code>[x]&nbsp;</code> at the beginning of a new 
 
 ## Installation
 ```bash
-npm install @tiptap/extension-task-list @tiptap/extension-task-item
+npm install @editfish/extension-task-list @editfish/extension-task-item
 ```
 
 This extension requires the [`TaskItem`](/api/nodes/task-item) extension.

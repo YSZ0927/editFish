@@ -1,9 +1,27 @@
 <template>
   <div v-if="editor">
-    <button @click="editor.chain().focus().toggleCodeBlock().run()" :class="{ 'is-active': editor.isActive('codeBlock') }">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .toggleCodeBlock()
+          .run()
+      "
+      :class="{ 'is-active': editor.isActive('codeBlock') }"
+    >
       toggleCodeBlock
     </button>
-    <button @click="editor.chain().focus().setCodeBlock().run()" :disabled="editor.isActive('codeBlock')">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .setCodeBlock()
+          .run()
+      "
+      :disabled="editor.isActive('codeBlock')"
+    >
       setCodeBlock
     </button>
 
@@ -12,11 +30,11 @@
 </template>
 
 <script>
-import CodeBlock from '@tiptap/extension-code-block'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import CodeBlock from '@editfish/extension-code-block'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 export default {
   components: {
@@ -31,12 +49,7 @@ export default {
 
   mounted() {
     this.editor = new Editor({
-      extensions: [
-        Document,
-        Paragraph,
-        Text,
-        CodeBlock,
-      ],
+      extensions: [Document, Paragraph, Text, CodeBlock],
       content: `
         <p>
           That’s a boring paragraph followed by a fenced code block:
@@ -73,9 +86,9 @@ export default {
   }
 
   pre {
-    background: #0D0D0D;
-    color: #FFF;
-    font-family: 'JetBrainsMono', monospace;
+    background: #0d0d0d;
+    color: #fff;
+    font-family: "JetBrainsMono", monospace;
     padding: 0.75rem 1rem;
     border-radius: 0.5rem;
 

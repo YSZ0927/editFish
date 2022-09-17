@@ -4,14 +4,14 @@ icon: paint-brush-line
 ---
 
 # Color
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-color.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-color)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-color.svg)](https://npmcharts.com/compare/@tiptap/extension-color?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-color.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-color)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-color.svg)](https://npmcharts.com/compare/@editfish/extension-color?minimal=true)
 
 This extension enables you to set the font color in the editor. It uses the [`TextStyle`](/api/marks/text-style) mark, which renders a `<span>` tag (and only that). The font color is applied as inline style then, for example `<span style="color: #958DF1">`.
 
 ## Installation
 ```bash
-npm install @tiptap/extension-text-style @tiptap/extension-color
+npm install @editfish/extension-text-style @editfish/extension-color
 ```
 
 This extension requires the [`TextStyle`](/api/marks/text-style) mark.

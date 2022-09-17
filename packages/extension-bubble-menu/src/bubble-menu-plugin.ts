@@ -3,7 +3,7 @@ import {
   isNodeSelection,
   isTextSelection,
   posToDOMRect,
-} from '@tiptap/core'
+} from '@editfish/core'
 import { EditorState, Plugin, PluginKey } from 'prosemirror-state'
 import { EditorView } from 'prosemirror-view'
 import tippy, { Instance, Props } from 'tippy.js'

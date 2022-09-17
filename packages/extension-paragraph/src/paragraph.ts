@@ -1,10 +1,10 @@
-import { mergeAttributes, Node } from '@tiptap/core'
+import { mergeAttributes, Node } from '@editfish/core'
 
 export interface ParagraphOptions {
   HTMLAttributes: Record<string, any>,
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     paragraph: {
       /**

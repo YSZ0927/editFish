@@ -1,6 +1,6 @@
 # Suggestion
-[![Version](https://img.shields.io/npm/v/@tiptap/suggestion.svg?label=version)](https://www.npmjs.com/package/@tiptap/suggestion)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/suggestion.svg)](https://npmcharts.com/compare/@tiptap/suggestion?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/suggestion.svg?label=version)](https://www.npmjs.com/package/@editfish/suggestion)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/suggestion.svg)](https://npmcharts.com/compare/@editfish/suggestion?minimal=true)
 
 This utility helps with all kinds of suggestions in the editor. Have a look at the [`Mention`](/api/nodes/mention), [`Hashtag`](/api/nodes/hashtag) or [`Emoji`](/api/nodes/emoji) node to see it in action.
 

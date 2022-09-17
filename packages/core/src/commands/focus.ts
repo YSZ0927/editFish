@@ -3,7 +3,7 @@ import { resolveFocusPosition } from '../helpers/resolveFocusPosition'
 import { FocusPosition, RawCommands } from '../types'
 import { isiOS } from '../utilities/isiOS'
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     focus: {
       /**

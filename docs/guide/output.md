@@ -130,7 +130,7 @@ If you’re migrating existing content to Tiptap we would recommend to get your 
 
 We’re about to go through a few cases to help with that, for example we provide a PHP package to convert HTML to a compatible JSON structure: [ueberdosis/prosemirror-to-html](https://github.com/ueberdosis/html-to-prosemirror).
 
-[Share your experiences with us!](mailto:humans@tiptap.dev) We’d like to add more information here.
+[Share your experiences with us!](mailto:humans@editfish.dev) We’d like to add more information here.
 
 ## Security
 There is no reason to use one or the other because of security concerns. If someone wants to send malicious content to your server, it doesn’t matter if it’s JSON or HTML. It doesn’t even matter if you’re using Tiptap or not. You should always validate user input.

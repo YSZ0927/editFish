@@ -2,13 +2,13 @@ import {
   getMarkAttributes,
   Mark,
   mergeAttributes,
-} from '@tiptap/core'
+} from '@editfish/core'
 
 export interface TextStyleOptions {
   HTMLAttributes: Record<string, any>,
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     textStyle: {
       /**

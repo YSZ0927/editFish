@@ -1,18 +1,62 @@
 <template>
   <div v-if="editor">
-    <button @click="editor.chain().focus().setTextAlign('left').run()" :class="{ 'is-active': editor.isActive({ textAlign: 'left' }) }">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .setTextAlign('left')
+          .run()
+      "
+      :class="{ 'is-active': editor.isActive({ textAlign: 'left' }) }"
+    >
       left
     </button>
-    <button @click="editor.chain().focus().setTextAlign('center').run()" :class="{ 'is-active': editor.isActive({ textAlign: 'center' }) }">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .setTextAlign('center')
+          .run()
+      "
+      :class="{ 'is-active': editor.isActive({ textAlign: 'center' }) }"
+    >
       center
     </button>
-    <button @click="editor.chain().focus().setTextAlign('right').run()" :class="{ 'is-active': editor.isActive({ textAlign: 'right' }) }">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .setTextAlign('right')
+          .run()
+      "
+      :class="{ 'is-active': editor.isActive({ textAlign: 'right' }) }"
+    >
       right
     </button>
-    <button @click="editor.chain().focus().setTextAlign('justify').run()" :class="{ 'is-active': editor.isActive({ textAlign: 'justify' }) }">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .setTextAlign('justify')
+          .run()
+      "
+      :class="{ 'is-active': editor.isActive({ textAlign: 'justify' }) }"
+    >
       justify
     </button>
-    <button @click="editor.chain().focus().unsetTextAlign().run()">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .unsetTextAlign()
+          .run()
+      "
+    >
       unsetTextAlign
     </button>
     <editor-content :editor="editor" />
@@ -20,12 +64,12 @@
 </template>
 
 <script>
-import Document from '@tiptap/extension-document'
-import Heading from '@tiptap/extension-heading'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import TextAlign from '@tiptap/extension-text-align'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Document from '@editfish/extension-document'
+import Heading from '@editfish/extension-heading'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import TextAlign from '@editfish/extension-text-align'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 export default {
   components: {

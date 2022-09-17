@@ -1,9 +1,9 @@
 import './styles.scss'
 
-import Document from '@tiptap/extension-document'
-import Placeholder from '@tiptap/extension-placeholder'
-import { EditorContent, useEditor } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import Document from '@editfish/extension-document'
+import Placeholder from '@editfish/extension-placeholder'
+import { EditorContent, useEditor } from '@editfish/react'
+import StarterKit from '@editfish/starter-kit'
 import React from 'react'
 
 const CustomDocument = Document.extend({
@@ -37,7 +37,5 @@ export default () => {
     `,
   })
 
-  return (
-    <EditorContent editor={editor} />
-  )
+  return <EditorContent editor={editor} />
 }

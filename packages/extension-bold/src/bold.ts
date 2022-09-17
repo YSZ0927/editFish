@@ -3,13 +3,13 @@ import {
   markInputRule,
   markPasteRule,
   mergeAttributes,
-} from '@tiptap/core'
+} from '@editfish/core'
 
 export interface BoldOptions {
   HTMLAttributes: Record<string, any>,
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     bold: {
       /**

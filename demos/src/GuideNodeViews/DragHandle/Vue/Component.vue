@@ -1,17 +1,15 @@
 <template>
   <node-view-wrapper class="draggable-item">
-    <div
-      class="drag-handle"
-      contenteditable="false"
-      draggable="true"
-      data-drag-handle
-    />
+    <div class="drag-handle"
+contenteditable="false"
+draggable="true"
+data-drag-handle />
     <node-view-content class="content" />
   </node-view-wrapper>
 </template>
 
 <script>
-import { NodeViewContent, nodeViewProps, NodeViewWrapper } from '@tiptap/vue-3'
+import { NodeViewContent, nodeViewProps, NodeViewWrapper } from '@editfish/vue-3'
 
 export default {
   props: nodeViewProps,
@@ -30,10 +28,7 @@ export default {
   margin: 0.5rem 0;
   border-radius: 0.5rem;
   background: white;
-  box-shadow:
-    0 0 0 1px rgba(0, 0, 0, 0.05),
-    0px 10px 20px rgba(0, 0, 0, 0.1),
-  ;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0px 10px 20px rgba(0, 0, 0, 0.1);
 
   .drag-handle {
     flex: 0 0 auto;

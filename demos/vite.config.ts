@@ -275,7 +275,7 @@ export default defineConfig({
       ...fg.sync('../packages/*', { onlyDirectories: true })
         .map(name => name.replace('../packages/', ''))
         .map(name => {
-          return { find: `@tiptap/${name}`, replacement: resolve(`../packages/${name}/src/index.ts`) }
+          return { find: `@editfish/${name}`, replacement: resolve(`../packages/${name}/src/index.ts`) }
         }),
     ],
   },

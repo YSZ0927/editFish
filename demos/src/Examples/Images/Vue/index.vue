@@ -6,12 +6,12 @@
 </template>
 
 <script>
-import Document from '@tiptap/extension-document'
-import Dropcursor from '@tiptap/extension-dropcursor'
-import Image from '@tiptap/extension-image'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Document from '@editfish/extension-document'
+import Dropcursor from '@editfish/extension-dropcursor'
+import Image from '@editfish/extension-image'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 export default {
   components: {
@@ -29,20 +29,18 @@ export default {
       const url = window.prompt('URL')
 
       if (url) {
-        this.editor.chain().focus().setImage({ src: url }).run()
+        this.editor
+          .chain()
+          .focus()
+          .setImage({ src: url })
+          .run()
       }
     },
   },
 
   mounted() {
     this.editor = new Editor({
-      extensions: [
-        Document,
-        Paragraph,
-        Text,
-        Image,
-        Dropcursor,
-      ],
+      extensions: [Document, Paragraph, Text, Image, Dropcursor],
       content: `
         <p>This is a basic example of implementing images. Drag to re-order.</p>
         <img src="https://source.unsplash.com/8xznAGy4HcY/800x400" />
@@ -69,7 +67,7 @@ export default {
     height: auto;
 
     &.ProseMirror-selectednode {
-      outline: 3px solid #68CEF8;
+      outline: 3px solid #68cef8;
     }
   }
 }

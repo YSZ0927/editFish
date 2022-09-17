@@ -19,8 +19,8 @@ Here is what you need to do to render Vue components inside your editor:
 This is how your node extension could look like:
 
 ```js
-import { Node } from '@tiptap/core'
-import { VueNodeViewRenderer } from '@tiptap/vue-2'
+import { Node } from '@editfish/core'
+import { VueNodeViewRenderer } from '@editfish/vue-2'
 import Component from './Component.vue'
 
 export default Node.create({
@@ -99,7 +99,7 @@ There is another component called `NodeViewContent` which helps you adding edita
 </template>
 
 <script>
-import { NodeViewWrapper, NodeViewContent } from '@tiptap/vue-2'
+import { NodeViewWrapper, NodeViewContent } from '@editfish/vue-2'
 
 export default {
   components: {
@@ -153,7 +153,7 @@ Here is the full list of what props you can expect:
 </template>
 
 <script>
-import { NodeViewWrapper } from '@tiptap/vue-2'
+import { NodeViewWrapper } from '@editfish/vue-2'
 
 export default {
   components: {
@@ -210,14 +210,14 @@ If you just want to have all (and TypeScript support) you can import all props l
 ```js
 // Vue 3
 import { defineComponent } from 'vue'
-import { nodeViewProps } from '@tiptap/vue-3'
+import { nodeViewProps } from '@editfish/vue-3'
 export default defineComponent({
   props: nodeViewProps,
 })
 
 // Vue 2
 import Vue from 'vue'
-import { nodeViewProps } from '@tiptap/vue-2'
+import { nodeViewProps } from '@editfish/vue-2'
 export default Vue.extend({
   props: nodeViewProps,
 })

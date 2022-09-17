@@ -1,4 +1,4 @@
-import { mergeAttributes, Node, textblockTypeInputRule } from '@tiptap/core'
+import { mergeAttributes, Node, textblockTypeInputRule } from '@editfish/core'
 
 export type Level = 1 | 2 | 3 | 4 | 5 | 6
 
@@ -7,7 +7,7 @@ export interface HeadingOptions {
   HTMLAttributes: Record<string, any>,
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     heading: {
       /**

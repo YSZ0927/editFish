@@ -1,4 +1,4 @@
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 import { yCursorPlugin } from 'y-prosemirror'
 
 type CollaborationCursorStorage = {
@@ -15,7 +15,7 @@ export interface CollaborationCursorOptions {
   onUpdate: (users: { clientId: number, [key: string]: any }[]) => null,
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     collaborationCursor: {
       /**

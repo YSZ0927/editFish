@@ -4,14 +4,14 @@ icon: quill-pen-line
 ---
 
 # Typography
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-typography.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-typography)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-typography.svg)](https://npmcharts.com/compare/@tiptap/extension-typography?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-typography.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-typography)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-typography.svg)](https://npmcharts.com/compare/@editfish/extension-typography?minimal=true)
 
 This extension tries to help with common text patterns with the correct typographic character. Under the hood all rules are input rules.
 
 ## Installation
 ```bash
-npm install @tiptap/extension-typography
+npm install @editfish/extension-typography
 ```
 
 ## Rules
@@ -55,8 +55,8 @@ https://embed.tiptap.dev/preview/Extensions/Typography
 You can configure the included rules, or even disable a few of them, like shown below.
 
 ```js
-import { Editor } from '@tiptap/core'
-import Typography from '@tiptap/extension-typography'
+import { Editor } from '@editfish/core'
+import Typography from '@editfish/extension-typography'
 
 const editor = new Editor({
   extensions: [

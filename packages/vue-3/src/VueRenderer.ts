@@ -1,4 +1,4 @@
-import { Editor } from '@tiptap/core'
+import { Editor } from '@editfish/core'
 import { Component, markRaw, reactive } from 'vue'
 
 import { Editor as ExtendedEditor } from './Editor'

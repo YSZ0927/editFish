@@ -1,8 +1,8 @@
 import './styles.scss'
 
-import Link from '@tiptap/extension-link'
-import { EditorContent, useEditor } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import Link from '@editfish/extension-link'
+import { EditorContent, useEditor } from '@editfish/react'
+import StarterKit from '@editfish/starter-kit'
 import React from 'react'
 
 export default () => {

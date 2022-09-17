@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import { nodeViewProps, NodeViewWrapper } from '@tiptap/vue-3'
+import { nodeViewProps, NodeViewWrapper } from '@editfish/vue-3'
 
 export default {
   components: {
@@ -30,8 +30,8 @@ export default {
 
 <style lang="scss">
 .vue-component {
-  background: #FAF594;
-  border: 3px solid #0D0D0D;
+  background: #faf594;
+  border: 3px solid #0d0d0d;
   border-radius: 0.5rem;
   margin: 1rem 0;
   position: relative;
@@ -39,7 +39,7 @@ export default {
 
 .label {
   margin-left: 1rem;
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
   font-size: 0.6rem;
   letter-spacing: 1px;
   font-weight: bold;

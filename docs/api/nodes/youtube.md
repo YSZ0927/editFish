@@ -4,14 +4,14 @@ icon: youtube-line
 ---
 
 # YouTube
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-youtube.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-youtube)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-youtube.svg)](https://npmcharts.com/compare/@tiptap/extension-youtube?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-youtube.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-youtube)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-youtube.svg)](https://npmcharts.com/compare/@editfish/extension-youtube?minimal=true)
 
 This extension adds a new youtube embed node to the editor.
 
 ## Installation
 ```bash
-npm install @tiptap/extension-youtube
+npm install @editfish/extension-youtube
 ```
 
 ## Settings

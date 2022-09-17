@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
 
-**Note:** Version bump only for package @tiptap/extension-color
+**Note:** Version bump only for package @editfish/extension-color
 
 
 
@@ -13,24 +13,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.194](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.193...v2.0.0-beta.194) (2022-09-11)
 
-**Note:** Version bump only for package @tiptap/extension-color
+**Note:** Version bump only for package @editfish/extension-color
 
 
 
 
 
-# [2.0.0-beta.12](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-color@2.0.0-beta.10...@tiptap/extension-color@2.0.0-beta.12) (2022-06-17)
-
-
-### Reverts
-
-* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/tiptap/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
-
-
-
-
-
-# [2.0.0-beta.10](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-color@2.0.0-beta.10...@tiptap/extension-color@2.0.0-beta.10) (2022-06-17)
+# [2.0.0-beta.12](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-color@2.0.0-beta.10...@editfish/extension-color@2.0.0-beta.12) (2022-06-17)
 
 
 ### Reverts
@@ -41,7 +30,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.9](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-color@2.0.0-beta.8...@tiptap/extension-color@2.0.0-beta.9) (2021-11-22)
+# [2.0.0-beta.10](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-color@2.0.0-beta.10...@editfish/extension-color@2.0.0-beta.10) (2022-06-17)
+
+
+### Reverts
+
+* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/tiptap/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+
+
+
+
+
+# [2.0.0-beta.9](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-color@2.0.0-beta.8...@editfish/extension-color@2.0.0-beta.9) (2021-11-22)
 
 
 ### Bug Fixes
@@ -52,47 +52,47 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.8](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-color@2.0.0-beta.7...@tiptap/extension-color@2.0.0-beta.8) (2021-11-09)
+# [2.0.0-beta.8](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-color@2.0.0-beta.7...@editfish/extension-color@2.0.0-beta.8) (2021-11-09)
 
-**Note:** Version bump only for package @tiptap/extension-color
-
-
-
-
-
-# [2.0.0-beta.7](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-color@2.0.0-beta.6...@tiptap/extension-color@2.0.0-beta.7) (2021-11-09)
-
-**Note:** Version bump only for package @tiptap/extension-color
+**Note:** Version bump only for package @editfish/extension-color
 
 
 
 
 
-# [2.0.0-beta.6](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-color@2.0.0-beta.5...@tiptap/extension-color@2.0.0-beta.6) (2021-11-09)
+# [2.0.0-beta.7](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-color@2.0.0-beta.6...@editfish/extension-color@2.0.0-beta.7) (2021-11-09)
 
-**Note:** Version bump only for package @tiptap/extension-color
-
-
-
-
-
-# [2.0.0-beta.5](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-color@2.0.0-beta.4...@tiptap/extension-color@2.0.0-beta.5) (2021-10-31)
-
-**Note:** Version bump only for package @tiptap/extension-color
+**Note:** Version bump only for package @editfish/extension-color
 
 
 
 
 
-# [2.0.0-beta.4](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-color@2.0.0-beta.3...@tiptap/extension-color@2.0.0-beta.4) (2021-10-26)
+# [2.0.0-beta.6](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-color@2.0.0-beta.5...@editfish/extension-color@2.0.0-beta.6) (2021-11-09)
 
-**Note:** Version bump only for package @tiptap/extension-color
-
-
+**Note:** Version bump only for package @editfish/extension-color
 
 
 
-# [2.0.0-beta.3](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-color@2.0.0-beta.2...@tiptap/extension-color@2.0.0-beta.3) (2021-09-08)
+
+
+# [2.0.0-beta.5](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-color@2.0.0-beta.4...@editfish/extension-color@2.0.0-beta.5) (2021-10-31)
+
+**Note:** Version bump only for package @editfish/extension-color
+
+
+
+
+
+# [2.0.0-beta.4](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-color@2.0.0-beta.3...@editfish/extension-color@2.0.0-beta.4) (2021-10-26)
+
+**Note:** Version bump only for package @editfish/extension-color
+
+
+
+
+
+# [2.0.0-beta.3](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-color@2.0.0-beta.2...@editfish/extension-color@2.0.0-beta.3) (2021-09-08)
 
 
 ### Features
@@ -105,4 +105,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 2.0.0-beta.2 (2021-08-19)
 
-**Note:** Version bump only for package @tiptap/extension-color
+**Note:** Version bump only for package @editfish/extension-color

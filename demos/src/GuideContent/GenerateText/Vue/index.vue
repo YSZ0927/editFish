@@ -3,11 +3,11 @@
 </template>
 
 <script>
-import { generateText } from '@tiptap/core'
-import Document from '@tiptap/extension-document'
-import HardBreak from '@tiptap/extension-hard-break'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
+import { generateText } from '@editfish/core'
+import Document from '@editfish/extension-document'
+import HardBreak from '@editfish/extension-hard-break'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
 
 const json = {
   type: 'doc',
@@ -43,16 +43,20 @@ const json = {
 export default {
   computed: {
     output() {
-      return generateText(json, [
-        Document,
-        Paragraph,
-        Text,
-        HardBreak,
-        // other extensions …
-      ], {
-        // define a custom block separator if you want to
-        blockSeparator: '\n\n',
-      })
+      return generateText(
+        json,
+        [
+          Document,
+          Paragraph,
+          Text,
+          HardBreak,
+          // other extensions …
+        ],
+        {
+          // define a custom block separator if you want to
+          blockSeparator: '\n\n',
+        },
+      )
     },
   },
 }

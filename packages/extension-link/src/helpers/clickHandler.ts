@@ -1,4 +1,4 @@
-import { getAttributes } from '@tiptap/core'
+import { getAttributes } from '@editfish/core'
 import { MarkType } from 'prosemirror-model'
 import { Plugin, PluginKey } from 'prosemirror-state'
 

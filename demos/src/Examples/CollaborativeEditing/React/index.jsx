@@ -1,18 +1,15 @@
 import './styles.scss'
 
+import CharacterCount from '@editfish/extension-character-count'
+import Collaboration from '@editfish/extension-collaboration'
+import CollaborationCursor from '@editfish/extension-collaboration-cursor'
+import Highlight from '@editfish/extension-highlight'
+import TaskItem from '@editfish/extension-task-item'
+import TaskList from '@editfish/extension-task-list'
+import { EditorContent, useEditor } from '@editfish/react'
+import StarterKit from '@editfish/starter-kit'
 import { HocuspocusProvider } from '@hocuspocus/provider'
-import CharacterCount from '@tiptap/extension-character-count'
-import Collaboration from '@tiptap/extension-collaboration'
-import CollaborationCursor from '@tiptap/extension-collaboration-cursor'
-import Highlight from '@tiptap/extension-highlight'
-import TaskItem from '@tiptap/extension-task-item'
-import TaskList from '@tiptap/extension-task-list'
-import { EditorContent, useEditor } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
-import React, {
-  useCallback, useEffect,
-  useState,
-} from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import * as Y from 'yjs'
 
 import MenuBar from './MenuBar'
@@ -66,10 +63,12 @@ const websocketProvider = new HocuspocusProvider({
 })
 
 const getInitialUser = () => {
-  return JSON.parse(localStorage.getItem('currentUser')) || {
-    name: getRandomName(),
-    color: getRandomColor(),
-  }
+  return (
+    JSON.parse(localStorage.getItem('currentUser')) || {
+      name: getRandomName(),
+      color: getRandomColor(),
+    }
+  )
 }
 
 export default () => {
@@ -107,7 +106,11 @@ export default () => {
   useEffect(() => {
     if (editor && currentUser) {
       localStorage.setItem('currentUser', JSON.stringify(currentUser))
-      editor.chain().focus().updateUser(currentUser).run()
+      editor
+        .chain()
+        .focus()
+        .updateUser(currentUser)
+        .run()
     }
   }, [editor, currentUser])
 
@@ -124,15 +127,17 @@ export default () => {
       {editor && <MenuBar editor={editor} />}
       <EditorContent className="editor__content" editor={editor} />
       <div className="editor__footer">
-          <div className={`editor__status editor__status--${status}`}>
-            {status === 'connected'
-              ? `${editor.storage.collaborationCursor.users.length} user${editor.storage.collaborationCursor.users.length === 1 ? '' : 's'} online in ${room}`
-              : 'offline'}
-          </div>
-          <div className="editor__name">
-            <button onClick={setName}>{currentUser.name}</button>
-          </div>
+        <div className={`editor__status editor__status--${status}`}>
+          {status === 'connected'
+            ? `${editor.storage.collaborationCursor.users.length} user${
+              editor.storage.collaborationCursor.users.length === 1 ? '' : 's'
+            } online in ${room}`
+            : 'offline'}
         </div>
+        <div className="editor__name">
+          <button onClick={setName}>{currentUser.name}</button>
+        </div>
+      </div>
     </div>
   )
 }

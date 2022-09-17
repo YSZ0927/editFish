@@ -3,7 +3,7 @@ import { NodeSelection } from 'prosemirror-state'
 import { RawCommands } from '../types'
 import { minMax } from '../utilities/minMax'
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     setNodeSelection: {
       /**

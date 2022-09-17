@@ -1,4 +1,4 @@
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 import { NodeSelection, Plugin } from 'prosemirror-state'
 import { __serializeForClipboard as serializeForClipboard } from 'prosemirror-view'
 

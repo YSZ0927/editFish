@@ -1,12 +1,12 @@
 /// <reference types="cypress" />
 
-import { Editor } from '@tiptap/core'
-import Color from '@tiptap/extension-color'
-import Document from '@tiptap/extension-document'
-import FontFamily from '@tiptap/extension-font-family'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import TextStyle from '@tiptap/extension-text-style'
+import { Editor } from '@editfish/core'
+import Color from '@editfish/extension-color'
+import Document from '@editfish/extension-document'
+import FontFamily from '@editfish/extension-font-family'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import TextStyle from '@editfish/extension-text-style'
 
 describe('isActive', () => {
   it('should check the current node', () => {

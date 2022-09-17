@@ -16,7 +16,7 @@ function ensureMarks(state: EditorState, splittableMarks?: string[]) {
   }
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     splitBlock: {
       /**

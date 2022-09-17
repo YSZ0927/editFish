@@ -41,8 +41,8 @@ We provide [an official PHP package to work with Tiptap content](/api/utilities/
 
 ### index.js
 ```js
-import { Editor } from '@tiptap/core'
-import StarterKit from '@tiptap/starter-kit'
+import { Editor } from '@editfish/core'
+import StarterKit from '@editfish/starter-kit'
 
 window.setupEditor = function (content) {
   return {

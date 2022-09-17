@@ -4,8 +4,8 @@ icon: list-ordered
 ---
 
 # OrderedList
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-ordered-list.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-ordered-list)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-ordered-list.svg)](https://npmcharts.com/compare/@tiptap/extension-ordered-list?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-ordered-list.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-ordered-list)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-ordered-list.svg)](https://npmcharts.com/compare/@editfish/extension-ordered-list?minimal=true)
 
 This extension enables you to use ordered lists in the editor. They are rendered as `<ol>` HTML tags.
 
@@ -13,7 +13,7 @@ Type <code>1.&nbsp;</code> (or any other number followed by a dot) at the beginn
 
 ## Installation
 ```bash
-npm install @tiptap/extension-ordered-list @tiptap/extension-list-item
+npm install @editfish/extension-ordered-list @editfish/extension-list-item
 ```
 
 This extension requires the [`ListItem`](/api/nodes/list-item) node.

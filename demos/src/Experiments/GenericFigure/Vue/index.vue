@@ -17,13 +17,13 @@
 </template>
 
 <script>
-import Image from '@tiptap/extension-image'
-import Table from '@tiptap/extension-table'
-import TableCell from '@tiptap/extension-table-cell'
-import TableHeader from '@tiptap/extension-table-header'
-import TableRow from '@tiptap/extension-table-row'
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Image from '@editfish/extension-image'
+import Table from '@editfish/extension-table'
+import TableCell from '@editfish/extension-table-cell'
+import TableHeader from '@editfish/extension-table-header'
+import TableRow from '@editfish/extension-table-row'
+import StarterKit from '@editfish/starter-kit'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 import { Figcaption } from './figcaption'
 import { Figure } from './figure'
@@ -251,7 +251,7 @@ export default {
 
   figure {
     max-width: 25rem;
-    border: 3px solid #0D0D0D;
+    border: 3px solid #0d0d0d;
     border-radius: 0.5rem;
     margin: 1rem 0;
     padding: 0.5rem;
@@ -261,7 +261,7 @@ export default {
     margin: 0.25rem 0;
     text-align: center;
     padding: 0.5rem;
-    border: 2px dashed #0D0D0D20;
+    border: 2px dashed #0d0d0d20;
     border-radius: 0.5rem;
 
     &:first-child {
@@ -311,7 +311,10 @@ export default {
       z-index: 2;
       position: absolute;
       content: "";
-      left: 0; right: 0; top: 0; bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
       background: rgba(200, 200, 255, 0.4);
       pointer-events: none;
     }

@@ -1,12 +1,12 @@
-import '@tiptap/extension-text-style'
+import '@editfish/extension-text-style'
 
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 
 export type FontFamilyOptions = {
   types: string[],
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     fontFamily: {
       /**

@@ -4,8 +4,8 @@ icon: paragraph
 ---
 
 # Paragraph
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-paragraph.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-paragraph)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-paragraph.svg)](https://npmcharts.com/compare/@tiptap/extension-paragraph?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-paragraph.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-paragraph)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-paragraph.svg)](https://npmcharts.com/compare/@editfish/extension-paragraph?minimal=true)
 
 Yes, the schema is very strict. Without this extension you won’t even be able to use paragraphs in the editor.
 
@@ -15,7 +15,7 @@ tiptap 1 tried to hide that node from you, but it has always been there. You hav
 
 ## Installation
 ```bash
-npm install @tiptap/extension-paragraph
+npm install @editfish/extension-paragraph
 ```
 
 ## Settings

@@ -40,7 +40,7 @@ In Tiptap every node, mark and extension is living in its own file. This allows 
 
 ```js
 // the Tiptap schema API
-import { Node } from '@tiptap/core'
+import { Node } from '@editfish/core'
 
 const Document = Node.create({
   name: 'doc',
@@ -320,10 +320,10 @@ There are a few use cases where you need to work with the underlying schema. You
 If you need this on the client side and need an editor instance anyway, it’s available through the editor:
 
 ```js
-import { Editor } from '@tiptap/core'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
+import { Editor } from '@editfish/core'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
 
 const editor = new Editor({
   extensions: [
@@ -341,10 +341,10 @@ const schema = editor.schema
 If you just want to have the schema *without* initializing an actual editor, you can use the `getSchema` helper function. It needs an array of available extensions and conveniently generates a ProseMirror schema for you:
 
 ```js
-import { getSchema } from '@tiptap/core'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
+import { getSchema } from '@editfish/core'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
 
 const schema = getSchema([
   Document,

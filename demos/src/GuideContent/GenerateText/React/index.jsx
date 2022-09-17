@@ -1,8 +1,8 @@
-import { generateText } from '@tiptap/core'
-import Document from '@tiptap/extension-document'
-import HardBreak from '@tiptap/extension-hard-break'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
+import { generateText } from '@editfish/core'
+import Document from '@editfish/extension-document'
+import HardBreak from '@editfish/extension-hard-break'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
 import React, { useMemo } from 'react'
 
 const json = {

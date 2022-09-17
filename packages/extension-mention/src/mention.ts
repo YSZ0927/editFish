@@ -1,5 +1,5 @@
-import { mergeAttributes, Node } from '@tiptap/core'
-import Suggestion, { SuggestionOptions } from '@tiptap/suggestion'
+import { mergeAttributes, Node } from '@editfish/core'
+import Suggestion, { SuggestionOptions } from '@editfish/suggestion'
 import { Node as ProseMirrorNode } from 'prosemirror-model'
 import { PluginKey } from 'prosemirror-state'
 

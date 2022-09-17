@@ -4,14 +4,14 @@ icon: calculator-line
 ---
 
 # CharacterCount
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-character-count.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-character-count)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-character-count.svg)](https://npmcharts.com/compare/@tiptap/extension-character-count?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-character-count.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-character-count)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-character-count.svg)](https://npmcharts.com/compare/@editfish/extension-character-count?minimal=true)
 
 The `CharacterCount` extension limits the number of allowed character to a specific length. That’s it, that’s all.
 
 ## Installation
 ```bash
-npm install @tiptap/extension-character-count
+npm install @editfish/extension-character-count
 ```
 
 ## Settings

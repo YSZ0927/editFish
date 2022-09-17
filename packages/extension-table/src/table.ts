@@ -23,7 +23,7 @@ import {
   mergeAttributes,
   Node,
   ParentConfig,
-} from '@tiptap/core'
+} from '@editfish/core'
 import { TextSelection } from 'prosemirror-state'
 import { NodeView } from 'prosemirror-view'
 
@@ -41,7 +41,7 @@ export interface TableOptions {
   allowTableNodeSelection: boolean,
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     table: {
       insertTable: (options?: { rows?: number, cols?: number, withHeaderRow?: boolean }) => ReturnType,

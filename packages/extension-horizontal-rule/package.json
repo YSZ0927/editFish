@@ -1,5 +1,5 @@
 {
-  "name": "@tiptap/extension-horizontal-rule",
+  "name": "@editfish/extension-horizontal-rule",
   "description": "horizontal rule extension for tiptap",
   "version": "2.0.0-beta.195",
   "homepage": "https://tiptap.dev",
@@ -21,7 +21,7 @@
     "dist"
   ],
   "peerDependencies": {
-    "@tiptap/core": "^2.0.0-beta.193"
+    "@editfish/core": "^2.0.0-beta.193"
   },
   "dependencies": {
     "prosemirror-state": "1.4.1"

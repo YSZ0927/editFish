@@ -4,7 +4,7 @@ import { getMarkAttributes } from '../helpers/getMarkAttributes'
 import { getMarkType } from '../helpers/getMarkType'
 import { RawCommands } from '../types'
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     setMark: {
       /**

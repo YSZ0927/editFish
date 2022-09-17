@@ -1,8 +1,8 @@
 <script>
   import "./styles.scss";
 
-  import StarterKit from "@tiptap/starter-kit";
-  import { Editor } from "@tiptap/core";
+  import StarterKit from "@editfish/starter-kit";
+  import { Editor } from "@editfish/core";
   import { onMount } from "svelte";
 
   let element;

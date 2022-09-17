@@ -1,13 +1,13 @@
 import './styles.scss'
 
-import BulletList from '@tiptap/extension-bullet-list'
-import Code from '@tiptap/extension-code'
-import Document from '@tiptap/extension-document'
-import Focus from '@tiptap/extension-focus'
-import ListItem from '@tiptap/extension-list-item'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { EditorContent, useEditor } from '@tiptap/react'
+import BulletList from '@editfish/extension-bullet-list'
+import Code from '@editfish/extension-code'
+import Document from '@editfish/extension-document'
+import Focus from '@editfish/extension-focus'
+import ListItem from '@editfish/extension-list-item'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { EditorContent, useEditor } from '@editfish/react'
 import React from 'react'
 
 export default () => {

@@ -1,4 +1,4 @@
-import { EditorOptions } from '@tiptap/core'
+import { EditorOptions } from '@editfish/core'
 import { DependencyList, useEffect, useState } from 'react'
 
 import { Editor } from './Editor'

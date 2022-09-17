@@ -126,7 +126,7 @@ editor.off('update', onUpdate)
 Moving your event listeners to custom extensions (or nodes, or marks) is also possible. Here’s how that would look like:
 
 ```js
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 
 const CustomExtension = Extension.create({
   onBeforeCreate({ editor }) {

@@ -4,8 +4,8 @@ icon: separator
 ---
 
 # HorizontalRule
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-horizontal-rule.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-horizontal-rule)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-horizontal-rule.svg)](https://npmcharts.com/compare/@tiptap/extension-horizontal-rule?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-horizontal-rule.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-horizontal-rule)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-horizontal-rule.svg)](https://npmcharts.com/compare/@editfish/extension-horizontal-rule?minimal=true)
 
 Use this extension to render a `<hr>` HTML tag. If you pass `<hr>` in the editor’s initial content, it’ll be rendered accordingly.
 
@@ -13,7 +13,7 @@ Type three dashes (<code>---</code>) or three underscores and a space (<code>___
 
 ## Installation
 ```bash
-npm install @tiptap/extension-horizontal-rule
+npm install @editfish/extension-horizontal-rule
 ```
 
 ## Settings

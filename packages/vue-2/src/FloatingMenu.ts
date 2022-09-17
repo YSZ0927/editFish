@@ -1,4 +1,4 @@
-import { FloatingMenuPlugin, FloatingMenuPluginProps } from '@tiptap/extension-floating-menu'
+import { FloatingMenuPlugin, FloatingMenuPluginProps } from '@editfish/extension-floating-menu'
 import Vue, { Component, PropType } from 'vue'
 
 export interface FloatingMenuInterface extends Vue {

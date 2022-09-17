@@ -7,10 +7,28 @@
       <button class="button" @click="clearContent">
         Clear Content
       </button>
-      <button @click="editor.chain().focus().toggleBold().run()" :class="{ 'is-active': editor.isActive('bold') }">
+      <button
+        @click="
+          editor
+            .chain()
+            .focus()
+            .toggleBold()
+            .run()
+        "
+        :class="{ 'is-active': editor.isActive('bold') }"
+      >
         Bold
       </button>
-      <button @click="editor.chain().focus().toggleItalic().run()" :class="{ 'is-active': editor.isActive('italic') }">
+      <button
+        @click="
+          editor
+            .chain()
+            .focus()
+            .toggleItalic()
+            .run()
+        "
+        :class="{ 'is-active': editor.isActive('italic') }"
+      >
         Italic
       </button>
     </div>
@@ -25,8 +43,8 @@
 </template>
 
 <script>
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import StarterKit from '@editfish/starter-kit'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 export default {
   components: {
@@ -47,9 +65,7 @@ export default {
           Wow, this editor instance exports its content as HTML.
         </p>
       `,
-      extensions: [
-        StarterKit,
-      ],
+      extensions: [StarterKit],
     })
 
     // Get the initial content …
@@ -64,11 +80,14 @@ export default {
   methods: {
     setContent() {
       // You can pass a HTML document to the editor.
-      this.editor.commands.setContent(`
+      this.editor.commands.setContent(
+        `
         <p>
           It’s 19871. You can’t turn on a radio, or go to a mall without hearing Olivia Newton-John’s hit song, Physical.
         </p>
-      `, true)
+      `,
+        true,
+      )
 
       // It’s likely that you’d like to focus the Editor after most commands.
       this.editor.commands.focus()
@@ -108,7 +127,7 @@ export default {
     white-space: pre-wrap;
     font-size: 0.8rem;
     padding: 0.75rem 1rem;
-    background-color:#e9ecef;
+    background-color: #e9ecef;
     color: #495057;
   }
 }
@@ -139,9 +158,9 @@ export default {
   }
 
   pre {
-    background: #0D0D0D;
-    color: #FFF;
-    font-family: 'JetBrainsMono', monospace;
+    background: #0d0d0d;
+    color: #fff;
+    font-family: "JetBrainsMono", monospace;
     padding: 0.75rem 1rem;
     border-radius: 0.5rem;
 
@@ -164,7 +183,7 @@ export default {
 
   blockquote {
     padding-left: 1rem;
-    border-left: 2px solid rgba(#0D0D0D, 0.1);
+    border-left: 2px solid rgba(#0d0d0d, 0.1);
   }
 }
 </style>

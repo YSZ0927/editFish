@@ -1,8 +1,8 @@
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import Underline from '@tiptap/extension-underline'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import Underline from '@editfish/extension-underline'
+import { EditorContent, useEditor } from '@editfish/react'
 import React from 'react'
 
 export default () => {
@@ -22,19 +22,34 @@ export default () => {
   return (
     <>
       <button
-        onClick={() => editor.chain().focus().toggleUnderline().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .toggleUnderline()
+          .run()
+        }
         className={editor.isActive('underline') ? 'is-active' : ''}
       >
         toggleUnderline
       </button>
       <button
-        onClick={() => editor.chain().focus().setUnderline().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .setUnderline()
+          .run()
+        }
         disabled={editor.isActive('underline')}
       >
         setUnderline
       </button>
       <button
-        onClick={() => editor.chain().focus().unsetUnderline().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .unsetUnderline()
+          .run()
+        }
         disabled={!editor.isActive('underline')}
       >
         unsetUnderline

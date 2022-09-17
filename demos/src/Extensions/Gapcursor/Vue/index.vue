@@ -3,12 +3,12 @@
 </template>
 
 <script>
-import Document from '@tiptap/extension-document'
-import Gapcursor from '@tiptap/extension-gapcursor'
-import Image from '@tiptap/extension-image'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Document from '@editfish/extension-document'
+import Gapcursor from '@editfish/extension-gapcursor'
+import Image from '@editfish/extension-image'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 export default {
   components: {
@@ -23,13 +23,7 @@ export default {
 
   mounted() {
     this.editor = new Editor({
-      extensions: [
-        Document,
-        Paragraph,
-        Text,
-        Image,
-        Gapcursor,
-      ],
+      extensions: [Document, Paragraph, Text, Image, Gapcursor],
       content: `
         <p>Try to move the cursor after the image with your arrow keys! You should see a horizontal blinking cursor below the image. This is the gapcursor.</p>
         <img src="https://source.unsplash.com/8xznAGy4HcY/800x400" />

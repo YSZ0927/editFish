@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
 
-**Note:** Version bump only for package @tiptap/extension-youtube
+**Note:** Version bump only for package @editfish/extension-youtube
 
 
 
@@ -13,13 +13,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [2.0.0-beta.194](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.193...v2.0.0-beta.194) (2022-09-11)
 
-**Note:** Version bump only for package @tiptap/extension-youtube
+**Note:** Version bump only for package @editfish/extension-youtube
 
 
 
 
 
-# [2.0.0-beta.6](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-youtube@2.0.0-beta.5...@tiptap/extension-youtube@2.0.0-beta.6) (2022-06-27)
+# [2.0.0-beta.6](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-youtube@2.0.0-beta.5...@editfish/extension-youtube@2.0.0-beta.6) (2022-06-27)
 
 
 ### Features
@@ -31,15 +31,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.5](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-youtube@2.0.0-beta.4...@tiptap/extension-youtube@2.0.0-beta.5) (2022-06-20)
+# [2.0.0-beta.5](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-youtube@2.0.0-beta.4...@editfish/extension-youtube@2.0.0-beta.5) (2022-06-20)
 
-**Note:** Version bump only for package @tiptap/extension-youtube
-
-
+**Note:** Version bump only for package @editfish/extension-youtube
 
 
 
-# [2.0.0-beta.4](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-youtube@2.0.0-beta.2...@tiptap/extension-youtube@2.0.0-beta.4) (2022-06-17)
+
+
+# [2.0.0-beta.4](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-youtube@2.0.0-beta.2...@editfish/extension-youtube@2.0.0-beta.4) (2022-06-17)
 
 
 ### Reverts
@@ -50,7 +50,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.0.0-beta.2](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-youtube@2.0.0-beta.2...@tiptap/extension-youtube@2.0.0-beta.2) (2022-06-17)
+# [2.0.0-beta.2](https://github.com/ueberdosis/tiptap/compare/@editfish/extension-youtube@2.0.0-beta.2...@editfish/extension-youtube@2.0.0-beta.2) (2022-06-17)
 
 
 ### Reverts

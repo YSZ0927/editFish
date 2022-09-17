@@ -1,4 +1,4 @@
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 
 import { FloatingMenuPlugin, FloatingMenuPluginProps } from './floating-menu-plugin'
 

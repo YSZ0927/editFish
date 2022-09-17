@@ -17,7 +17,7 @@ async function getSortedPackages(scope, ignore) {
   const filtered = filterPackages(packages, scope, ignore, false)
 
   return batchPackages(filtered)
-    .filter(item => item.name !== '@tiptap/demos')
+    .filter(item => item.name !== '@editfish/demos')
     .reduce((arr, batch) => arr.concat(batch), [])
 }
 
@@ -91,7 +91,7 @@ async function build(commandLineArgs) {
             compilerOptions: {
               declaration: true,
               paths: {
-                '@tiptap/*': ['packages/*/src'],
+                '@editfish/*': ['packages/*/src'],
               },
             },
             include: fs.existsSync(`${basePath}/tsconfig.json`)

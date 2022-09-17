@@ -1,8 +1,8 @@
 import './styles.scss'
 
-import Mention from '@tiptap/extension-mention'
-import { EditorContent, useEditor } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import Mention from '@editfish/extension-mention'
+import { EditorContent, useEditor } from '@editfish/react'
+import StarterKit from '@editfish/starter-kit'
 import React from 'react'
 
 import suggestion from './suggestion'

@@ -31,7 +31,7 @@ npm uninstall tiptap tiptap-commands tiptap-extensions tiptap-utils
 Once you have uninstalled the old version of Tiptap, install the new Vue 2 package and the starter kit:
 
 ```bash
-npm install @tiptap/vue-2 @tiptap/starter-kit
+npm install @editfish/vue-2 @editfish/starter-kit
 ```
 
 ## Keep Tiptap v2 up to date
@@ -48,9 +48,9 @@ npm-check -u
 tiptap 1 tried to hide a few required extensions from you with the default setting `useBuiltInExtensions: true`. That setting has been removed and you’re required to import all extensions. Be sure to explicitly import at least the [`Document`](/api/nodes/document), [`Paragraph`](/api/nodes/paragraph) and [`Text`](/api/nodes/text) extensions.
 
 ```js
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
 
 new Editor({
   extensions: [
@@ -88,7 +88,7 @@ We removed the `.state()` method. No worries though, it’s still available thro
 In case you’ve built some custom extensions for your project, you’re required to rewrite them to fit the new API. No worries, you can keep a lot of your work though. The `schema`, `commands`, `keys`, `inputRules` and `pasteRules` all work like they did before. It’s just different how you register them.
 
 ```js
-import { Node } from '@tiptap/core'
+import { Node } from '@editfish/core'
 
 const CustomExtension = Node.create({
   name: 'custom_extension',

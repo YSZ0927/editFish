@@ -4,7 +4,7 @@ import {
   NodeViewRenderer,
   NodeViewRendererOptions,
   NodeViewRendererProps,
-} from '@tiptap/core'
+} from '@editfish/core'
 import { Node as ProseMirrorNode } from 'prosemirror-model'
 import { Decoration, NodeView as ProseMirrorNodeView } from 'prosemirror-view'
 import Vue from 'vue'

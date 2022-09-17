@@ -1,7 +1,7 @@
 import './styles.scss'
 
-import { EditorContent, useEditor } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import { EditorContent, useEditor } from '@editfish/react'
+import StarterKit from '@editfish/starter-kit'
 import React from 'react'
 
 import TableOfContents from './TableOfContents.js'

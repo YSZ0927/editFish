@@ -1,18 +1,63 @@
 <template>
   <div v-if="editor">
-    <button @click="editor.chain().focus().toggleBulletList().run()" :class="{ 'is-active': editor.isActive('bulletList') }">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .toggleBulletList()
+          .run()
+      "
+      :class="{ 'is-active': editor.isActive('bulletList') }"
+    >
       toggleBulletList
     </button>
-    <button @click="editor.chain().focus().toggleOrderedList().run()" :class="{ 'is-active': editor.isActive('orderedList') }">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .toggleOrderedList()
+          .run()
+      "
+      :class="{ 'is-active': editor.isActive('orderedList') }"
+    >
       toggleOrderedList
     </button>
-    <button @click="editor.chain().focus().splitListItem('listItem').run()" :disabled="!editor.can().splitListItem('listItem')">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .splitListItem('listItem')
+          .run()
+      "
+      :disabled="!editor.can().splitListItem('listItem')"
+    >
       splitListItem
     </button>
-    <button @click="editor.chain().focus().sinkListItem('listItem').run()" :disabled="!editor.can().sinkListItem('listItem')">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .sinkListItem('listItem')
+          .run()
+      "
+      :disabled="!editor.can().sinkListItem('listItem')"
+    >
       sinkListItem
     </button>
-    <button @click="editor.chain().focus().liftListItem('listItem').run()" :disabled="!editor.can().liftListItem('listItem')">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .liftListItem('listItem')
+          .run()
+      "
+      :disabled="!editor.can().liftListItem('listItem')"
+    >
       liftListItem
     </button>
 
@@ -21,13 +66,13 @@
 </template>
 
 <script>
-import BulletList from '@tiptap/extension-bullet-list'
-import Document from '@tiptap/extension-document'
-import ListItem from '@tiptap/extension-list-item'
-import OrderedList from '@tiptap/extension-ordered-list'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import BulletList from '@editfish/extension-bullet-list'
+import Document from '@editfish/extension-document'
+import ListItem from '@editfish/extension-list-item'
+import OrderedList from '@editfish/extension-ordered-list'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 export default {
   components: {
@@ -42,14 +87,7 @@ export default {
 
   mounted() {
     this.editor = new Editor({
-      extensions: [
-        Document,
-        Paragraph,
-        Text,
-        BulletList,
-        OrderedList,
-        ListItem,
-      ],
+      extensions: [Document, Paragraph, Text, BulletList, OrderedList, ListItem],
       content: `
         <p>
           I like lists. Let’s add one:

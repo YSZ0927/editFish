@@ -4,14 +4,14 @@ icon: text-wrap
 ---
 
 # HardBreak
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-hard-break.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-hard-break)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-hard-break.svg)](https://npmcharts.com/compare/@tiptap/extension-hard-break?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-hard-break.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-hard-break)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-hard-break.svg)](https://npmcharts.com/compare/@editfish/extension-hard-break?minimal=true)
 
 The HardBreak extensions adds support for the `<br>` HTML tag, which forces a line break.
 
 ## Installation
 ```bash
-npm install @tiptap/extension-hard-break
+npm install @editfish/extension-hard-break
 ```
 
 ## Settings

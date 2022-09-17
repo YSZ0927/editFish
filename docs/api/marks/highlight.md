@@ -4,8 +4,8 @@ icon: mark-pen-line
 ---
 
 # Highlight
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-highlight.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-highlight)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-highlight.svg)](https://npmcharts.com/compare/@tiptap/extension-highlight?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-highlight.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-highlight)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-highlight.svg)](https://npmcharts.com/compare/@editfish/extension-highlight?minimal=true)
 
 Use this extension to render highlighted text with `<mark>`. You can use only default `<mark>` HTML tag, which has a yellow background color by default, or apply different colors.
 
@@ -13,7 +13,7 @@ Type `==two equal signs==` and it will magically transform to <mark>highlighted<
 
 ## Installation
 ```bash
-npm install @tiptap/extension-highlight
+npm install @editfish/extension-highlight
 ```
 
 ## Settings

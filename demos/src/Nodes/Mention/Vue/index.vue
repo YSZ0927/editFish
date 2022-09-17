@@ -5,9 +5,9 @@
 </template>
 
 <script>
-import Mention from '@tiptap/extension-mention'
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Mention from '@editfish/extension-mention'
+import StarterKit from '@editfish/starter-kit'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 import suggestion from './suggestion'
 

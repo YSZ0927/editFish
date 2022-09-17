@@ -18,7 +18,7 @@ Let’s say, you’d like to change the keyboard shortcut for the bullet list. Y
 
 ```js
 // 1. Import the extension
-import BulletList from '@tiptap/extension-bullet-list'
+import BulletList from '@editfish/extension-bullet-list'
 
 // 2. Overwrite the keyboard shortcuts
 const CustomBulletList = BulletList.extend({
@@ -49,7 +49,7 @@ The extension name is also part of the JSON. If you [store your content as JSON]
 The priority defines the order in which extensions are registered. The default priority is `100`, that’s what most extension have. Extensions with a higher priority will be loaded earlier.
 
 ```js
-import Link from '@tiptap/extension-link'
+import Link from '@editfish/extension-link'
 
 const CustomLink = Link.extend({
   priority: 1000,
@@ -68,7 +68,7 @@ The order in which extensions are loaded influences two things:
 All settings can be configured through the extension anyway, but if you want to change the default settings, for example to provide a library on top of Tiptap for other developers, you can do it like that:
 
 ```js
-import Heading from '@tiptap/extension-heading'
+import Heading from '@editfish/extension-heading'
 
 const CustomHeading = Heading.extend({
   addOptions() {
@@ -84,7 +84,7 @@ const CustomHeading = Heading.extend({
 At some point you probably want to save some data within your extension instance. This data is mutable. You can access it within the extension under `this.storage`.
 
 ```js
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 
 const CustomExtension = Extension.create({
   name: 'customExtension',
@@ -120,7 +120,7 @@ The default `Blockquote` extension can wrap other nodes, like headings. If you w
 
 ```js
 // Blockquotes must only include paragraphs
-import Blockquote from '@tiptap/extension-blockquote'
+import Blockquote from '@editfish/extension-blockquote'
 
 const CustomBlockquote = Blockquote.extend({
   content: 'paragraph*',
@@ -131,7 +131,7 @@ The schema even allows to make your nodes draggable, that’s what the `draggabl
 
 ```js
 // Draggable paragraphs
-import Paragraph from '@tiptap/extension-paragraph'
+import Paragraph from '@editfish/extension-paragraph'
 
 const CustomParagraph = Paragraph.extend({
   draggable: true,
@@ -239,7 +239,7 @@ Attributes can be applied to multiple extensions at once. That’s useful for te
 Take a closer look at [the full source code](https://github.com/ueberdosis/tiptap/tree/main/packages/extension-text-align) of the [`TextAlign`](/api/extensions/text-align) extension to see a more complex example. But here is how it works in a nutshell:
 
 ```js
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 
 const TextAlign = Extension.create({
   addGlobalAttributes() {
@@ -285,10 +285,10 @@ renderHTML({ HTMLAttributes }) {
 },
 ```
 
-If you want to add some specific attributes there, import the `mergeAttributes` helper from `@tiptap/core`:
+If you want to add some specific attributes there, import the `mergeAttributes` helper from `@editfish/core`:
 
 ```js
-import { mergeAttributes } from '@tiptap/core'
+import { mergeAttributes } from '@editfish/core'
 
 // ...
 
@@ -382,7 +382,7 @@ Read more about `getAttrs` and all other `ParseRule` properties in the [ProseMir
 
 ### Commands
 ```js
-import Paragraph from '@tiptap/extension-paragraph'
+import Paragraph from '@editfish/extension-paragraph'
 
 const CustomParagraph = Paragraph.extend({
   addCommands() {
@@ -404,7 +404,7 @@ Most core extensions come with sensible keyboard shortcut defaults. Depending on
 
 ```js
 // Change the bullet list keyboard shortcut
-import BulletList from '@tiptap/extension-bullet-list'
+import BulletList from '@editfish/extension-bullet-list'
 
 const CustomBulletList = BulletList.extend({
   addKeyboardShortcuts() {
@@ -422,8 +422,8 @@ By default text between two tildes on both sides is transformed to ~~striked tex
 
 ```js
 // Use the ~single tilde~ markdown shortcut
-import Strike from '@tiptap/extension-strike'
-import { markInputRule } from '@tiptap/core'
+import Strike from '@editfish/extension-strike'
+import { markInputRule } from '@editfish/core'
 
 // Default:
 // const inputRegex = /(?:^|\s)((?:~~)((?:[^~]+))(?:~~))$/
@@ -452,8 +452,8 @@ Taking the example from above and applying it to the paste rule would look like 
 
 ```js
 // Check pasted content for the ~single tilde~ markdown syntax
-import Strike from '@tiptap/extension-strike'
-import { markPasteRule } from '@tiptap/core'
+import Strike from '@editfish/extension-strike'
+import { markPasteRule } from '@editfish/core'
 
 // Default:
 // const pasteRegex = /(?:^|\s)((?:~~)((?:[^~]+))(?:~~))/g
@@ -477,7 +477,7 @@ const CustomStrike = Strike.extend({
 You can even move your [event listeners](/api/events) to a separate extension. Here is an example with listeners for all events:
 
 ```js
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 
 const CustomExtension = Extension.create({
   onCreate() {
@@ -549,7 +549,7 @@ To hook into events, for example a click, double click or when content is pasted
 Or you can add them to a Tiptap extension like shown in the below example.
 
 ```js
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 import { Plugin, PluginKey } from 'prosemirror-state'
 
 export const EventHandler = Extension.create({
@@ -578,7 +578,7 @@ For advanced use cases, where you need to execute JavaScript inside your nodes, 
 They are really powerful, but also complex. In a nutshell, you need to return a parent DOM element, and a DOM element where the content should be rendered in. Look at the following, simplified example:
 
 ```js
-import Image from '@tiptap/extension-image'
+import Image from '@editfish/extension-image'
 
 const CustomImage = Image.extend({
   addNodeView() {
@@ -610,7 +610,7 @@ You can build your own extensions from scratch and you know what? It’s the sam
 If you think of the document as a tree, then [nodes](/api/nodes) are just a type of content in that tree. Good examples to learn from are [`Paragraph`](/api/nodes/paragraph), [`Heading`](/api/nodes/heading), or [`CodeBlock`](/api/nodes/code-block).
 
 ```js
-import { Node } from '@tiptap/core'
+import { Node } from '@editfish/core'
 
 const CustomNode = Node.create({
   name: 'customNode',
@@ -625,7 +625,7 @@ Nodes don’t have to be blocks. They can also be rendered inline with the text,
 One or multiple marks can be applied to [nodes](/api/nodes), for example to add inline formatting. Good examples to learn from are [`Bold`](/api/marks/bold), [`Italic`](/api/marks/italic) and [`Highlight`](/api/marks/highlight).
 
 ```js
-import { Mark } from '@tiptap/core'
+import { Mark } from '@editfish/core'
 
 const CustomMark = Mark.create({
   name: 'customMark',
@@ -640,7 +640,7 @@ Extensions add new capabilities to Tiptap and you’ll read the word extension h
 A good example to learn from is probably [`TextAlign`](/api/extensions/text-align).
 
 ```js
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 
 const CustomExtension = Extension.create({
   name: 'customExtension',

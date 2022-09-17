@@ -1,4 +1,4 @@
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 import * as Y from 'yjs'
 
 import { AnnotationPlugin, AnnotationPluginKey } from './AnnotationPlugin'
@@ -50,7 +50,7 @@ function getMapFromOptions(options: AnnotationOptions): Y.Map<any> {
     : options.document?.getMap(options.field) as Y.Map<any>
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     annotation: {
       addAnnotation: (data: any) => ReturnType,

@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
-import { Extension } from '@tiptap/core/src/Extension'
-import { getExtensionField } from '@tiptap/core/src/helpers/getExtensionField'
+import { Extension } from '@editfish/core/src/Extension'
+import { getExtensionField } from '@editfish/core/src/helpers/getExtensionField'
 
 describe('extend extensions', () => {
   it('should define a config', () => {

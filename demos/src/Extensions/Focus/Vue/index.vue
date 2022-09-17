@@ -3,14 +3,14 @@
 </template>
 
 <script>
-import BulletList from '@tiptap/extension-bullet-list'
-import Code from '@tiptap/extension-code'
-import Document from '@tiptap/extension-document'
-import Focus from '@tiptap/extension-focus'
-import ListItem from '@tiptap/extension-list-item'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import BulletList from '@editfish/extension-bullet-list'
+import Code from '@editfish/extension-code'
+import Document from '@editfish/extension-document'
+import Focus from '@editfish/extension-focus'
+import ListItem from '@editfish/extension-list-item'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 export default {
   components: {
@@ -75,7 +75,7 @@ export default {
 
   blockquote {
     padding-left: 1rem;
-    border-left: 2px solid rgba(#0D0D0D, 0.1);
+    border-left: 2px solid rgba(#0d0d0d, 0.1);
   }
 
   code {

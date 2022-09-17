@@ -1,4 +1,4 @@
-import { Extension, textInputRule } from '@tiptap/core'
+import { Extension, textInputRule } from '@editfish/core'
 
 export const SmilieReplacer = Extension.create({
   name: 'smilieReplacer',

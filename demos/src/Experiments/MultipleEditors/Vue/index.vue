@@ -28,14 +28,14 @@
 </template>
 
 <script>
-import Bold from '@tiptap/extension-bold'
-import Collaboration from '@tiptap/extension-collaboration'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import TaskItem from '@tiptap/extension-task-item'
-import TaskList from '@tiptap/extension-task-list'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Bold from '@editfish/extension-bold'
+import Collaboration from '@editfish/extension-collaboration'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import TaskItem from '@editfish/extension-task-item'
+import TaskList from '@editfish/extension-task-list'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 import { yDocToProsemirrorJSON } from 'y-prosemirror'
 import * as Y from 'yjs'
 
@@ -181,10 +181,10 @@ export default {
   padding: 0.75rem 1rem;
   border-radius: 5px;
   border: 1px solid #e9ecef;
-  transition: .1s all ease-in-out;
+  transition: 0.1s all ease-in-out;
 
   &:hover {
-    border-color: #68CEF8;
+    border-color: #68cef8;
   }
 
   &--title {
@@ -192,14 +192,14 @@ export default {
   }
 
   &--json {
-    background: #0D0D0D;
-    color: #FFF;
+    background: #0d0d0d;
+    color: #fff;
     font-size: 0.8rem;
   }
 }
 
 pre {
-  font-family: 'JetBrainsMono', monospace;
+  font-family: "JetBrainsMono", monospace;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
 

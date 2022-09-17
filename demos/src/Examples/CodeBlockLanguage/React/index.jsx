@@ -4,11 +4,11 @@
 // lowlight.registerLanguage('javascript', javascript)
 import './styles.scss'
 
-import CodeBlockLowlight from '@tiptap/extension-code-block-lowlight'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { EditorContent, ReactNodeViewRenderer, useEditor } from '@tiptap/react'
+import CodeBlockLowlight from '@editfish/extension-code-block-lowlight'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { EditorContent, ReactNodeViewRenderer, useEditor } from '@editfish/react'
 import css from 'highlight.js/lib/languages/css'
 import js from 'highlight.js/lib/languages/javascript'
 import ts from 'highlight.js/lib/languages/typescript'
@@ -30,7 +30,15 @@ const MenuBar = ({ editor }) => {
   }
 
   return (
-    <button onClick={() => editor.chain().focus().toggleCodeBlock().run()} className={editor.isActive('codeBlock') ? 'is-active' : ''}>
+    <button
+      onClick={() => editor
+        .chain()
+        .focus()
+        .toggleCodeBlock()
+        .run()
+      }
+      className={editor.isActive('codeBlock') ? 'is-active' : ''}
+    >
       code block
     </button>
   )
@@ -42,13 +50,11 @@ export default () => {
       Document,
       Paragraph,
       Text,
-      CodeBlockLowlight
-        .extend({
-          addNodeView() {
-            return ReactNodeViewRenderer(CodeBlockComponent)
-          },
-        })
-        .configure({ lowlight }),
+      CodeBlockLowlight.extend({
+        addNodeView() {
+          return ReactNodeViewRenderer(CodeBlockComponent)
+        },
+      }).configure({ lowlight }),
     ],
     content: `
         <p>

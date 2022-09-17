@@ -4,14 +4,14 @@ icon: table-2
 ---
 
 # TableRow
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-table-row.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-table-row)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-table-row.svg)](https://npmcharts.com/compare/@tiptap/extension-table-row?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-table-row.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-table-row)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-table-row.svg)](https://npmcharts.com/compare/@editfish/extension-table-row?minimal=true)
 
 What’s a table without rows? Add this extension to make your tables usable.
 
 ## Installation
 ```bash
-npm install @tiptap/extension-table @tiptap/extension-table-row @tiptap/extension-table-header @tiptap/extension-table-cell
+npm install @editfish/extension-table @editfish/extension-table-row @editfish/extension-table-header @editfish/extension-table-cell
 ```
 
 This extension requires the [`Table`](/api/nodes/table), [`TableHeader`](/api/nodes/table-header) and [`TableCell`](/api/nodes/table-cell) nodes.

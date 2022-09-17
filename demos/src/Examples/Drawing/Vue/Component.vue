@@ -1,12 +1,10 @@
 <template>
   <node-view-wrapper class="draw">
-    <input type="color" v-model="color">
-    <input
-      type="number"
-      min="1"
-      max="10"
-      v-model="size"
-    >
+    <input type="color" v-model="color" />
+    <input type="number"
+min="1"
+max="10"
+v-model="size" />
     <button @click="clear">
       clear
     </button>
@@ -26,7 +24,7 @@
 </template>
 
 <script>
-import { nodeViewProps, NodeViewWrapper } from '@tiptap/vue-3'
+import { nodeViewProps, NodeViewWrapper } from '@editfish/vue-3'
 import * as d3 from 'd3'
 import { v4 as uuid } from 'uuid'
 
@@ -74,9 +72,7 @@ export default {
         .attr('stroke', this.color)
         .attr('stroke-width', this.size)
 
-      const moveEvent = event.type === 'mousedown'
-        ? 'mousemove'
-        : 'touchmove'
+      const moveEvent = event.type === 'mousedown' ? 'mousemove' : 'touchmove'
 
       this.svg.on(moveEvent, this.onMove)
     },

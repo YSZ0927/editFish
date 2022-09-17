@@ -1,4 +1,4 @@
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 import { dropCursor } from 'prosemirror-dropcursor'
 
 export interface DropcursorOptions {

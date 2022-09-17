@@ -5,7 +5,7 @@ import { getNodeType } from '../helpers/getNodeType'
 import { isNodeActive } from '../helpers/isNodeActive'
 import { RawCommands } from '../types'
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     lift: {
       /**

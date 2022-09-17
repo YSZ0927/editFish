@@ -1,4 +1,4 @@
-import { findChildren } from '@tiptap/core'
+import { findChildren } from '@editfish/core'
 // @ts-ignore
 import highlight from 'highlight.js/lib/core'
 import { Node as ProsemirrorNode } from 'prosemirror-model'

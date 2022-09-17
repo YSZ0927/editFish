@@ -4,14 +4,14 @@ icon: ghost-line
 ---
 
 # Placeholder
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-placeholder.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-placeholder)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-placeholder.svg)](https://npmcharts.com/compare/@tiptap/extension-placeholder?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-placeholder.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-placeholder)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-placeholder.svg)](https://npmcharts.com/compare/@editfish/extension-placeholder?minimal=true)
 
 This extension provides placeholder support. Give your users an idea what they should write with a tiny hint. There is a handful of things to customize, if you feel like it.
 
 ## Installation
 ```bash
-npm install @tiptap/extension-placeholder
+npm install @editfish/extension-placeholder
 ```
 
 ## Settings

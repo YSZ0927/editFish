@@ -2,7 +2,7 @@ import {
   mergeAttributes,
   Node,
   nodeInputRule,
-} from '@tiptap/core'
+} from '@editfish/core'
 
 export interface ImageOptions {
   inline: boolean,
@@ -10,7 +10,7 @@ export interface ImageOptions {
   HTMLAttributes: Record<string, any>,
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     image: {
       /**

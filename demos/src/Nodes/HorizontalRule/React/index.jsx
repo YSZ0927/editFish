@@ -1,10 +1,10 @@
 import './styles.scss'
 
-import Document from '@tiptap/extension-document'
-import HorizontalRule from '@tiptap/extension-horizontal-rule'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Document from '@editfish/extension-document'
+import HorizontalRule from '@editfish/extension-horizontal-rule'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { EditorContent, useEditor } from '@editfish/react'
 import React from 'react'
 
 export default () => {
@@ -25,7 +25,14 @@ export default () => {
 
   return (
     <>
-      <button onClick={() => editor.chain().focus().setHorizontalRule().run()}>
+      <button
+        onClick={() => editor
+          .chain()
+          .focus()
+          .setHorizontalRule()
+          .run()
+        }
+      >
         setHorizontalRule
       </button>
 

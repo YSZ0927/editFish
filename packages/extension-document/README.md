@@ -1,7 +1,7 @@
-# @tiptap/extension-document
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-document.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-document)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-document.svg)](https://npmcharts.com/compare/tiptap?minimal=true)
-[![License](https://img.shields.io/npm/l/@tiptap/extension-document.svg)](https://www.npmjs.com/package/@tiptap/extension-document)
+# @editfish/extension-document
+[![Version](https://img.shields.io/npm/v/@editfish/extension-document.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-document)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-document.svg)](https://npmcharts.com/compare/tiptap?minimal=true)
+[![License](https://img.shields.io/npm/l/@editfish/extension-document.svg)](https://www.npmjs.com/package/@editfish/extension-document)
 [![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub)](https://github.com/sponsors/ueberdosis)
 
 ## Introduction

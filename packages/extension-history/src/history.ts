@@ -1,4 +1,4 @@
-import { Extension } from '@tiptap/core'
+import { Extension } from '@editfish/core'
 import { history, redo, undo } from 'prosemirror-history'
 
 export interface HistoryOptions {
@@ -6,7 +6,7 @@ export interface HistoryOptions {
   newGroupDelay: number,
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     history: {
       /**

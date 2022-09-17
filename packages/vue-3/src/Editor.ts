@@ -1,4 +1,4 @@
-import { Editor as CoreEditor, EditorOptions } from '@tiptap/core'
+import { Editor as CoreEditor, EditorOptions } from '@editfish/core'
 import { EditorState, Plugin, PluginKey } from 'prosemirror-state'
 import {
   ComponentInternalInstance,

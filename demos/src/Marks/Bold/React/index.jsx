@@ -1,8 +1,8 @@
-import Bold from '@tiptap/extension-bold'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Bold from '@editfish/extension-bold'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { EditorContent, useEditor } from '@editfish/react'
 import React from 'react'
 
 export default () => {
@@ -26,19 +26,34 @@ export default () => {
   return (
     <>
       <button
-        onClick={() => editor.chain().focus().toggleBold().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .toggleBold()
+          .run()
+        }
         className={editor.isActive('bold') ? 'is-active' : ''}
       >
         toggleBold
       </button>
       <button
-        onClick={() => editor.chain().focus().setBold().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .setBold()
+          .run()
+        }
         disabled={editor.isActive('bold')}
       >
         setBold
       </button>
       <button
-        onClick={() => editor.chain().focus().unsetBold().run()}
+        onClick={() => editor
+          .chain()
+          .focus()
+          .unsetBold()
+          .run()
+        }
         disabled={!editor.isActive('bold')}
       >
         unsetBold

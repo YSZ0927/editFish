@@ -19,8 +19,8 @@ Here is what you need to do to render React components inside your editor:
 This is how your node extension could look like:
 
 ```js
-import { Node } from '@tiptap/core'
-import { ReactNodeViewRenderer } from '@tiptap/react'
+import { Node } from '@editfish/core'
+import { ReactNodeViewRenderer } from '@editfish/react'
 import Component from './Component.jsx'
 
 export default Node.create({
@@ -75,7 +75,7 @@ There is another component called `NodeViewContent` which helps you adding edita
 
 ```jsx
 import React from 'react'
-import { NodeViewWrapper, NodeViewContent } from '@tiptap/react'
+import { NodeViewWrapper, NodeViewContent } from '@editfish/react'
 
 export default () => {
   return (

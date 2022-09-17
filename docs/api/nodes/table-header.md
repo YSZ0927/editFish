@@ -4,8 +4,8 @@ icon: t-box-line
 ---
 
 # TableHeader
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-table-header.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-table-header)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-table-header.svg)](https://npmcharts.com/compare/@tiptap/extension-table-header?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-table-header.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-table-header)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-table-header.svg)](https://npmcharts.com/compare/@editfish/extension-table-header?minimal=true)
 
 Table headers are optional. But come on, you want them, don’t you? If you don’t want them, update the `content` attribute of the [`TableRow`](/api/nodes/table-row) extension, like this:
 
@@ -27,7 +27,7 @@ TableRow.extend({
 
 ## Installation
 ```bash
-npm install @tiptap/extension-table @tiptap/extension-table-row @tiptap/extension-table-header @tiptap/extension-table-cell
+npm install @editfish/extension-table @editfish/extension-table-row @editfish/extension-table-header @editfish/extension-table-cell
 ```
 
 This extension requires the [`Table`](/api/nodes/table), [`TableRow`](/api/nodes/table-row) and [`TableCell`](/api/nodes/table-cell) nodes.

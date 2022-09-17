@@ -4,8 +4,8 @@ icon: double-quotes-l
 ---
 
 # Blockquote
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-blockquote.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-blockquote)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-blockquote.svg)](https://npmcharts.com/compare/@tiptap/extension-blockquote?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-blockquote.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-blockquote)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-blockquote.svg)](https://npmcharts.com/compare/@editfish/extension-blockquote?minimal=true)
 
 The Blockquote extension enables you to use the `<blockquote>` HTML tag in the editor. This is great to … show quotes in the editor, you know?
 
@@ -13,7 +13,7 @@ Type <code>>&nbsp;</code> at the beginning of a new line and it will magically t
 
 ## Installation
 ```bash
-npm install @tiptap/extension-blockquote
+npm install @editfish/extension-blockquote
 ```
 
 ## Settings

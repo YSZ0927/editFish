@@ -7,7 +7,7 @@ Congratulations! You’ve found our playground with a list of experiments. Be aw
 * [Generic Figure](/experiments/generic-figure)
 
 ## Experimental extensions
-* [@tiptap/extension-command-menu](/experiments/commands)
-* [@tiptap/extension-iframe](/experiments/embeds)
-* [@tiptap/extension-trailing-node](/experiments/trailing-node)
-* [@tiptap/extension-figure](/experiments/figure)
+* [@editfish/extension-command-menu](/experiments/commands)
+* [@editfish/extension-iframe](/experiments/embeds)
+* [@editfish/extension-trailing-node](/experiments/trailing-node)
+* [@editfish/extension-figure](/experiments/figure)

@@ -159,8 +159,8 @@ editor.isEmpty
 The `element` specifies the HTML element the editor will be binded to. The following code will integrate Tiptap with an element with the `.element` class:
 
 ```js
-import { Editor } from '@tiptap/core'
-import StarterKit from '@tiptap/starter-kit'
+import { Editor } from '@editfish/core'
+import StarterKit from '@editfish/starter-kit'
 
 new Editor({
   element: document.querySelector('.element'),
@@ -180,12 +180,12 @@ yourContainerElement.append(editor.options.element)
 It’s required to pass a list of extensions to the `extensions` property, even if you only want to allow paragraphs.
 
 ```js
-import { Editor } from '@tiptap/core'
-import StarterKit from '@tiptap/starter-kit'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import Highlight from '@tiptap/extension-highlight'
+import { Editor } from '@editfish/core'
+import StarterKit from '@editfish/starter-kit'
+import Document from '@editfish/extension-document'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import Highlight from '@editfish/extension-highlight'
 
 new Editor({
   // Use the default extensions
@@ -212,8 +212,8 @@ new Editor({
 With the `content` property you can provide the initial content for the editor. This can be HTML or JSON.
 
 ```js
-import { Editor } from '@tiptap/core'
-import StarterKit from '@tiptap/starter-kit'
+import { Editor } from '@editfish/core'
+import StarterKit from '@editfish/starter-kit'
 
 new Editor({
   content: `<p>Example Text</p>`,
@@ -227,8 +227,8 @@ new Editor({
 The `editable` property determines if users can write into the editor.
 
 ```js
-import { Editor } from '@tiptap/core'
-import StarterKit from '@tiptap/starter-kit'
+import { Editor } from '@editfish/core'
+import StarterKit from '@editfish/starter-kit'
 
 new Editor({
   content: `<p>Example Text</p>`,
@@ -253,8 +253,8 @@ With `autofocus` you can force the cursor to jump in the editor on initializatio
 | `null`    | Disables autofocus.                                    |
 
 ```js
-import { Editor } from '@tiptap/core'
-import StarterKit from '@tiptap/starter-kit'
+import { Editor } from '@editfish/core'
+import StarterKit from '@editfish/starter-kit'
 
 new Editor({
   extensions: [
@@ -268,8 +268,8 @@ new Editor({
 By default, Tiptap enables all [input rules](/guide/custom-extensions/#input-rules). With `enableInputRules` you can control that.
 
 ```js
-import { Editor } from '@tiptap/core'
-import StarterKit from '@tiptap/starter-kit'
+import { Editor } from '@editfish/core'
+import StarterKit from '@editfish/starter-kit'
 
 new Editor({
   content: `<p>Example Text</p>`,
@@ -283,9 +283,9 @@ new Editor({
 Alternatively you can allow only specific input rules.
 
 ```js
-import { Editor } from '@tiptap/core'
-import StarterKit from '@tiptap/starter-kit'
-import Link from '@tiptap/extension-link'
+import { Editor } from '@editfish/core'
+import StarterKit from '@editfish/starter-kit'
+import Link from '@editfish/extension-link'
 
 new Editor({
   content: `<p>Example Text</p>`,
@@ -303,8 +303,8 @@ new Editor({
 By default, Tiptap enables all [paste rules](/guide/custom-extensions/#paste-rules). With `enablePasteRules` you can control that.
 
 ```js
-import { Editor } from '@tiptap/core'
-import StarterKit from '@tiptap/starter-kit'
+import { Editor } from '@editfish/core'
+import StarterKit from '@editfish/starter-kit'
 
 new Editor({
   content: `<p>Example Text</p>`,
@@ -318,9 +318,9 @@ new Editor({
 Alternatively you can allow only specific paste rules.
 
 ```js
-import { Editor } from '@tiptap/core'
-import StarterKit from '@tiptap/starter-kit'
-import Link from '@tiptap/extension-link'
+import { Editor } from '@editfish/core'
+import StarterKit from '@editfish/starter-kit'
+import Link from '@editfish/extension-link'
 
 new Editor({
   content: `<p>Example Text</p>`,
@@ -338,8 +338,8 @@ new Editor({
 By default, Tiptap injects [a little bit of CSS](https://github.com/ueberdosis/tiptap/tree/main/packages/core/src/style.ts). With `injectCSS` you can disable that.
 
 ```js
-import { Editor } from '@tiptap/core'
-import StarterKit from '@tiptap/starter-kit'
+import { Editor } from '@editfish/core'
+import StarterKit from '@editfish/starter-kit'
 
 new Editor({
   extensions: [
@@ -353,8 +353,8 @@ new Editor({
 When you use a [Content-Security-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy) with `nonce`, you can specify a `nonce` to be added to dynamically created elements. Here is an example:
 
 ```js
-import { Editor } from '@tiptap/core'
-import StarterKit from '@tiptap/starter-kit'
+import { Editor } from '@editfish/core'
+import StarterKit from '@editfish/starter-kit'
 
 new Editor({
   extensions: [

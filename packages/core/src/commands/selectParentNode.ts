@@ -2,7 +2,7 @@ import { selectParentNode as originalSelectParentNode } from 'prosemirror-comman
 
 import { RawCommands } from '../types'
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     selectParentNode: {
       /**

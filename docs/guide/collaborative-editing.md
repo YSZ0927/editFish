@@ -25,15 +25,15 @@ WebRTC uses a server only to connect clients with each other. The actual data is
 First, install the dependencies:
 
 ```bash
-npm install @tiptap/extension-collaboration yjs y-webrtc
+npm install @editfish/extension-collaboration yjs y-webrtc
 ```
 
 Now, create a new Y document, and register it with Tiptap:
 
 ```js
-import { Editor } from '@tiptap/core'
-import StarterKit from '@tiptap/starter-kit'
-import Collaboration from '@tiptap/extension-collaboration'
+import { Editor } from '@editfish/core'
+import StarterKit from '@editfish/starter-kit'
+import Collaboration from '@editfish/extension-collaboration'
 import * as Y from 'yjs'
 import { WebrtcProvider } from 'y-webrtc'
 
@@ -71,15 +71,15 @@ For most uses cases, a WebSocket provider is the recommended choice. It’s very
 For the client, the example is nearly the same, only the provider is different. First, let’s install the dependencies:
 
 ```bash
-npm install @tiptap/extension-collaboration @hocuspocus/provider
+npm install @editfish/extension-collaboration @hocuspocus/provider
 ```
 
 And then register the WebSocket provider with Tiptap:
 
 ```js
-import { Editor } from '@tiptap/core'
-import StarterKit from '@tiptap/starter-kit'
-import Collaboration from '@tiptap/extension-collaboration'
+import { Editor } from '@editfish/core'
+import StarterKit from '@editfish/starter-kit'
+import Collaboration from '@editfish/extension-collaboration'
 import { HocuspocusProvider } from '@hocuspocus/provider'
 
 // Set up the Hocuspocus WebSocket provider
@@ -148,10 +148,10 @@ Keep in mind that WebRTC needs a signaling server to connect clients. This signa
 To enable users to see the cursor and text selections of each other, add the [`CollaborationCursor`](/api/extensions/collaboration-cursor) extension.
 
 ```js
-import { Editor } from '@tiptap/core'
-import StarterKit from '@tiptap/starter-kit'
-import Collaboration from '@tiptap/extension-collaboration'
-import CollaborationCursor from '@tiptap/extension-collaboration-cursor'
+import { Editor } from '@editfish/core'
+import StarterKit from '@editfish/starter-kit'
+import Collaboration from '@editfish/extension-collaboration'
+import CollaborationCursor from '@editfish/extension-collaboration-cursor'
 import { HocuspocusProvider } from '@hocuspocus/provider'
 
 // Set up the Hocuspocus WebSocket provider
@@ -193,8 +193,8 @@ npm install y-indexeddb
 And connect it with a Y document:
 
 ```js
-import { Editor } from '@tiptap/core'
-import Collaboration from '@tiptap/extension-collaboration'
+import { Editor } from '@editfish/core'
+import Collaboration from '@editfish/extension-collaboration'
 import * as Y from 'yjs'
 import { IndexeddbPersistence } from 'y-indexeddb'
 

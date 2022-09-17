@@ -3,8 +3,8 @@
 </template>
 
 <script>
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import StarterKit from '@editfish/starter-kit'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 import VueComponent from './Extension.js'
 
@@ -21,10 +21,7 @@ export default {
 
   mounted() {
     this.editor = new Editor({
-      extensions: [
-        StarterKit,
-        VueComponent,
-      ],
+      extensions: [StarterKit, VueComponent],
       content: `
         <p>
           This is still the text editor you’re used to, but enriched with node views.

@@ -1,12 +1,39 @@
 <template>
   <div v-if="editor">
-    <button @click="editor.chain().focus().toggleItalic().run()" :class="{ 'is-active': editor.isActive('italic') }">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .toggleItalic()
+          .run()
+      "
+      :class="{ 'is-active': editor.isActive('italic') }"
+    >
       toggleItalic
     </button>
-    <button @click="editor.chain().focus().setItalic().run()" :disabled="editor.isActive('italic')">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .setItalic()
+          .run()
+      "
+      :disabled="editor.isActive('italic')"
+    >
       setItalic
     </button>
-    <button @click="editor.chain().focus().unsetItalic().run()" :disabled="!editor.isActive('italic')">
+    <button
+      @click="
+        editor
+          .chain()
+          .focus()
+          .unsetItalic()
+          .run()
+      "
+      :disabled="!editor.isActive('italic')"
+    >
       unsetItalic
     </button>
 
@@ -15,11 +42,11 @@
 </template>
 
 <script>
-import Document from '@tiptap/extension-document'
-import Italic from '@tiptap/extension-italic'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Document from '@editfish/extension-document'
+import Italic from '@editfish/extension-italic'
+import Paragraph from '@editfish/extension-paragraph'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 export default {
   components: {
@@ -34,12 +61,7 @@ export default {
 
   mounted() {
     this.editor = new Editor({
-      extensions: [
-        Document,
-        Paragraph,
-        Text,
-        Italic,
-      ],
+      extensions: [Document, Paragraph, Text, Italic],
       content: `
         <p>This isn’t italic.</p>
         <p><em>This is italic.</em></p>

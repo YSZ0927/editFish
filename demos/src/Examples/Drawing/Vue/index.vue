@@ -3,9 +3,9 @@
 </template>
 
 <script>
-import Document from '@tiptap/extension-document'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Document from '@editfish/extension-document'
+import Text from '@editfish/extension-text'
+import { Editor, EditorContent } from '@editfish/vue-3'
 
 import Paper from './Paper'
 

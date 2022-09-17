@@ -4,13 +4,13 @@ import {
   Node,
   nodeInputRule,
   Tracker,
-} from '@tiptap/core'
+} from '@editfish/core'
 
 export interface FigureOptions {
   HTMLAttributes: Record<string, any>,
 }
 
-declare module '@tiptap/core' {
+declare module '@editfish/core' {
   interface Commands<ReturnType> {
     figure: {
       /**

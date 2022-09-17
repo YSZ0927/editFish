@@ -4,14 +4,14 @@ icon: superscript
 ---
 
 # Superscript
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-superscript.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-superscript)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-superscript.svg)](https://npmcharts.com/compare/@tiptap/extension-superscript?minimal=true)
+[![Version](https://img.shields.io/npm/v/@editfish/extension-superscript.svg?label=version)](https://www.npmjs.com/package/@editfish/extension-superscript)
+[![Downloads](https://img.shields.io/npm/dm/@editfish/extension-superscript.svg)](https://npmcharts.com/compare/@editfish/extension-superscript?minimal=true)
 
 Use this extension to render text in <sup>superscript</sup>. If you pass `<sup>` or text with `vertical-align: super` as inline style in the editor’s initial content, both will be normalized to a `<sup>` HTML tag.
 
 ## Installation
 ```bash
-npm install @tiptap/extension-superscript
+npm install @editfish/extension-superscript
 ```
 
 ## Settings

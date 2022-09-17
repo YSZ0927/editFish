@@ -1,10 +1,10 @@
 /// <reference types="cypress" />
 
-import { Editor } from '@tiptap/core'
-import { CodeBlockLowlight } from '@tiptap/extension-code-block-lowlight'
-import { Document } from '@tiptap/extension-document'
-import { Paragraph } from '@tiptap/extension-paragraph'
-import { Text } from '@tiptap/extension-text'
+import { Editor } from '@editfish/core'
+import { CodeBlockLowlight } from '@editfish/extension-code-block-lowlight'
+import { Document } from '@editfish/extension-document'
+import { Paragraph } from '@editfish/extension-paragraph'
+import { Text } from '@editfish/extension-text'
 import * as lowlight from 'lowlight'
 
 describe('code block highlight', () => {
