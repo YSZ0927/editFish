@@ -326,8 +326,6 @@ export class Extension<Options = any, Storage = any> {
 
     extension.options = mergeDeep(this.options, options) as Options
 
-    console.log(extension.options)
-
     extension.storage = callOrReturn(getExtensionField<AnyConfig['addStorage']>(
       extension,
       'addStorage',
