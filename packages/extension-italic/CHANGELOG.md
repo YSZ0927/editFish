@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.198](https://github.com/ueberdosis/editfish/compare/v2.0.0-beta.197...v2.0.0-beta.198) (2022-09-17)
+
+
+### Features
+
+* update ([0ffa618](https://github.com/ueberdosis/editfish/commit/0ffa618421467a96c9e17f4b96511c8ed521baf5))
+
+
+
+
+
 # [2.0.0-beta.197](https://github.com/ueberdosis/editfish/compare/v2.0.0-beta.196...v2.0.0-beta.197) (2022-09-17)
 
 **Note:** Version bump only for package @editfish/extension-italic
