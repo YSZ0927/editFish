@@ -6,7 +6,10 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "ignoreChanges": [
+        "./packages/html"
+      ]
     }
   },
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
